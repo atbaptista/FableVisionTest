@@ -18,6 +18,7 @@ public class PlayerManager : MonoBehaviour
         PlayerHP = 100;
     }
 
+    //damage player
     public void DamagePlayer(int dmg){
         PlayerHP -= dmg;
     }
