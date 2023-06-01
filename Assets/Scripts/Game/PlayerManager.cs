@@ -6,7 +6,7 @@ public class PlayerManager : MonoBehaviour
 {
     public int PlayerHP;
     public static PlayerManager Instance {get; private set;}
-
+    
     private void Awake() {
         if(Instance != null && Instance != this){
             Destroy(this);
