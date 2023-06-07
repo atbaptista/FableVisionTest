@@ -11,9 +11,7 @@ public class Dialogue : MonoBehaviour
 
     private int _index;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    private void OnEnable() {
         textComponent.text = string.Empty;
         StartDialogue();
     }
@@ -32,7 +30,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void StartDialogue(){
+    public void StartDialogue(){
         _index = 0;
         StartCoroutine(TypeLine());
     }
@@ -51,7 +49,7 @@ public class Dialogue : MonoBehaviour
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }
-        else{
+        else{ //dialogue finished
             gameObject.SetActive(false);
         }
     }
