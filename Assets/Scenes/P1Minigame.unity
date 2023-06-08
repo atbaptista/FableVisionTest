@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meterVal: 0
   increaseRate: 0.1
-  decreaseRate: 0.001
+  decreaseRate: 0.009
   maxMeterVal: 100
 --- !u!50 &1810343737
 Rigidbody2D:
