@@ -14,6 +14,10 @@ public class TestManager : MonoBehaviour
     }
 
     public void DamagePlayer(){
-        PlayerManager.Instance.DamagePlayer(5);
+        //PlayerManager.Instance.DamagePlayer(5);
+    }
+
+    public void setOptionOne(int num){
+        PlayerManager.Instance.SetOptionOne(num);
     }
 }

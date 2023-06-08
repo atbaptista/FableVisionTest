@@ -5,14 +5,22 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+    [Header("TEXT DIALOGUE")]
     public TextMeshProUGUI textComponent; 
     public string[] lines; 
     public float textSpeed;
 
+    [Header("LOGISTIC STUFF")]
+    public GameObject[] activateAfterText;
+    public GameObject[] deactivateAfterText;
+
+
     private int _index;
+    private bool _isFinished;
 
     private void OnEnable() {
         textComponent.text = string.Empty;
+        _isFinished = false;
         StartDialogue();
     }
 
@@ -49,8 +57,21 @@ public class Dialogue : MonoBehaviour
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }
-        else{ //dialogue finished
-            gameObject.SetActive(false);
+        else{ //dialogue finished, runs this every time next button is clicked when dialogue is done
+            
+            if(!_isFinished){
+                foreach(GameObject i in activateAfterText){
+                i.SetActive(true);
+                }
+                foreach(GameObject i in deactivateAfterText){
+                    i.SetActive(false);
+                }
+                _isFinished = true;
+                //Debug.Log(this.gameObject.name + " dialogue finished");
+            }
+            
+            //use button to hide the dialogue box
+            //gameObject.SetActive(false);
         }
     }
 }

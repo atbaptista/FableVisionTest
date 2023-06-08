@@ -23,6 +23,6 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TMPPlayerHP.text = PlayerManager.Instance.PlayerHP.ToString();
+        //TMPPlayerHP.text = PlayerManager.Instance.PlayerHP.ToString();
     }
 }

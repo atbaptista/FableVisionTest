@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: b7a3e9f54d3e0b1439e506e614a564d4
   - enabled: 1
-    path: Assets/Scenes/OpeningMonologue.unity
+    path: Assets/Scenes/P1Opening.unity
     guid: b8649ce49a7d66841ab4bba67c268077
   - enabled: 1
-    path: Assets/Scenes/Scene1.unity
-    guid: 4a330fb0f7d33f949afea0f8574c6cca
+    path: Assets/Scenes/P1Minigame.unity
+    guid: b752610d1795c8642a0dfb549ab017e0
   - enabled: 1
-    path: Assets/Scenes/Scene2.unity
-    guid: df000e8c57a0dff4c931c6fde3d1e225
+    path: Assets/Scenes/P1Options.unity
+    guid: e0a7d063888f88046b10833f86ad7961
   m_configObjects: {}
