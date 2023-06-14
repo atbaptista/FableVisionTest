@@ -7,6 +7,7 @@ public class FishingManager : MonoBehaviour
 {
     public Slider fishSlider;
     public Fishing fish;
+    public GameObject NextSceneButton;
 
     [HideInInspector]
     public bool isCaught;
@@ -21,5 +22,10 @@ public class FishingManager : MonoBehaviour
     void Update()
     {
         fishSlider.value = fish.meterVal/fish.maxMeterVal;
+
+        if(fishSlider.value == fishSlider.maxValue){
+            isCaught = true;
+            NextSceneButton.SetActive(true);
+        }
     }
 }
