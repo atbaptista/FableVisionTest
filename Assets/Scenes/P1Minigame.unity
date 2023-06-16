@@ -360,7 +360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &269799192
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1004,7 +1004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169885397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.19, y: 4.39, z: -0.07163339}
+  m_LocalPosition: {x: 4.19, y: 2.79, z: -2.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1347,6 +1347,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartPoint: {fileID: 1169885398}
   EndPoint: {fileID: 1843861428}
+  ropeSegLen: 0.25
+  lineWidth: 0.05
+  gravity: -2
 --- !u!120 &1654263921
 LineRenderer:
   serializedVersion: 2

@@ -20,4 +20,8 @@ public class TestManager : MonoBehaviour
     public void setOptionOne(int num){
         PlayerManager.Instance.SetOptionOne(num);
     }
+
+    public void SetTime(float num){
+        Time.timeScale = num;
+    }
 }

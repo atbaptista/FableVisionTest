@@ -9,9 +9,10 @@ public class Rope : MonoBehaviour
 
     private LineRenderer lineRenderer;
     private List<RopeSegment> ropeSegments = new List<RopeSegment>();
-    private float ropeSegLen = 0.25f;
+    public float ropeSegLen = 0.25f;
     private int segmentLength = 35;
-    private float lineWidth = 0.1f;
+    public float lineWidth = 0.1f;
+    public float gravity = -1f;
 
     // Use this for initialization
     void Start()
@@ -40,7 +41,7 @@ public class Rope : MonoBehaviour
     private void Simulate()
     {
         // SIMULATION
-        Vector3 forceGravity = new Vector3(0f, -1f);
+        Vector3 forceGravity = new Vector3(0f, gravity);
 
         for (int i = 1; i < this.segmentLength; i++)
         {
@@ -67,7 +68,7 @@ public class Rope : MonoBehaviour
         this.ropeSegments[0] = firstSegment;
 
 
-        //Constrant to Second Point 
+        //Constraint to Second Point 
         RopeSegment endSegment = this.ropeSegments[this.ropeSegments.Count - 1];
         endSegment.posNow = this.EndPoint.position;
         this.ropeSegments[this.ropeSegments.Count - 1] = endSegment;
