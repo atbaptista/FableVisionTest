@@ -2180,7 +2180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartPoint: {fileID: 2085722507}
   EndPoint: {fileID: 0}
-  ropeSegLen: 0.3
+  ropeSegLen: 0.1
   lineWidth: 0.05
   gravity: -2
 --- !u!120 &1674382727
