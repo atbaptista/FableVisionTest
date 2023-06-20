@@ -73,6 +73,8 @@ public class Movement : MonoBehaviour
             _cam.transform.localRotation = Quaternion.Euler(_camRotation, 0f, 0f);
         }
 
+        //################################################# Fishing Spacebar ########################################################
+
         if(Time.timeScale == 0){
             return;
         }
@@ -114,7 +116,7 @@ public class Movement : MonoBehaviour
             Debug.Log("MINIGAME");
             //caught fish
             if(fishGame.meterVal == fishGame.maxMeterVal){
-                //pause game
+                //pause game, remember to unpause in next scene
                 Time.timeScale = 0;
                 foreach(GameObject i in activateOnMiniGameWon){
                     i.SetActive(!i.activeSelf);
