@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//code that goes on the fishing bob, currently keeps track of the current state of the fishing minigame
 public class BobbingEffect : MonoBehaviour
 {
     [Header("Bobbing")]

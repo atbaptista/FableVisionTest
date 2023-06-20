@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//code that goes on the fishing bob, currently keeps track of the current state of the 3D version of the fishing minigame
+//script is on a prefab
+//bob currently starts the minigame when it hits any collider, change it to check if it's a water object
+//PlayerCatchingFish method currently gives 1 minute to beat the minigame then it starts bobbing again 
 public class ThreeDFishingBob : MonoBehaviour
 {
     [Header("Bobbing")]

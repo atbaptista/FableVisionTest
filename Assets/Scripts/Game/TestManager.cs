@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//script for button functionality
 public class TestManager : MonoBehaviour
 {
     public void NextScene(){
@@ -11,10 +12,6 @@ public class TestManager : MonoBehaviour
             nextScene = 0;
         }
         SceneManager.LoadScene(nextScene);
-    }
-
-    public void DamagePlayer(){
-        //PlayerManager.Instance.DamagePlayer(5);
     }
 
     public void setOptionOne(int num){

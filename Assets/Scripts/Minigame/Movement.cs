@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//3D camera movement and fishing gameplay functionality
+//All inputs should be processed here in the 3d version of fishing game
+//probably should've named this PlayerInput
 public class Movement : MonoBehaviour
 {
     private Camera _cam;
