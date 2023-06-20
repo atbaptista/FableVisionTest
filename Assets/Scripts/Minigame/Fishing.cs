@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//this script calculates the fish meter value
+//spacebar input should be moved to a player input script
 public class Fishing : MonoBehaviour
 {
     [Header("Meter Values")]

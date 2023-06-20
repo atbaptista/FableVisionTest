@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//sets UI slider value, should move this code to another script to make it less complicated
 public class TDFishingManager : MonoBehaviour
 {
     public Slider fishSlider;

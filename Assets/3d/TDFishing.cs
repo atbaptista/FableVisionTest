@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//this script calculates the fish meter value
 public class TDFishing : MonoBehaviour
 {
     [Header("Meter Values")]

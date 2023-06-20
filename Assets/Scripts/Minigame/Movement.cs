@@ -24,15 +24,14 @@ public class Movement : MonoBehaviour
     public GameObject bob;
     public Rope rope;
     public Transform bobSpawn;
-    private float nextBobTime;
-    private GameObject prevBob;
-    private ThreeDFishingBob.HookState bobStatus;
     public TDFishing fishGame;
     public bool isCatching = false;
     public GameObject[] activateOnFishHooked;
     public GameObject[] activateOnMiniGameWon;
 
-
+    private float nextBobTime;
+    private GameObject prevBob;
+    private ThreeDFishingBob.HookState bobStatus;
 
     // Start is called before the first frame update
     void Start()

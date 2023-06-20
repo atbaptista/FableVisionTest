@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//i think i can delete this
 public class ThreeDManager : MonoBehaviour
 {
     public GameObject FishCaughtUI;
