@@ -116,7 +116,7 @@ public class Movement : MonoBehaviour
         //fish hooked and currently in minigame
         if(bobStatus == ThreeDFishingBob.HookState.FISHCATCHING && isCatching){
             Debug.Log("MINIGAME");
-            //caught fish
+            //caught fish, beat minigame
             if(fishGame.meterVal == fishGame.maxMeterVal){
                 //pause game, remember to unpause in next scene
                 Time.timeScale = 0;
@@ -127,8 +127,10 @@ public class Movement : MonoBehaviour
                 fishGame.Reset();
                 Destroy(prevBob);
                 rope.gameObject.SetActive(false);
+            }else{
+                fishGame.meterVal += 10;
             }
-            fishGame.meterVal += 10;
+            
             //run this if player fails minigame
             //prevBob.GetComponent<ThreeDFishingBob>().StartBobbing();
         }
