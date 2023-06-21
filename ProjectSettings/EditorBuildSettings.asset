@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P1Options.unity
     guid: e0a7d063888f88046b10833f86ad7961
+  - enabled: 1
+    path: Assets/Scenes/YelpReviews.unity
+    guid: 1381461b6e4c8454a8c0189f414cc234
   m_configObjects: {}
