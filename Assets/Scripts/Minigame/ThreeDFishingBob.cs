@@ -30,6 +30,7 @@ public class ThreeDFishingBob : MonoBehaviour
     private float _stopCatchTime;
 
     public enum HookState {
+        THROWN,
         DEAD,
         BOBBING,
         FISHCATCHING,
@@ -39,7 +40,7 @@ public class ThreeDFishingBob : MonoBehaviour
     private void Start()
     {
         _initialPosition = transform.position;
-        _currentState = HookState.DEAD;
+        _currentState = HookState.THROWN;
         //StartBobbing();
     }
 
@@ -66,6 +67,10 @@ public class ThreeDFishingBob : MonoBehaviour
             case HookState.DEAD:
                 // Debug.Log("Dead");
                 Dead();
+                break;
+            case HookState.THROWN:
+                // Debug.Log("Thrown");
+                Thrown();
                 break;
         }
     }
@@ -97,8 +102,18 @@ public class ThreeDFishingBob : MonoBehaviour
 
     }
 
-    public void Dead(){
+    public void Thrown(){
+        return;
+    }
 
+    public void Dead(){
+        return;
+    }
+
+    public void StartDead(){
+        _currentState = HookState.DEAD;
+        GetComponent<Collider>().enabled = false;
+        GetComponent<MeshRenderer>().enabled = false;
     }
 
     public void StartBobbing()
@@ -129,6 +144,11 @@ public class ThreeDFishingBob : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision other) {
+        if (other.gameObject.layer != LayerMask.NameToLayer("Water")){
+            StartDead();
+            //Destroy(this);
+            return;
+        }
         _initialPosition = transform.position;
         GetComponent<SphereCollider>().enabled = false;
         Debug.Log("hit water");

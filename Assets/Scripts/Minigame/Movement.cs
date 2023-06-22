@@ -51,6 +51,12 @@ public class Movement : MonoBehaviour
     {
         if(prevBob){
             bobStatus = prevBob.GetComponent<ThreeDFishingBob>().GetState();
+            //check if the bob is "dead" (didn't hit water)
+            if (bobStatus == ThreeDFishingBob.HookState.DEAD){
+                rope.gameObject.SetActive(false);
+                Destroy(prevBob);
+                prevBob = null;
+            }
         }
         GetInputs();
     }

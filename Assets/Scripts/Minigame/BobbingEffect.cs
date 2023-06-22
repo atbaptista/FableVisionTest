@@ -6,9 +6,9 @@ using UnityEngine;
 public class BobbingEffect : MonoBehaviour
 {
     [Header("Bobbing")]
-    public float bobSpeed = 1.0f;      // Adjust this value to control the bobbing speed
+    public float bobSpeed = 2.0f;      // Adjust this value to control the bobbing speed
     public float bobHeight = 0.2f;     // Adjust this value to control the height of the bobbing
-    public float catchSpeed = 3.0f;
+    public float catchSpeed = 10.0f;
 
     private Vector3 _initialPosition;
     private bool _isBobbing = false;
@@ -16,9 +16,9 @@ public class BobbingEffect : MonoBehaviour
     private int _waitTime = 0;
 
     [Header("Fish Hooked")]
-    public float trembleSpeed = 1.0f;     // Adjust this value to control the trembling speed
-    public float trembleAmount = 0.2f;    // Adjust this value to control the amount of trembling
-    public float catchWindow;
+    public float trembleSpeed = 11.0f;     // Adjust this value to control the trembling speed
+    public float trembleAmount = 0.15f;    // Adjust this value to control the amount of trembling
+    public float catchWindow= 0.5f;
 
     public GameObject[] activateOnFish;
 
