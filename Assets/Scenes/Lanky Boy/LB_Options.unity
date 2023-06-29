@@ -27118,8 +27118,7 @@ MonoBehaviour:
   textComponent: {fileID: 1373264158}
   lines:
   - Fantastic!
-  - '[You hear lots of grunting and several thuds as the boy leaves your shopral
-    thuds before ]'
+  - '[You hear lots of grunting and several thuds as the boy leaves your shop]'
   - Have a nice day!
   textSpeed: 0.06
   activateAfterText:
@@ -34327,8 +34326,7 @@ MonoBehaviour:
   lines:
   - "Alright\u2026"
   - let me know if you change your mind.
-  - '[You hear lots of grunting and several thuds as the boy leaves your shopral
-    thuds before ]'
+  - '[You hear lots of grunting and several thuds as the boy leaves your shop]'
   - Have a nice day!
   textSpeed: 0.06
   activateAfterText:
