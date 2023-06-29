@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
@@ -13,6 +15,13 @@ public class Dialogue : MonoBehaviour
     [Header("LOGISTIC STUFF")]
     public GameObject[] activateAfterText;
     public GameObject[] deactivateAfterText;
+
+    [Header("Sounds and Poses")] 
+    public GameObject character;
+    //all poses and dialogue sounds will play on the index of the dialogue line that is currently running
+    //if there is no change or sound, leave it empty in the inspector
+    public Sprite[] characterPoses;
+    public AudioClip[] dialogueSound;
 
 
     private int _index;
@@ -44,6 +53,24 @@ public class Dialogue : MonoBehaviour
     }
 
     IEnumerator TypeLine(){
+        //change pose
+        try{
+            if(characterPoses[_index] != null){
+                character.GetComponent<Image>().sprite = characterPoses[_index];
+            }
+        } catch(Exception e){
+            Debug.Log(e.Data);
+        }
+        
+        //play audio 
+        try{
+            if(dialogueSound[_index] != null){
+                SoundManager.Instance.Play(dialogueSound[_index]);
+            }
+        } catch(Exception e){
+            Debug.Log(e.Data);
+        }
+
         //type each char one at a time
         foreach (char c in lines[_index].ToCharArray()){
             textComponent.text += c; 

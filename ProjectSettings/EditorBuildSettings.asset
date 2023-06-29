@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test_Templates/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: b7a3e9f54d3e0b1439e506e614a564d4
   - enabled: 1
     path: Assets/Scenes/Game_Opening.unity
@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Test_Templates/P1Minigame.unity
     guid: b752610d1795c8642a0dfb549ab017e0
   - enabled: 1
+    path: Assets/Scenes/Lanky Boy/LB_Options.unity
+    guid: f28b9eed2ace2244baa3d633ad7d42b4
+  - enabled: 0
     path: Assets/Scenes/Test_Templates/P1Options.unity
     guid: e0a7d063888f88046b10833f86ad7961
   - enabled: 1
