@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lanky Boy/LB_Opening.unity
     guid: 484d60add59e63442be49a52f27cae1c
-  - enabled: 0
-    path: Assets/Scenes/Test_Templates/P1Opening.unity
-    guid: b8649ce49a7d66841ab4bba67c268077
   - enabled: 1
     path: Assets/Scenes/Test_Templates/P1Fishing3d.unity
     guid: 825ade14175bddf4b9a5dd8bfef967b2
@@ -25,10 +22,7 @@ EditorBuildSettings:
     guid: b752610d1795c8642a0dfb549ab017e0
   - enabled: 1
     path: Assets/Scenes/Lanky Boy/LB_Options.unity
-    guid: f28b9eed2ace2244baa3d633ad7d42b4
-  - enabled: 0
-    path: Assets/Scenes/Test_Templates/P1Options.unity
-    guid: e0a7d063888f88046b10833f86ad7961
+    guid: 56eb451f06b27ae4cabbd2a88c384632
   - enabled: 1
     path: Assets/Scenes/Test_Templates/YelpReviews.unity
     guid: 1381461b6e4c8454a8c0189f414cc234
