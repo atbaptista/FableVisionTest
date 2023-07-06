@@ -15,14 +15,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Lanky Boy/LB_Opening.unity
     guid: 484d60add59e63442be49a52f27cae1c
   - enabled: 1
-    path: Assets/Scenes/Test_Templates/P1Fishing3d.unity
-    guid: 825ade14175bddf4b9a5dd8bfef967b2
-  - enabled: 1
-    path: Assets/Scenes/Test_Templates/P1Minigame.unity
-    guid: b752610d1795c8642a0dfb549ab017e0
+    path: Assets/Scenes/Lanky Boy/LB_Minigame.unity
+    guid: 38b290a0b235bc04680dd486ddc667c3
   - enabled: 1
     path: Assets/Scenes/Lanky Boy/LB_Options.unity
     guid: 56eb451f06b27ae4cabbd2a88c384632
+  - enabled: 1
+    path: Assets/Scenes/Serena/S_Opening.unity
+    guid: 08ccdbfbcb6340f4aa6198d1535ebe76
+  - enabled: 1
+    path: Assets/Scenes/Serena/S_Minigame.unity
+    guid: fbad4621a74cd404da053ec06c4ecc1c
+  - enabled: 1
+    path: Assets/Scenes/Serena/S_Options.unity
+    guid: cbb793737c1b4be4ebce9fa4137b6ba8
   - enabled: 1
     path: Assets/Scenes/Test_Templates/YelpReviews.unity
     guid: 1381461b6e4c8454a8c0189f414cc234

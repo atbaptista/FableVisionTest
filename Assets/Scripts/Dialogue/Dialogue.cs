@@ -28,6 +28,9 @@ public class Dialogue : MonoBehaviour
     private bool _isFinished;
 
     private void OnEnable() {
+        //this overrides the inspector value
+        textSpeed = 0.025f;
+        
         textComponent.text = string.Empty;
         _isFinished = false;
         StartDialogue();

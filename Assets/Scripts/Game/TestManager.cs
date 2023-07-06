@@ -18,6 +18,14 @@ public class TestManager : MonoBehaviour
         PlayerManager.Instance.SetOptionOne(num);
     }
 
+    public void setOptionTwo(int num){
+        PlayerManager.Instance.SetOptionTwo(num);
+    }
+
+    public void setOptionThree(int num){
+        PlayerManager.Instance.SetOptionThree(num);
+    }
+
     public void SetTime(float num){
         Time.timeScale = num;
     }

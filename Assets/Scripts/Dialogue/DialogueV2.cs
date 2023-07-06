@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueV2 : MonoBehaviour
 {
@@ -18,9 +19,10 @@ public class DialogueV2 : MonoBehaviour
     [Header("DIALOGUE")]
     public string[] lines; 
     public bool[] playerSpeaking;
-    public float textSpeed = 0.05f;
+    public float textSpeed = 0.025f;
 
     [Header("LOGISTIC STUFF")]
+    public bool deactivateSelfAfterText = false;
     public GameObject[] activateAfterText;
     public GameObject[] deactivateAfterText;
 
@@ -36,6 +38,9 @@ public class DialogueV2 : MonoBehaviour
     private bool _isFinished;
 
     private void OnEnable() {
+        //this overrides the inspector value
+        textSpeed = 0.025f;
+        
         //set current speaker
         SetCurrentSpeaker();
 
@@ -58,6 +63,11 @@ public class DialogueV2 : MonoBehaviour
                 _currentTextComponent.text = lines[_index];
             }
         }
+
+        //for debugging
+        if(Input.GetKeyDown(KeyCode.R)){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     public void StartDialogue(){
@@ -68,21 +78,25 @@ public class DialogueV2 : MonoBehaviour
     IEnumerator TypeLine(){
         //change pose
         try{
-            if(characterPoses[_index] != null){
-                character.GetComponent<Image>().sprite = characterPoses[_index];
-                character.GetComponent<Image>().SetNativeSize();
+            if(characterPoses.Length < _index && characterPoses != null){
+                if(characterPoses[_index] != null){
+                    character.GetComponent<Image>().sprite = characterPoses[_index];
+                    character.GetComponent<Image>().SetNativeSize();
+                }
             }
         } catch(Exception e){
-            //Debug.Log(e.Data);
+            Debug.Log(e.Data);
         }
         
         //play audio 
         try{
-            if(dialogueSound[_index] != null){
-                SoundManager.Instance.Play(dialogueSound[_index]);
+            if(dialogueSound.Length < _index && dialogueSound != null){
+                if(dialogueSound[_index] != null){
+                    SoundManager.Instance.Play(dialogueSound[_index]);
+                }
             }
         } catch(Exception e){
-            //Debug.Log(e.Data);
+            Debug.Log(e.Data);
         }
 
         //type each char one at a time
@@ -102,12 +116,15 @@ public class DialogueV2 : MonoBehaviour
         else{ //dialogue finished, runs this every time next button is clicked when dialogue is done
             if(!_isFinished){
                 foreach(GameObject i in activateAfterText){
-                i.SetActive(true);
+                    i.SetActive(true);
                 }
                 foreach(GameObject i in deactivateAfterText){
                     i.SetActive(false);
                 }
                 _isFinished = true;
+                if(deactivateSelfAfterText){
+                    this.gameObject.SetActive(false);
+                }
                 //Debug.Log(this.gameObject.name + " dialogue finished");
             }
             

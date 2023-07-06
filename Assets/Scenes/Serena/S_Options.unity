@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 71259898}
   - component: {fileID: 71259897}
   m_Layer: 5
-  m_Name: C - GIVE Item Armor v2
+  m_Name: C - GIVE Item Cream v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -912,12 +912,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionOne
+        m_MethodName: setOptionTwo
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1106,7 +1106,7 @@ GameObject:
   - component: {fileID: 77624892}
   - component: {fileID: 77624893}
   m_Layer: 0
-  m_Name: FadeToArmor
+  m_Name: FadeTocream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1641,7 +1641,7 @@ GameObject:
   - component: {fileID: 147772290}
   - component: {fileID: 147772289}
   m_Layer: 5
-  m_Name: Armor Image
+  m_Name: Cream Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1705,6 +1705,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147772287}
   m_CullTransparentMesh: 1
+--- !u!1 &148188943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148188944}
+  m_Layer: 5
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &148188944
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148188943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981848340}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &148814248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1923,6 +1959,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148814248}
   m_CullTransparentMesh: 1
+--- !u!1 &156688513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 156688514}
+  - component: {fileID: 156688515}
+  m_Layer: 5
+  m_Name: Dialogue - after choice dialogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &156688514
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156688513}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 522065127}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &156688515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156688513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab781ecc1750caf468e93346f0b0b919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTextComponent: {fileID: 1545693902}
+  playerDialogueBackground: {fileID: 1831910994}
+  charTextComponent: {fileID: 357275776}
+  charDialogueBackground: {fileID: 183805134}
+  lines:
+  - I really do mean it.
+  - "I believe you. I was just smiling\u2026but you couldn\u2019t see that because
+    of the mask."
+  - Oh, thank goodness. For a minute there I thought I had insulted you.
+  - "So, people won\u2019t be able to see my scales, which I guess is a good thing\u2026"
+  - But what about when I want to smile at someone?
+  - "You won\u2019t have to worry about having seaweed stuck in your teeth!"
+  - "I suppose there's a silver lining to every situation\u2026"
+  - Well, thank you for the mask.  And for your assistance.
+  - "It's been my pleasure. Remember, the mask hides your scales, but don\u2019t
+    let it hide who you are."
+  - "I\u2019ll keep that in mind."
+  playerSpeaking: 01000100000100000100
+  textSpeed: 0.025
+  deactivateSelfAfterText: 0
+  activateAfterText:
+  - {fileID: 1263343537}
+  deactivateAfterText: []
+  character: {fileID: 0}
+  characterPoses: []
+  dialogueSound: []
 --- !u!1 &181511174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,7 +2066,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 77351904}
-  m_Father: {fileID: 346620714}
+  m_Father: {fileID: 1230371114}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2105,7 +2216,7 @@ GameObject:
   - component: {fileID: 183805136}
   - component: {fileID: 183805135}
   m_Layer: 5
-  m_Name: Lanky Boy
+  m_Name: Character Dialogue Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2318,7 +2429,7 @@ GameObject:
   - component: {fileID: 198391158}
   - component: {fileID: 198391157}
   m_Layer: 5
-  m_Name: C - Percy drank - fades stuff
+  m_Name: C - serena drank potion - fades stuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2388,19 +2499,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1647837100}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2130012852}
+      - m_Target: {fileID: 257017773}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2441,7 +2540,7 @@ MonoBehaviour:
         m_MethodName: ActivateAfterTransition
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 604560985}
+          m_ObjectArgument: {fileID: 2042552732}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2742,7 +2841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217852126}
   m_Layer: 5
-  m_Name: Percy
+  m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2783,7 +2882,7 @@ GameObject:
   - component: {fileID: 235999003}
   - component: {fileID: 235999004}
   m_Layer: 0
-  m_Name: FadeToGuide
+  m_Name: FadeToMask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2853,18 +2952,22 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Here we have the Potion of Protain. Drink this and you will gain the strength
-    you  desire.
-  - You mean, I just need to drink this potion and then I'll become a knight?
-  - "Well, no, there\u2019s a lot more to being a knight than physical capabilities. "
-  - I know, but knights are supposed to protect the weak and defenseless.
-  - "It\u2019s hard to do that when you are weak and defenseless."
-  playerSpeaking: 0100010000
-  textSpeed: 0.05
+  - Here we are!
+  - The Crystal Clear Potion.  This enchanting elixir contains the essence of rare
+    sea crystals. It will transform your blemishes into shimmering gems.
+  - So... my dry patches and red spots turn into crystals?
+  - That sounds... different.
+  - It may seem strange, but I assure you, the result will be dazzling.
+  - Better to be shiny than to be itchy and slimy.
+  - I hope this works.
+  - '[You hand the mermaid a small vial filled with a glowing liquid. She drinks
+    it. After a few moments, her blemishes begin to transform into glistening crystals,
+    reflecting the light with a mesmerizing shimmer]'
+  playerSpeaking: 0101000001000001
+  textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
-  - {fileID: 2004597968}
-  - {fileID: 711781550}
+  - {fileID: 198391155}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -3799,7 +3902,7 @@ GameObject:
   - component: {fileID: 325692219}
   - component: {fileID: 325692218}
   m_Layer: 5
-  m_Name: Dialogue - choose no
+  m_Name: Dialogue - choice 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3822,16 +3925,16 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - "That\u2019s just a myth people pass down about some artifacts."
-  - "Still, you might feel inspired by the armor to harness some of Sir Aldo\u2019s
-    courage."
-  playerSpeaking: 0101
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - Clean? Is that all?
+  - "Do I\u2026still have red spots?"
+  - Well, yes-
+  - "What!?! Why didn\u2019t it work?"
+  playerSpeaking: 00000100
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
   - {fileID: 1075299044}
-  deactivateAfterText:
-  - {fileID: 325692217}
+  deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
   dialogueSound: []
@@ -3921,20 +4024,19 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1616599580}
+  - {fileID: 1479677172}
   - {fileID: 1539418756}
   - {fileID: 257017775}
+  - {fileID: 198391156}
+  - {fileID: 2042552734}
   - {fileID: 597219911}
   - {fileID: 2004597972}
   - {fileID: 2130012854}
   - {fileID: 711781551}
   - {fileID: 1647837102}
-  - {fileID: 198391156}
   - {fileID: 11476902}
   - {fileID: 604560986}
-  - {fileID: 1033696492}
-  - {fileID: 981848340}
-  - {fileID: 181511175}
-  - {fileID: 1807586422}
+  - {fileID: 1230371114}
   m_Father: {fileID: 636271705}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4143,22 +4245,25 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give the lad?
-  - A potion of protain.
-  - "So that\u2019s what caused all the ruckus."
-  - "He doesn\u2019t have a handle on it yet, but I\u2019m sure he\u2019ll grow into
-    his new strength."
-  - Instant physical transformation might seem appealing, but the true essence of
-    knighthood is gained during the journey of inner growth.
-  - "You\u2019re pretty wise. "
-  - "You think I don\u2019t know that?"
-  playerSpeaking: 00010001000100
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - So, what did you give the young lady?
+  - I gave her a Crystal Clear Potion.
+  - She was so worried about her scales, I wanted to give her an immediate solution.
+  - "No need to worry about the other mermaids seeing her scales, they won\u2019t
+    even be able to look at her, period!"
+  - Kids these days. Why does everyone want an immediate solution?
+  - "Because people don\u2019t like feeling insecure, embarrassed, frustrated, anxious\u2026"
+  - "I know! Just because I'm a mushroom doesn\u2019t mean I don\u2019t feel those
+    things too. Everyone does. "
+  - Do you get embarrassed?
+  - "I mean, not usually. But that\u2019s not the point!"
+  - "All I\u2019m saying is that just because a solution works in the moment, doesn't
+    mean it\u2019s the best answer in the long run."
+  playerSpeaking: 00010100000100010000
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
   - {fileID: 948771879}
-  deactivateAfterText:
-  - {fileID: 350301290}
+  deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
   dialogueSound: []
@@ -4513,7 +4618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374703023}
   m_Layer: 5
-  m_Name: C - Armor
+  m_Name: C - Cream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4533,8 +4638,11 @@ RectTransform:
   m_Children:
   - {fileID: 1144599952}
   - {fileID: 1791004164}
+  - {fileID: 1651728379}
+  - {fileID: 519778766}
+  - {fileID: 1940321424}
+  - {fileID: 1207951678}
   - {fileID: 506404782}
-  - {fileID: 1339923043}
   - {fileID: 594666281}
   - {fileID: 1143662464}
   - {fileID: 982252213}
@@ -4544,43 +4652,6 @@ RectTransform:
   - {fileID: 2021746833}
   - {fileID: 1075299045}
   m_Father: {fileID: 636271705}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &400245807
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 400245808}
-  m_Layer: 5
-  m_Name: C - Knights dont become
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &400245808
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400245807}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2082384569}
-  m_Father: {fileID: 522065127}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4821,7 +4892,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The journal comes with a complementary training sword
+  m_text: Positively mysterious
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -4956,7 +5027,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sure?
+  m_text: Very wet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -5403,7 +5474,7 @@ GameObject:
   - component: {fileID: 482160334}
   - component: {fileID: 482160333}
   m_Layer: 5
-  m_Name: C - No
+  m_Name: C - Very Clean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5962,6 +6033,236 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &519778765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519778766}
+  - component: {fileID: 519778769}
+  - component: {fileID: 519778768}
+  - component: {fileID: 519778767}
+  m_Layer: 5
+  m_Name: C - GIVE Item Cream - FADE - INACTIVE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &519778766
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519778765}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 703210122}
+  m_Father: {fileID: 374703023}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 472, y: -119}
+  m_SizeDelta: {x: 462, y: 109}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &519778767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519778765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 519778768}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519778765}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 235999004}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: StartFadeTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1069563381}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: StartFadeTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 235999004}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: ActivateAfterTransition
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1083593882}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 64487960}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2113702131}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1144599951}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1616599579}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2137384991}
+        m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
+        m_MethodName: setOptionTwo
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &519778768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519778765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9444b543b18d39740bf8f6b31eba5eb6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &519778769
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519778765}
+  m_CullTransparentMesh: 1
 --- !u!1 &520048480
 GameObject:
   m_ObjectHideFlags: 0
@@ -6073,7 +6374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 522065127}
   m_Layer: 5
-  m_Name: C - Guide
+  m_Name: C - Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6092,13 +6393,19 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2113702132}
+  - {fileID: 963308564}
+  - {fileID: 774442189}
   - {fileID: 1634238163}
   - {fileID: 1083593883}
+  - {fileID: 1339004926}
+  - {fileID: 1891416380}
   - {fileID: 1735867175}
-  - {fileID: 400245808}
+  - {fileID: 2082384569}
   - {fileID: 677888613}
-  - {fileID: 1562007109}
+  - {fileID: 1107584120}
   - {fileID: 1050031483}
+  - {fileID: 880723455}
+  - {fileID: 156688514}
   m_Father: {fileID: 636271705}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6563,7 +6870,7 @@ GameObject:
   - component: {fileID: 594666281}
   - component: {fileID: 594666282}
   m_Layer: 5
-  m_Name: Dialogue - After give armor  item
+  m_Name: Dialogue - After serena applies cream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6606,21 +6913,9 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Here you go, the Armor of Sir Aldo the Immense.
-  - "Is this really Sir Aldo\u2019s armor? My friends would love this!"
-  - It sure is. A knight needs protection, and there's no armor more protective than
-    this.
-  - "I can\u2019t believe I\u2019m really wearing this. It feels like I\u2019ve got
-    the weight of the world on my- Woah!"
-  - "[Percy\u2019s heavy armor tips him over and he falls to the floor]"
-  - Are you alright?!
-  - Sure am! The battle hardened steel broke my fall!
-  - Well there you go!
-  - Now you are ready to enter battle with the spirit of Sir Aldo beside you.
-  - Is his ghost attached to the armor?
-  - Will he guide me on my journey to becoming a knight?
-  playerSpeaking: 0100010001010001010000
-  textSpeed: 0.05
+  - How do I look?
+  playerSpeaking: 00
+  textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 982252209}
@@ -6677,7 +6972,7 @@ GameObject:
   - component: {fileID: 604560986}
   - component: {fileID: 604560987}
   m_Layer: 5
-  m_Name: Dialogue - after percy took tren
+  m_Name: Dialogue - after choices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6720,16 +7015,21 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - '*cough cough*'
-  - Look!
-  - '*cough cough* look at these muscles!'
-  - "I feel so\u2026 strong!"
-  playerSpeaking: 00000000
-  textSpeed: 0.05
+  - "Forget about what others think. Don\u2019t let anyone or anything stop you from
+    being your dazzling self. Embrace your natural shimmer!"
+  - Just be careful not to unintentionally blind anyone with your brilliance.
+  - Before I leave, do you sell sunshield spectacles? It sounds like my family and
+    friends might need them.
+  - We have some, but the Optics Emporium has a better selection.
+  - "When you exit this shop, take three hops to the left, go past the fountain that
+    spouts lies, follow the smell of success, and it\u2019s the one with the hopscotch
+    doormat."
+  - "Got it. I guess it\u2019s my time to shine?"
+  playerSpeaking: 010100010100
+  textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
-  - {fileID: 1033696488}
-  - {fileID: 181511174}
+  - {fileID: 1060053847}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -6981,6 +7281,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641407232}
   m_CullTransparentMesh: 1
+--- !u!1 &649452838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 649452839}
+  - component: {fileID: 649452841}
+  - component: {fileID: 649452840}
+  m_Layer: 5
+  m_Name: C - Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &649452839
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649452838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1651728379}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &649452840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649452838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Give Kelp Cream
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
+  m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &649452841
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649452838}
+  m_CullTransparentMesh: 1
 --- !u!1 &656055299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7166,7 +7601,7 @@ GameObject:
   - component: {fileID: 667202447}
   - component: {fileID: 667202448}
   m_Layer: 5
-  m_Name: Dialogue - Guide reflection
+  m_Name: Dialogue - Mask reflection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7209,26 +7644,25 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give the lad?
-  - The Guide to the Knight
-  - Really? Hmm, good choice.
-  - ' I realized the true essence of knighthood and self-worth isn''t found in fleeting
-    physical changes.'
-  - It's found in the earned development of self-confidence, resilience, and respect
-    for ourselves and others.
-  - Just like the young lad, we all stumble along our path, but it's the journey
-    and growth that truly matters.
-  - "\u2026Are you done?"
-  - Yes
-  - Good.
-  - We have more customers waiting!
-  playerSpeaking: 00010001010100010000
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - So, what did you give the young lady?
+  - I gave her the Mask of Enchantment
+  - Really? Why did you give her that?
+  - She was so worried about her scales, I wanted to give her an immediate solution.
+  - "Well, an immediate solution that wouldn\u2019t have super strange side effects."
+  - Kids these days. Why does everyone want an immediate solution?
+  - "Because people don\u2019t like feeling insecure, embarrassed, frustrated, anxious\u2026"
+  - "I know! Just because I'm a mushroom doesn\u2019t mean I don\u2019t feel those
+    things too. Everyone does."
+  - Do you get embarrassed?
+  - "I mean, not usually. But that\u2019s not the point!"
+  - "All I\u2019m saying is that just because a solution works in the moment, doesn't
+    mean it\u2019s the best answer in the long run."
+  playerSpeaking: 0001000101000100010000
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
   - {fileID: 948771879}
-  deactivateAfterText:
-  - {fileID: 667202446}
+  deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
   dialogueSound: []
@@ -7286,26 +7720,13 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Becoming a knight is supposed to take years.
-  - "Knights live for glory, but live by\u2026"
-  - "They live by\u2026umm\u2026 Castles?"
-  - No, wait, they live in castles.
-  - "Umm\u2026"
-  - They live by honor.
-  - Honor!
-  - I should have known that!
-  - "It\u2019s a vital part of the Code of Chivalry. You can locate it in the table
-    of contents at the start of the guide."
-  - I guess I do need this.
-  - 'Daily self-affirmations? '
-  - "\u201CMy value as a knight is not determined by my appearance but by my confidence,
-    honor, and bravery.\""
-  - "Huh\u2026 I like that."
-  playerSpeaking: 01010000000100000100000000
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - "It\u2019s covering up all of the slime and spots?"
+  - Yes. With that mask, your face is as flawless and smooth as a precious pearl.
+  playerSpeaking: 0001
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
-  - {fileID: 1263343537}
+  - {fileID: 156688513}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -7719,6 +8140,141 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1641.1165, y: 269.2238}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &703210121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703210122}
+  - component: {fileID: 703210124}
+  - component: {fileID: 703210123}
+  m_Layer: 5
+  m_Name: C - Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &703210122
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703210121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 519778766}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &703210123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703210121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Give Kelp Cream
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
+  m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &703210124
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703210121}
+  m_CullTransparentMesh: 1
 --- !u!1 &707114028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7771,7 +8327,7 @@ GameObject:
   - component: {fileID: 711781553}
   - component: {fileID: 711781552}
   m_Layer: 5
-  m_Name: C - here u go
+  m_Name: C - choice 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7854,7 +8410,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 257017773}
+      - m_Target: {fileID: 2042552732}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -8024,7 +8580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Knights don\u2019t become knights overnight"
+  m_text: Not a blemish in sight
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -8442,6 +8998,212 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771117666}
   m_CullTransparentMesh: 1
+--- !u!1 &774442188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774442189}
+  - component: {fileID: 774442192}
+  - component: {fileID: 774442191}
+  - component: {fileID: 774442190}
+  m_Layer: 5
+  m_Name: C - GIVE Item mask - NO FADE - ACTIVE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &774442189
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774442188}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1947572546}
+  m_Father: {fileID: 522065127}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 472, y: -119}
+  m_SizeDelta: {x: 462, y: 109}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &774442190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774442188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 774442191}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1083593882}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 774442188}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 64487960}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2113702131}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1144599951}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1616599579}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2137384991}
+        m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
+        m_MethodName: setOptionTwo
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &774442191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774442188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9444b543b18d39740bf8f6b31eba5eb6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &774442192
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774442188}
+  m_CullTransparentMesh: 1
 --- !u!1 &782028838
 GameObject:
   m_ObjectHideFlags: 0
@@ -8454,7 +9216,7 @@ GameObject:
   - component: {fileID: 782028841}
   - component: {fileID: 782028840}
   m_Layer: 5
-  m_Name: Guide Description
+  m_Name: Mask Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8500,9 +9262,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Contents include: The Knight\u2019s Code of Chivalry, various workout
-    routines, words of affirmation, and key knight lingo. Comes with a complementary
-    training sword."
+  m_text: "Don\u2019t like your face? Getting bullied because of it? We\u2019ve got
+    you covered!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -8529,8 +9290,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.3
-  m_fontSizeBase: 30.3
+  m_fontSize: 33
+  m_fontSizeBase: 33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8988,6 +9749,43 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 753.1423, y: 184.27}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &811661513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811661514}
+  m_Layer: 5
+  m_Name: '#####################################################################################################################
+    (5)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &811661514
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811661513}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1144599952}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &828363062
 GameObject:
   m_ObjectHideFlags: 0
@@ -9380,7 +10178,7 @@ GameObject:
   - component: {fileID: 877251625}
   - component: {fileID: 877251624}
   m_Layer: 5
-  m_Name: Guide Title
+  m_Name: Mask Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9426,7 +10224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Guide to the Knight
+  m_text: Mask of Enchantment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
   m_sharedMaterial: {fileID: -7278405599856271365, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
@@ -9453,8 +10251,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.01
-  m_fontSizeBase: 41.01
+  m_fontSize: 39.76
+  m_fontSizeBase: 39.76
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9503,6 +10301,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877251622}
   m_CullTransparentMesh: 1
+--- !u!1 &880723454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 880723455}
+  m_Layer: 5
+  m_Name: '#####################################################################################################################
+    (4)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &880723455
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880723454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 522065127}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &882947163
 GameObject:
   m_ObjectHideFlags: 0
@@ -9768,7 +10603,7 @@ GameObject:
   - component: {fileID: 897701756}
   - component: {fileID: 897701755}
   m_Layer: 5
-  m_Name: Armor Description
+  m_Name: Cream Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9814,7 +10649,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Armor! What\u2019s a knight without armor?"
+  m_text: Made with all natural aquatic ingredients, like seaweed, sea cucumber and
+    jellyfish jelly (Meant for skin, not for snacking)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -9841,8 +10677,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 30.3
+  m_fontSizeBase: 30.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10506,6 +11342,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953211047}
   m_CullTransparentMesh: 1
+--- !u!1 &963308563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963308564}
+  m_Layer: 5
+  m_Name: '#####################################################################################################################
+    (3)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &963308564
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963308563}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 522065127}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &977507296
 GameObject:
   m_ObjectHideFlags: 0
@@ -10692,7 +11565,7 @@ MonoBehaviour:
     your doorknob.]"
   - Have a nice day!
   playerSpeaking: 010000010000010000010101
-  textSpeed: 0.05
+  textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1060053847}
@@ -10711,8 +11584,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 346620714}
+  m_Children:
+  - {fileID: 148188944}
+  m_Father: {fileID: 1230371114}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -10733,7 +11607,7 @@ GameObject:
   - component: {fileID: 982252211}
   - component: {fileID: 982252210}
   m_Layer: 5
-  m_Name: C - Sure?
+  m_Name: C - Very Wet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10796,18 +11670,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 982252209}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -11007,7 +11869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Are you sure about this?
+  m_text: "You\u2019ll shine less when it\u2019s dark"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -11599,7 +12461,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1545709359}
-  m_Father: {fileID: 346620714}
+  - {fileID: 1436147348}
+  m_Father: {fileID: 1230371114}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -11661,21 +12524,22 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Woah!
-  - Really?! A free sword?!
-  - Please, no swordplay in the shop!
-  - '[In the midst of a clumsy fight with himself, Percy accidentally knocks over
-    several unfortunate shelves]'
-  - "Oh my gosh, I\u2019m so sorry! What am I thinking? I\u2019ll never be a knight."
-  - Trust in your own journey. It might take time, but you will blossom into a knight.
-  - A true knight.
-  - Thank you.
-  - Let me help you clean this up.
-  playerSpeaking: 00000100000101000000
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - Mysterious? Is that good?
+  - Oh, absolutely!
+  - When you swim by wearing that mask, everyone will be asking, "Who is she? What's
+    her tale?"
+  - Well, that's one way to spin it.
+  - I suppose it's better than drawing attention to my blemishes.
+  - Wear it with confidence. It makes you look like the keeper of a forgotten prophecy
+    or a hidden treasure trove.
+  - I mean it.
+  - You give off an aura of ancient legends and long-lost treasures.
+  - '[Serena stares at you without saying a word]'
+  playerSpeaking: 000101000001010101
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
-  - {fileID: 1263343537}
+  - {fileID: 156688513}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -12009,7 +12873,7 @@ GameObject:
   - component: {fileID: 1075299045}
   - component: {fileID: 1075299046}
   m_Layer: 5
-  m_Name: Dialogue - Percy exit
+  m_Name: Dialogue - Serena post choice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12052,16 +12916,22 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - When you step out of this shop, you enter the world prepared to take it on, prepared
-    to become a knight.
-  - '*Crash*'
-  - I think I broke the door.
-  - Did the armor protect you?
-  - Yes?
-  - Fantastic!
-  - Have a nice day! And good luck!
-  playerSpeaking: 01010001000101
-  textSpeed: 0.05
+  - But it did work!
+  - Kelp Cleansing Cream is an effective solution, but not an immediate one. It requires
+    consistent use over time for noticeable results.
+  - "Over time? But..I\u2019m so tired of looking like this."
+  - "I understand your disappointment, but trust me, this approach is better in the
+    long run. Other magical solutions don\u2019t last, and the ones that do will
+    alter your scales."
+  - I guess.
+  - "So about this cream\u2026 Is it really that easy?"
+  - Yes! Apply it gently on your scales twice a day, once in the morning and once
+    at night, and let it work its magic.
+  - Once in the morning and once at night, got it. Thank you.
+  - It's my pleasure. Just follow good hygienic practices and rest assured, those
+    scales of yours will be shimmering once again.
+  playerSpeaking: 010100010000010001
+  textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1354579659}
@@ -12124,7 +12994,7 @@ GameObject:
   - component: {fileID: 1083593883}
   - component: {fileID: 1083593884}
   m_Layer: 5
-  m_Name: Dialogue - After give guide item
+  m_Name: Dialogue - After give mask item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12167,17 +13037,26 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Here you go, the Guide to the Knight by the great Sir Jannet.
-  - Is this a book?
-  - I thought I was going to get a potion or something.
-  - It's a journal that will provide you with guidance to help you on your path.
-  - But this way is going to take years!
-  playerSpeaking: 0100000100
-  textSpeed: 0.05
+  - Here we are! The Mask of Enchantment.
+  - You put it on and it will cover your face.
+  - "\u2026And then\u2026?"
+  - And then it stays!
+  - "That\u2019s it?"
+  - I thought it might have some magical properties.
+  - "Oh it does! This mask will only come off when you want it to, so no need to
+    worry about it falling off while you\u2019re swimming."
+  - That's... something, I guess.
+  - But what about my scales?
+  - Ah, you see, with this mask, you won't have to worry about anyone noticing those
+    pesky blemishes!
+  - "\u2026Let me give it a try."
+  - "[You push the mask over the desk toward Serena. She puts it on over her face
+    and it\u2019s a perfect fit]"
+  playerSpeaking: 010100010000010000010001
+  textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
-  - {fileID: 2082384565}
-  - {fileID: 1107584119}
+  - {fileID: 1339004922}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -12328,7 +13207,7 @@ GameObject:
   - component: {fileID: 1095163811}
   - component: {fileID: 1095163812}
   m_Layer: 0
-  m_Name: FadeGuideToMorris
+  m_Name: FadeMaskToMorris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12377,7 +13256,7 @@ GameObject:
   - component: {fileID: 1107584122}
   - component: {fileID: 1107584121}
   m_Layer: 5
-  m_Name: C - The journal comes with a complementary training sword
+  m_Name: C - mysterious
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12396,7 +13275,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 437128319}
-  m_Father: {fileID: 1562007109}
+  m_Father: {fileID: 522065127}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -12448,6 +13327,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1891416378}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1107584119}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -12704,6 +13595,7 @@ RectTransform:
   - {fileID: 147772288}
   - {fileID: 2052114841}
   - {fileID: 897701754}
+  - {fileID: 811661514}
   m_Father: {fileID: 374703023}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12874,7 +13766,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Potion of Protain
+  m_text: Crystal Clear Potion
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
   m_sharedMaterial: {fileID: -7278405599856271365, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
@@ -13232,7 +14124,7 @@ GameObject:
   - component: {fileID: 1180681117}
   - component: {fileID: 1180681116}
   m_Layer: 5
-  m_Name: Percy - Guide
+  m_Name: Char - Neutral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13255,8 +14147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -365.6, y: -4}
-  m_SizeDelta: {x: 930, y: 791}
+  m_AnchoredPosition: {x: -424.874, y: -66.02966}
+  m_SizeDelta: {x: 978.4521, y: 1023.9407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1180681116
 MonoBehaviour:
@@ -13278,7 +14170,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ca6121e8365699e4a8848bcd78d6d5e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 514fd60774b54a64fa14443bbfdae148, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -13308,7 +14200,7 @@ GameObject:
   - component: {fileID: 1196267910}
   - component: {fileID: 1196267909}
   m_Layer: 5
-  m_Name: Guide Image
+  m_Name: Mask Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13606,6 +14498,211 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206113520}
   m_CullTransparentMesh: 1
+--- !u!1 &1207951677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207951678}
+  - component: {fileID: 1207951681}
+  - component: {fileID: 1207951680}
+  - component: {fileID: 1207951679}
+  m_Layer: 5
+  m_Name: C - Serena puts Cream on - fades stuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1207951678
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207951677}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 374703023}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 748, y: -436}
+  m_SizeDelta: {x: 233, y: 111}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1207951679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207951677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1207951680}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 235999004}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: ActivateAfterTransition
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 594666280}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1940321422}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 77624893}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: StartFadeTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1069563381}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: StartFadeTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1207951677}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 183805134}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831910994}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1207951680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207951677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ff018b195cac58940ab0f504fc95c02a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1207951681
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207951677}
+  m_CullTransparentMesh: 1
 --- !u!1 &1217678051
 GameObject:
   m_ObjectHideFlags: 0
@@ -13709,6 +14806,46 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -314}
   m_SizeDelta: {x: 1842, y: 325}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1230371113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1230371114}
+  m_Layer: 5
+  m_Name: more choices
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1230371114
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230371113}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1807586422}
+  - {fileID: 1033696492}
+  - {fileID: 981848340}
+  - {fileID: 181511175}
+  m_Father: {fileID: 346620714}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1245280774
 GameObject:
   m_ObjectHideFlags: 0
@@ -13767,7 +14904,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Guide
+  m_text: Give Mask
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -13857,7 +14994,7 @@ GameObject:
   - component: {fileID: 1263343539}
   - component: {fileID: 1263343538}
   m_Layer: 5
-  m_Name: MorrisEntrance - Guide
+  m_Name: MorrisEntrance - Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14365,7 +15502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Who wants Inner strength when you can have outer strength?
+  m_text: It will make your skin shine, oh so bright! So VERY bright!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -14588,7 +15725,7 @@ GameObject:
   - component: {fileID: 1296473732}
   - component: {fileID: 1296473731}
   m_Layer: 5
-  m_Name: Dialogue - choose sure
+  m_Name: Dialogue - choice 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14611,19 +15748,17 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Uh, definitely!
-  - "Sir Aldo\u2019s ghost is absolutely within the armor."
-  - 100%
-  - "Hello, Sir Aldo! It\u2019s nice to meet you!"
-  - "Sir Aldo isn\u2019t one for talking."
-  - "You might\u2026Feel his presence."
-  playerSpeaking: 010101000101
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - Thank you, but I mean my scales. Are they better? Are the red spots all gone?
+  - "They also look very wet. Which reminds me, most creatures would have to apply
+    a moisturizer after this sort of cream, but mermaids already get plenty of water,
+    so you don\u2019t have to worry about that one bit!"
+  - "But, no. They haven\u2019t exactly healed yet."
+  playerSpeaking: 000101
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
   - {fileID: 1075299044}
-  deactivateAfterText:
-  - {fileID: 1296473730}
+  deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
   dialogueSound: []
@@ -14832,7 +15967,7 @@ GameObject:
   - component: {fileID: 1307109993}
   - component: {fileID: 1307109992}
   m_Layer: 5
-  m_Name: Percy - Potion
+  m_Name: Char - Bad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14858,7 +15993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1a935f9f879c9504db9731b61340f3b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4656328a864673499d23763ebc54d49, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -14893,8 +16028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -357, y: 34}
-  m_SizeDelta: {x: 1202, y: 866}
+  m_AnchoredPosition: {x: -448.47, y: -67.97}
+  m_SizeDelta: {x: 991.47, y: 1136.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1313896471
 GameObject:
@@ -15031,6 +16166,211 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313896471}
   m_CullTransparentMesh: 1
+--- !u!1 &1339004922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339004926}
+  - component: {fileID: 1339004925}
+  - component: {fileID: 1339004924}
+  - component: {fileID: 1339004923}
+  m_Layer: 5
+  m_Name: C - Serena puts mask on - fades stuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1339004923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339004922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1339004924}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1083593882}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 235999004}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: StartFadeTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1069563381}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: StartFadeTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 235999004}
+        m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
+        m_MethodName: ActivateAfterTransition
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1891416378}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1339004922}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 183805134}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831910994}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1339004924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339004922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ff018b195cac58940ab0f504fc95c02a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1339004925
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339004922}
+  m_CullTransparentMesh: 1
+--- !u!224 &1339004926
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339004922}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 522065127}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 748, y: -436}
+  m_SizeDelta: {x: 233, y: 111}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1339923042
 GameObject:
   m_ObjectHideFlags: 0
@@ -15044,12 +16384,12 @@ GameObject:
   - component: {fileID: 1339923045}
   - component: {fileID: 1339923044}
   m_Layer: 5
-  m_Name: C - GIVE Item Armor v1
+  m_Name: C - GIVE Item Cream v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1339923043
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15063,12 +16403,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1269241713}
-  m_Father: {fileID: 374703023}
+  m_Father: {fileID: 1791004164}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 472, y: -119}
+  m_AnchoredPosition: {x: 0, y: -67.5}
   m_SizeDelta: {x: 462, y: 109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339923044
@@ -15396,7 +16736,7 @@ GameObject:
   - component: {fileID: 1343468972}
   - component: {fileID: 1343468971}
   m_Layer: 5
-  m_Name: Percy
+  m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15419,8 +16759,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -365.6, y: -34.4}
-  m_SizeDelta: {x: 391, y: 716}
+  m_AnchoredPosition: {x: -424.874, y: -163.25052}
+  m_SizeDelta: {x: 698.3846, y: 823.2554}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1343468971
 MonoBehaviour:
@@ -15442,7 +16782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -15644,7 +16984,7 @@ GameObject:
   - component: {fileID: 1354579662}
   - component: {fileID: 1354579661}
   m_Layer: 5
-  m_Name: MorrisEntrance - Armor
+  m_Name: MorrisEntrance - cream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16108,6 +17448,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398659777}
   m_CullTransparentMesh: 1
+--- !u!1 &1436147347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1436147348}
+  m_Layer: 5
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1436147348
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436147347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1033696492}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1452749653
 GameObject:
   m_ObjectHideFlags: 0
@@ -16383,6 +17759,43 @@ RectTransform:
   - {fileID: 1701241368}
   - {fileID: 350301291}
   m_Father: {fileID: 1069563380}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1479677171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1479677172}
+  m_Layer: 5
+  m_Name: '#####################################################################################################################
+    (3)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1479677172
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479677171}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 346620714}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -17011,7 +18424,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionOne
+        m_MethodName: setOptionTwo
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17602,43 +19015,6 @@ RectTransform:
   m_AnchoredPosition: {x: 456, y: 223}
   m_SizeDelta: {x: 884, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1562007108
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1562007109}
-  m_Layer: 5
-  m_Name: C - The journal comes with a
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1562007109
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562007108}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1107584120}
-  m_Father: {fileID: 522065127}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1571579006
 GameObject:
   m_ObjectHideFlags: 0
@@ -18208,12 +19584,12 @@ GameObject:
   - component: {fileID: 1634238165}
   - component: {fileID: 1634238164}
   m_Layer: 5
-  m_Name: C - GIVE Item Guide
+  m_Name: C - GIVE Item mask - FADE - INACTIVE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1634238163
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18377,12 +19753,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionOne
+        m_MethodName: setOptionTwo
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -18571,7 +19947,7 @@ GameObject:
   - component: {fileID: 1647837102}
   - component: {fileID: 1647837101}
   m_Layer: 5
-  m_Name: Dialogue - give percy potion
+  m_Name: Dialogue - choice 2 dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18594,15 +19970,18 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - '[Percy pops the cork off of the bottle, takes a deep breath, and downs the potion.
-    For a few moments, you look at each other in silence. Nothing happens.]'
-  - '[All of a sudden, a cloud of red appears in front of your eyes, completely obscuring
-    the boy from view. As the smoke begins to clear, a broad figure begins to emerge.]'
-  playerSpeaking: 0101
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - "You must know that, in the ocean, shiny things don\u2019t always attract the
+    best attention\u2026"
+  - Ah, jealousy. Very common among mermaids your age.
+  - Well, yes, but I was actually thinking about barracudas.
+  - And possibly sharks.
+  - "Don\u2019t worry, I\u2019m sure they will be jealous too."
+  - "I don\u2019t know if jealous is the right word\u2026"
+  playerSpeaking: 000100000100
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
-  - {fileID: 198391155}
+  - {fileID: 604560985}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -18762,6 +20141,212 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1641.1165, y: 269.2238}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1651728378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651728379}
+  - component: {fileID: 1651728382}
+  - component: {fileID: 1651728381}
+  - component: {fileID: 1651728380}
+  m_Layer: 5
+  m_Name: 'C - GIVE Item Cream - NO FADE - ACTIVE '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1651728379
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651728378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 649452839}
+  m_Father: {fileID: 374703023}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 472, y: -119}
+  m_SizeDelta: {x: 462, y: 109}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1651728380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651728378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1651728381}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1940321422}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1651728378}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 64487960}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2113702131}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1144599951}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1616599579}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2137384991}
+        m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
+        m_MethodName: setOptionTwo
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1651728381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651728378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9444b543b18d39740bf8f6b31eba5eb6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1651728382
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651728378}
+  m_CullTransparentMesh: 1
 --- !u!1 &1672459821
 GameObject:
   m_ObjectHideFlags: 0
@@ -18894,7 +20479,7 @@ GameObject:
   - component: {fileID: 1692768754}
   - component: {fileID: 1692768755}
   m_Layer: 0
-  m_Name: FadeArmorToMorris
+  m_Name: FadeCreamToMorris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18941,7 +20526,7 @@ GameObject:
   - component: {fileID: 1701241368}
   - component: {fileID: 1701241369}
   m_Layer: 5
-  m_Name: 'Dialogue - Armor reflection '
+  m_Name: 'Dialogue - cream reflection '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18984,24 +20569,20 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give the lad?
-  - "Sir Aldo\u2019s Ancient Armor"
-  - "Hah! I\u2019d pay good money to see him try to wear that."
-  - "I\u2019ll admit, it wasn\u2019t a perfect fit. But he managed."
-  - Mostly.
-  - "Don\u2019t go giving people things they can\u2019t handle, or next time the
-    front door might not be the only thing that\u2019s broken."
-  - The true essence of knighthood and self-worth isn't found in fleeting physical
-    changes, it's the journey and inner growth that give meaning.
-  - "You\u2019re pretty wise."
-  - "You think I don\u2019t know that?"
-  playerSpeaking: 000100010100000100
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  - So, what did you give the young lady?
+  - Kelp Cleaning Cream
+  - Not a bad choice. I hope it works.
+  - Me too. I know some scales require more than the cream.
+  - "It\u2019s a good start at least."
+  - I thought so too. I wanted to give her a solution that would help her see her
+    own beauty.
+  - Hopefully the cream helps her feel better in her own fins.
+  playerSpeaking: 00010001000101
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
   - {fileID: 948771879}
-  deactivateAfterText:
-  - {fileID: 1701241367}
+  deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
   dialogueSound: []
@@ -20132,7 +21713,7 @@ GameObject:
   - component: {fileID: 1774839779}
   - component: {fileID: 1774839778}
   m_Layer: 5
-  m_Name: C - GIVE ITEM ARMOR Push Armor Towards Boy
+  m_Name: C - GIVE ITEM Cream Push cream Towards Boy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20319,6 +21900,7 @@ RectTransform:
   m_Children:
   - {fileID: 71259896}
   - {fileID: 1774839777}
+  - {fileID: 1339923043}
   m_Father: {fileID: 374703023}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20340,7 +21922,7 @@ GameObject:
   - component: {fileID: 1806625813}
   - component: {fileID: 1806625812}
   m_Layer: 5
-  m_Name: C - SELECT Item Guide
+  m_Name: C - SELECT Item Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20525,7 +22107,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 346620714}
+  m_Father: {fileID: 1230371114}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -20562,7 +22144,7 @@ MonoBehaviour:
     so lucky. The situation can\u2019t get any more awkward so he just leaves. With
     your doorknob.]"
   playerSpeaking: 00000100000101
-  textSpeed: 0.05
+  textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1060053847}
@@ -20701,7 +22283,7 @@ GameObject:
   - component: {fileID: 1831910996}
   - component: {fileID: 1831910995}
   m_Layer: 5
-  m_Name: Shopkeeper
+  m_Name: Shopkeeper Dialogue Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20824,7 +22406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: No
+  m_text: Very clean
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -20969,6 +22551,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1891416378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891416380}
+  - component: {fileID: 1891416379}
+  m_Layer: 5
+  m_Name: Dialogue - after serena puts mask on
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1891416379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891416378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab781ecc1750caf468e93346f0b0b919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTextComponent: {fileID: 1545693902}
+  playerDialogueBackground: {fileID: 1831910994}
+  charTextComponent: {fileID: 357275776}
+  charDialogueBackground: {fileID: 183805134}
+  lines:
+  - How do I look?
+  playerSpeaking: 00
+  textSpeed: 0.025
+  deactivateSelfAfterText: 0
+  activateAfterText:
+  - {fileID: 2082384565}
+  - {fileID: 1107584119}
+  deactivateAfterText: []
+  character: {fileID: 0}
+  characterPoses: []
+  dialogueSound: []
+--- !u!224 &1891416380
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891416378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 522065127}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1903560001
 GameObject:
   m_ObjectHideFlags: 0
@@ -21517,7 +23164,7 @@ GameObject:
   - component: {fileID: 1937658513}
   - component: {fileID: 1937658512}
   m_Layer: 5
-  m_Name: C - SELECT Item Armor
+  m_Name: C - SELECT Item cream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21673,6 +23320,91 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937658510}
   m_CullTransparentMesh: 1
+--- !u!1 &1940321422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940321424}
+  - component: {fileID: 1940321423}
+  m_Layer: 5
+  m_Name: Dialogue - After give cream choice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1940321423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940321422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab781ecc1750caf468e93346f0b0b919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTextComponent: {fileID: 1545693902}
+  playerDialogueBackground: {fileID: 1831910994}
+  charTextComponent: {fileID: 357275776}
+  charDialogueBackground: {fileID: 183805134}
+  lines:
+  - Ah, here we are! Kelp Cleansing Cream.
+  - What does it do?
+  - This cream will remove the algae, sand, and anything else that might have built
+    up on your scales throughout the day.
+  - "This sounds like something that could help! I\u2019ll take it."
+  - '[You hand over the container of Kelp Cleansing Cream to the young mermaid who
+    eagerly removes its lid. She stares down into the smooth, green cream, and then
+    looks back up at you]'
+  - "First, you\u2019ll want to wet your scales with warm water."
+  - '[Serena plunges her head into her water tub. She resurfaces with a large grin]'
+  - How much do I use?
+  - A scallop-sized amount will do.
+  - '[The mermaid scoops up a scallop-sized amount of cream and begins scrubbing
+    it into her scales]'
+  - What now?
+  - "Gently rub it into your face. Don\u2019t be too rough or you\u2019ll irritate
+    your scales."
+  - '[As she massages the cream into her scales, her face becomes covered with kelpy
+    sea foam]'
+  - And now you rinse it off with wa-
+  - '[Once again, Serena plunges her head into her water tub. She resurfaces with
+    a face free of foam]'
+  playerSpeaking: 010001000101010001010001010101
+  textSpeed: 0.025
+  deactivateSelfAfterText: 0
+  activateAfterText:
+  - {fileID: 1207951677}
+  deactivateAfterText: []
+  character: {fileID: 0}
+  characterPoses: []
+  dialogueSound: []
+--- !u!224 &1940321424
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940321422}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 374703023}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1942342494
 GameObject:
   m_ObjectHideFlags: 0
@@ -21711,6 +23443,141 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1947572545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1947572546}
+  - component: {fileID: 1947572548}
+  - component: {fileID: 1947572547}
+  m_Layer: 5
+  m_Name: C - Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1947572546
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947572545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 774442189}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1947572547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947572545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Give Mask
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
+  m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1947572548
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947572545}
+  m_CullTransparentMesh: 1
 --- !u!1 &1963767907
 GameObject:
   m_ObjectHideFlags: 0
@@ -21864,7 +23731,7 @@ GameObject:
   - component: {fileID: 2004597970}
   - component: {fileID: 2004597969}
   m_Layer: 5
-  m_Name: C - r u sure about this
+  m_Name: C - choice 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21926,7 +23793,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 257017773}
+      - m_Target: {fileID: 2042552732}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -22168,7 +24035,7 @@ GameObject:
   - component: {fileID: 2018855592}
   - component: {fileID: 2018855591}
   m_Layer: 5
-  m_Name: Percy - Armor
+  m_Name: Char - Good
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22191,8 +24058,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -365.6, y: 69}
-  m_SizeDelta: {x: 904, y: 918}
+  m_AnchoredPosition: {x: -405, y: -26}
+  m_SizeDelta: {x: 1001.0786, y: 1047.6191}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018855591
 MonoBehaviour:
@@ -22214,7 +24081,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8de0e23a074d2d458f63260bd0c67bc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f81696eaa4348714a90b4d3e2121f9e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -22269,6 +24136,77 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2042552732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2042552734}
+  - component: {fileID: 2042552733}
+  m_Layer: 5
+  m_Name: Dialogue - After serena drinks potion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2042552733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042552732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab781ecc1750caf468e93346f0b0b919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTextComponent: {fileID: 1545693902}
+  playerDialogueBackground: {fileID: 1831910994}
+  charTextComponent: {fileID: 357275776}
+  charDialogueBackground: {fileID: 183805134}
+  lines:
+  - Oh... Oh my!
+  - They've turned into crystals! It's... it's actually beautiful.
+  - See, you are a dazzling jewel of the sea. Let your scales be a symbol of your
+    inner radiance.
+  - "My inner radiance\u2026"
+  - Yes, shine bright for all to see... like a diamond.
+  - "I will\u2026. So do they always shine this bright?"
+  playerSpeaking: 000001000100
+  textSpeed: 0.025
+  deactivateSelfAfterText: 0
+  activateAfterText:
+  - {fileID: 2004597968}
+  - {fileID: 711781550}
+  deactivateAfterText: []
+  character: {fileID: 0}
+  characterPoses: []
+  dialogueSound: []
+--- !u!224 &2042552734
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042552732}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 346620714}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2052114840
 GameObject:
   m_ObjectHideFlags: 0
@@ -22281,7 +24219,7 @@ GameObject:
   - component: {fileID: 2052114843}
   - component: {fileID: 2052114842}
   m_Layer: 5
-  m_Name: Armor Title
+  m_Name: Cream Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22327,7 +24265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ancient Armor of Sir Aldo the Immense
+  m_text: Kelp Cleansing Cream
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
   m_sharedMaterial: {fileID: -7278405599856271365, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
@@ -22627,7 +24565,7 @@ GameObject:
   - component: {fileID: 2082384567}
   - component: {fileID: 2082384566}
   m_Layer: 5
-  m_Name: "C - Knights don\u2019t become knights overnight"
+  m_Name: C - no blemish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22677,6 +24615,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1891416378}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 677888612}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -22776,7 +24726,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 747617145}
-  m_Father: {fileID: 400245808}
+  m_Father: {fileID: 522065127}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -22935,7 +24885,7 @@ GameObject:
   - component: {fileID: 2130012854}
   - component: {fileID: 2130012853}
   m_Layer: 5
-  m_Name: Dialogue - ask whether percy is sure
+  m_Name: Dialogue - choice 1 dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22958,19 +24908,19 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - "You might not be the strongest of the bunch, but that doesn\u2019t mean you\u2019re
-    defenseless."
-  - "This potion might help, but it won\u2019t solve all of your problems."
-  - If drinking this means that I will be able to do a pushup, I'll take it!
+  - "But if it isn\u2019t dark, is there a way to make myself less\u2026reflective?"
+  - Hmmm. A mist spell might help reduce glare, but Crystal Clear was made to be
+    resistant to that sort of magic.
+  - But why would you want to dim yourself?
   - '[Percy pops the cork off of the bottle, takes a deep breath, and downs the potion.
     For a few moments, you look at each other in silence. Nothing happens.]'
   - '[All of a sudden, a cloud of red appears in front of your eyes, completely obscuring
     the boy from view. As the smoke begins to clear, a broad figure begins to emerge.]'
-  playerSpeaking: 0101000101
-  textSpeed: 0.05
-  deactivateSelfAfterText: 0
+  playerSpeaking: 0001010000
+  textSpeed: 0.025
+  deactivateSelfAfterText: 1
   activateAfterText:
-  - {fileID: 198391155}
+  - {fileID: 604560985}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -23444,7 +25394,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Here you go
+  m_text: "Of course! Don\u2019t you want to?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}

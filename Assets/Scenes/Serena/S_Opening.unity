@@ -890,6 +890,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361522402}
   m_CullTransparentMesh: 1
+--- !u!1 &410515711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410515712}
+  - component: {fileID: 410515714}
+  - component: {fileID: 410515713}
+  m_Layer: 5
+  m_Name: Character (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &410515712
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410515711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 516287739}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -362, y: -124}
+  m_SizeDelta: {x: 842, y: 827}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &410515713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410515711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3a04d1eb587644f41a350c1e4b1d72af, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &410515714
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410515711}
+  m_CullTransparentMesh: 1
 --- !u!1 &456977670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1399,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 567101402}
+  - {fileID: 722205373}
+  - {fileID: 710989766}
+  - {fileID: 1502441384}
+  - {fileID: 410515712}
   m_Father: {fileID: 1069563380}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1406,8 +1486,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -362, y: -34}
-  m_SizeDelta: {x: 391, y: 716}
+  m_AnchoredPosition: {x: -362, y: -124}
+  m_SizeDelta: {x: 783, y: 923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &567101403
 MonoBehaviour:
@@ -1429,7 +1509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1505,7 +1585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I also wanted to be a knight
+  m_text: Have you already tried to treat your scales?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1618,6 +1698,158 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &710989765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710989766}
+  - component: {fileID: 710989768}
+  - component: {fileID: 710989767}
+  m_Layer: 5
+  m_Name: Character (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &710989766
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710989765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 516287739}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -362, y: 51}
+  m_SizeDelta: {x: 802, y: 874}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &710989767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710989765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f615136e2d5aac54694c6a7de5643653, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &710989768
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710989765}
+  m_CullTransparentMesh: 1
+--- !u!1 &722205372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722205373}
+  - component: {fileID: 722205375}
+  - component: {fileID: 722205374}
+  m_Layer: 5
+  m_Name: Character (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &722205373
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722205372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 516287739}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -222, y: 57}
+  m_SizeDelta: {x: 676, y: 865}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &722205374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722205372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 952deb6a85aa9484aa9114ebc2d6189e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &722205375
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722205372}
+  m_CullTransparentMesh: 1
 --- !u!1 &746988555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,21 +1904,34 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - Ah, greetings, young lad! What brings you to Arcane Artifacts today?
-  - Um, well... you see, I've always dreamed of becoming a knight.
-  - But I lack the skills and... well, the stature.
-  playerSpeaking: 010000
+  - Welcome, welcome!
+  - Ah, a visitor from the depths of the sea! What brings you to Arcane Artifacts
+    today?
+  - I'm in desperate need of help!
+  - "My scales\u2026"
+  - "they're in such a dreadful state! Ugh, I can\u2019t stand it!"
+  - They have these terrible dry patches and this slimy mess that just won't go away.
+    And worst of all, these red spots...
+  - "I can just tell that the other mermaids are making fun of my scales and it hurts\u2026"
+  - Your worth isn't determined by your appearance but by your kindness and courage.
+  - I know, but my scales make me so uncomfortable!
+  playerSpeaking: 010100000000000100
   textSpeed: 0.05
-  deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1190498158}
   - {fileID: 954369464}
   deactivateAfterText: []
   character: {fileID: 567101401}
   characterPoses:
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: 4337e274917d3514dbd2cb27cad47a72, type: 3}
+  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
+  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
+  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
+  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
+  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
+  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
   dialogueSound: []
 --- !u!1 &760967386
 GameObject:
@@ -1844,7 +2089,7 @@ GameObject:
   - component: {fileID: 954369467}
   - component: {fileID: 954369466}
   m_Layer: 5
-  m_Name: C - why here
+  m_Name: C - exploring uncharted waters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2255,7 +2500,7 @@ GameObject:
   - component: {fileID: 1099771580}
   - component: {fileID: 1099771581}
   m_Layer: 5
-  m_Name: Dialogue - I also wanted to be a knight
+  m_Name: Dialogue - choice 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2298,31 +2543,24 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - I also wanted to be a knight
-  - Really? What stopped you?
-  - This shop.
-  - "My family has run it for centuries. That, and treacherous journeys,  uncomfortable
-    sleeping arrangements, and horses, in general, don\u2019t appeal to me."
-  - "I come from a family of merchants\u2026"
-  - Knights are not solely born from noble bloodlines or prestigious backgrounds.
-  - "In fact, all the greatest knights I\u2019ve known had strong minds, confidence,
-    and honorable spirits."
-  playerSpeaking: 01000101000101
+  - "I\u2019ve tried everything! Of course, I get plenty of water, but I also make
+    sure to eat well, and I\u2019ve been swimming more."
+  - That is quite impressive! And it must be frustrating that you are not seeing
+    the results you want.
+  - "Tell that to my scales! They don't seem to appreciate the effort. I just don\u2019t
+    know what else to do."
+  - You have been taking good first steps, er, first splashes?
+  - But as all mermaids know, scales are quite tricky to maintain. Especially for
+    ones your age.
+  playerSpeaking: 0001000101
   textSpeed: 0.05
-  deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1772645216}
   deactivateAfterText:
   - {fileID: 1099771579}
   character: {fileID: 567101401}
   characterPoses:
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
+  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
   dialogueSound: []
 --- !u!1 &1190498158
 GameObject:
@@ -2337,7 +2575,7 @@ GameObject:
   - component: {fileID: 1190498161}
   - component: {fileID: 1190498160}
   m_Layer: 5
-  m_Name: C - also wanted
+  m_Name: C - have u tried to treat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2687,7 +2925,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: So why are you here?
+  m_text: Have you been exploring uncharted waters?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2841,6 +3079,82 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -314}
   m_SizeDelta: {x: 1842, y: 325}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1502441383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502441384}
+  - component: {fileID: 1502441386}
+  - component: {fileID: 1502441385}
+  m_Layer: 5
+  m_Name: Character (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1502441384
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502441383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 516287739}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -362, y: -124}
+  m_SizeDelta: {x: 707, y: 894}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1502441385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502441383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6a04f75670157c846a019cafbcac9d6d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1502441386
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502441383}
+  m_CullTransparentMesh: 1
 --- !u!1 &1536893949
 GameObject:
   m_ObjectHideFlags: 0
@@ -3829,12 +4143,12 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - Within these walls is a treasure trove of knowledge and artifacts. We will find
-    a way to unlock your potential. Let me consult the archives.
-  - '[You duck in to the back of your shop]'
-  playerSpeaking: 0101
+  - "I know, but mine are so much worse and everyone can see it! It\u2019s so unfair\u2026 "
+  - I can only imagine how disheartened you must be.
+  - "Let me consult the archives, I\u2019m sure we will find something to make you
+    feel comfortable in your scales."
+  playerSpeaking: 000101
   textSpeed: 0.05
-  deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1696589771}
   deactivateAfterText:
@@ -3843,7 +4157,6 @@ MonoBehaviour:
   - {fileID: 1772645216}
   character: {fileID: 567101401}
   characterPoses:
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
   - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
   dialogueSound: []
 --- !u!1 &1863021936
@@ -4279,7 +4592,7 @@ GameObject:
   - component: {fileID: 2094975087}
   - component: {fileID: 2094975088}
   m_Layer: 5
-  m_Name: Dialogue - Why are you here?
+  m_Name: Dialogue - choice 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4322,30 +4635,22 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - It's just that... It feels like everyone around me has already discovered their
-    strengths.
-  - My friends keep saying that someone small like me wouldn't last a day on a battlefield.
-    It makes me feel hopeless.
-  - "A person's strength can come in many forms. It\u2019s not just about the size
-    of your frame or the timing of your growth\u2026"
-  - It is about your inner strength- honor, determination, and courage.
-  - But even with those things I still lack training and experience.
-  - How can I ever become a true knight?
-  playerSpeaking: 000001010000
+  - No, not anymore.
+  - "I thought the saltiness of the ocean in one area might have triggered the dry
+    patches, so I stopped. But they\u2019re still here!"
+  - If the quality of the water is not the issue, why do you still not explore?
+  - "Mermaids don\u2019t explore uncharted waters alone, for safety, you know?"
+  - "I used to go with my friends, but I don\u2019t want anyone seeing me like this."
+  - Nobody's scales are perfect, not even those of your friends.
+  playerSpeaking: 000001000001
   textSpeed: 0.05
-  deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1772645216}
   deactivateAfterText:
   - {fileID: 2094975086}
   character: {fileID: 567101401}
   characterPoses:
-  - {fileID: 21300000, guid: 4337e274917d3514dbd2cb27cad47a72, type: 3}
-  - {fileID: 21300000, guid: 4337e274917d3514dbd2cb27cad47a72, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
-  - {fileID: 21300000, guid: a5f9bb6abcf5900478b5b9c94ca2cc4a, type: 3}
+  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
   dialogueSound: []
 --- !u!1 &2098887393
 GameObject:
