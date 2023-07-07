@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 71259898}
   - component: {fileID: 71259897}
   m_Layer: 5
-  m_Name: C - GIVE Item Cream v2
+  m_Name: C - GIVE Item Eyeshadow v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -912,12 +912,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionTwo
+        m_MethodName: setOptionThree
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1106,7 +1106,7 @@ GameObject:
   - component: {fileID: 77624892}
   - component: {fileID: 77624893}
   m_Layer: 0
-  m_Name: FadeTocream
+  m_Name: FadeToEyeshadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeDuration: 1.35
   imageToFadeOut: {fileID: 1343468971}
-  imageToFadeIn: {fileID: 2018855591}
+  imageToFadeIn: {fileID: 1180681116}
 --- !u!1 &79247714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,7 +1641,7 @@ GameObject:
   - component: {fileID: 147772290}
   - component: {fileID: 147772289}
   m_Layer: 5
-  m_Name: Cream Image
+  m_Name: Eyeshadow Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1970,7 +1970,7 @@ GameObject:
   - component: {fileID: 156688514}
   - component: {fileID: 156688515}
   m_Layer: 5
-  m_Name: Dialogue - after choice dialogues
+  m_Name: Dialogue - after fade effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2013,19 +2013,24 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - I really do mean it.
-  - "I believe you. I was just smiling\u2026but you couldn\u2019t see that because
-    of the mask."
-  - Oh, thank goodness. For a minute there I thought I had insulted you.
-  - "So, people won\u2019t be able to see my scales, which I guess is a good thing\u2026"
-  - But what about when I want to smile at someone?
-  - "You won\u2019t have to worry about having seaweed stuck in your teeth!"
-  - "I suppose there's a silver lining to every situation\u2026"
-  - Well, thank you for the mask.  And for your assistance.
-  - "It's been my pleasure. Remember, the mask hides your scales, but don\u2019t
-    let it hide who you are."
-  - "I\u2019ll keep that in mind."
-  playerSpeaking: 01000100000100000100
+  - Oof!
+  - There you go! Do your wings have enough room?
+  - "Sort of\u2026 but my lungs don\u2019t."
+  - "Using magic to make a corset like this can be a bit difficult, so it\u2019s
+    best to avoid messing with important bodily functions whenever possible."
+  - "Well, that\u2019s\u2026unfortunate."
+  - "I need to be able to breathe in order to\u2026 sing and\u2026 dance."
+  - Perhaps this obstacle will give your voice a new dimension.
+  - Maybe.
+  - "Do I\u2026 look alright?"
+  - You look as beautiful as before, just now with a more defined waist.
+  - "Oh\u2026 good."
+  - "Now I\u2019ll look more\u2026 Elegant, like the other fairies!"
+  - I'm glad that you're satisfied, but it's important for you to know that you were
+    already full of elegance and grace without that corset.
+  - Now, if you ever feel lightheaded, simply loosen the strings.
+  - I will. Thank you!
+  playerSpeaking: 000100010000010000010000010100
   textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -2430,7 +2435,7 @@ GameObject:
   - component: {fileID: 198391157}
   - component: {fileID: 198391160}
   m_Layer: 5
-  m_Name: C - serena drank potion - fades stuff
+  m_Name: C - put Rags on - fades stuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2898,7 +2903,7 @@ GameObject:
   - component: {fileID: 235999003}
   - component: {fileID: 235999004}
   m_Layer: 0
-  m_Name: FadeToMask
+  m_Name: FadeToCorset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2933,7 +2938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeDuration: 1.35
   imageToFadeOut: {fileID: 1343468971}
-  imageToFadeIn: {fileID: 1180681116}
+  imageToFadeIn: {fileID: 1307109992}
 --- !u!1 &257017773
 GameObject:
   m_ObjectHideFlags: 0
@@ -2945,7 +2950,7 @@ GameObject:
   - component: {fileID: 257017775}
   - component: {fileID: 257017774}
   m_Layer: 5
-  m_Name: Dialogue - After give potion  item
+  m_Name: Dialogue - After give Rags  item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2969,17 +2974,18 @@ MonoBehaviour:
   charDialogueBackground: {fileID: 183805134}
   lines:
   - Here we are!
-  - The Crystal Clear Potion.  This enchanting elixir contains the essence of rare
-    sea crystals. It will transform your blemishes into shimmering gems.
-  - So... my dry patches and red spots turn into crystals?
-  - That sounds... different.
-  - It may seem strange, but I assure you, the result will be dazzling.
-  - Better to be shiny than to be itchy and slimy.
-  - I hope this works.
-  - <i>You hand the mermaid a small vial filled with a glowing liquid. She drinks
-    it. After a few moments, her blemishes begin to transform into glistening crystals,
-    reflecting the light with a mesmerizing shimmer.</i>
-  playerSpeaking: 0101000001000001
+  - I have just the thing for you!
+  - Magic Rags, specially crafted to enhance your natural beauty.
+  - "\u2026Rags?"
+  - Magic Rags.
+  - "Trust me, they\u2019re much more than they appear."
+  - Now, go ahead and try them on!
+  - Well, alright...
+  - But I must say, this seems a bit strange.
+  - Try giving it a spin.
+  - <i>As Bella twirls around, the tattered Magic Rags begin to shimmer and sparkle.
+    Slowly but surely, they transform into a stunning dress, fitting her perfectly.</i>
+  playerSpeaking: 0101010001010100000101
   textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -3941,11 +3947,11 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Clean? Is that all?
-  - "Do I\u2026still have red spots?"
-  - Well, yes-
-  - "What!?! Why didn\u2019t it work?"
-  playerSpeaking: 00000100
+  - Dramatic?
+  - In what way?
+  - Mysterious and captivating.
+  - The darker hues of the eyeshadow contrast beautifully against your cheerful glow!
+  playerSpeaking: 00000101
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
@@ -4021,7 +4027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 346620714}
   m_Layer: 5
-  m_Name: C - Potion
+  m_Name: C - Item 3 - Rags - GOOD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4218,7 +4224,7 @@ GameObject:
   - component: {fileID: 350301291}
   - component: {fileID: 350301292}
   m_Layer: 5
-  m_Name: Dialogue - Potion reflection
+  m_Name: Dialogue - Rags reflection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4261,20 +4267,15 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give the young lady?
-  - I gave her a Crystal Clear Potion.
-  - She was so worried about her scales, I wanted to give her an immediate solution.
-  - "No need to worry about the other mermaids seeing her scales, they won\u2019t
-    even be able to look at her, period!"
-  - Kids these days. Why does everyone want an immediate solution?
-  - "Because people don\u2019t like feeling insecure, embarrassed, frustrated, anxious\u2026"
-  - "I know! Just because I'm a mushroom doesn\u2019t mean I don\u2019t feel those
-    things too. Everyone does. "
-  - Do you get embarrassed?
-  - "I mean, not usually. But that\u2019s not the point!"
-  - "All I\u2019m saying is that just because a solution works in the moment, doesn't
-    mean it\u2019s the best answer in the long run."
-  playerSpeaking: 00010100000100010000
+  - So, what did you give them?
+  - Rags.
+  - A customer favorite.
+  - For good reason. Even non-magical clothing empowers.
+  - It can help people embrace their authentic self.
+  - "That sounds nice, but I still don\u2019t see the point of clothes."
+  - Do you ever get cold?
+  - No, my warm personality keeps me comfortable.
+  playerSpeaking: 0001000101000100
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
@@ -4634,7 +4635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374703023}
   m_Layer: 5
-  m_Name: C - Cream
+  m_Name: C - Item 2 - Eyeshadow - NEUTRAL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4908,7 +4909,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Positively mysterious
+  m_text: Sure! Step into it. Be careful, the ground is a bit dirty.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -5043,7 +5044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Very wet
+  m_text: "You look\u2026different?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -5490,7 +5491,7 @@ GameObject:
   - component: {fileID: 482160334}
   - component: {fileID: 482160333}
   m_Layer: 5
-  m_Name: C - Very Clean
+  m_Name: C - Choice 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6062,12 +6063,12 @@ GameObject:
   - component: {fileID: 519778768}
   - component: {fileID: 519778767}
   m_Layer: 5
-  m_Name: C - GIVE Item Cream - FADE - INACTIVE
+  m_Name: C - GIVE Item Eyeshadow - FADE - ACTIVE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &519778766
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6145,7 +6146,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 235999004}
+      - m_Target: {fileID: 77624893}
         m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
         m_MethodName: StartFadeTransition
         m_Mode: 1
@@ -6169,12 +6170,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 235999004}
+      - m_Target: {fileID: 77624893}
         m_TargetAssemblyTypeName: UIFadeController, Assembly-CSharp
         m_MethodName: ActivateAfterTransition
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1083593882}
+          m_ObjectArgument: {fileID: 1940321422}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6231,12 +6232,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionTwo
+        m_MethodName: setOptionThree
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6390,7 +6391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 522065127}
   m_Layer: 5
-  m_Name: C - Mask
+  m_Name: C - Item 1 - Corset - BAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6413,14 +6414,13 @@ RectTransform:
   - {fileID: 774442189}
   - {fileID: 1634238163}
   - {fileID: 1083593883}
-  - {fileID: 1339004926}
-  - {fileID: 1891416380}
-  - {fileID: 1735867175}
+  - {fileID: 1134906041}
   - {fileID: 2082384569}
   - {fileID: 677888613}
   - {fileID: 1107584120}
   - {fileID: 1050031483}
   - {fileID: 880723455}
+  - {fileID: 1339004926}
   - {fileID: 156688514}
   m_Father: {fileID: 636271705}
   m_RootOrder: -1
@@ -6886,7 +6886,7 @@ GameObject:
   - component: {fileID: 594666281}
   - component: {fileID: 594666282}
   m_Layer: 5
-  m_Name: Dialogue - After serena applies cream
+  m_Name: Dialogue - After char applies Eyeshadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7031,16 +7031,14 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - "Forget about what others think. Don\u2019t let anyone or anything stop you from
-    being your dazzling self. Embrace your natural shimmer!"
-  - Just be careful not to unintentionally blind anyone with your brilliance.
-  - Before I leave, do you sell sunshield spectacles? It sounds like my family and
-    friends might need them.
-  - We have some, but the Optics Emporium has a better selection.
-  - "When you exit this shop, take three hops to the left, go past the fountain that
-    spouts lies, follow the smell of success, and it\u2019s the one with the hopscotch
-    doormat."
-  - "Got it. I guess it\u2019s my time to shine?"
+  - Those rags are only enhancing and celebrating what was already there.
+  - You remained just the way you are.
+  - Thank you.
+  - Not just for the dress, but for the kind advice. It helps to have someone cheer
+    me on!
+  - Cheering for you is easy! Now, go and light up the stage with your radiance.
+  - "Will do! If I get the solo, I\u2019ll be sure to drop by with a ticket for you
+    in the front row!"
   playerSpeaking: 010100010100
   textSpeed: 0.025
   deactivateSelfAfterText: 0
@@ -7355,7 +7353,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Kelp Cream
+  m_text: Give Eyeshadow
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -7617,7 +7615,7 @@ GameObject:
   - component: {fileID: 667202447}
   - component: {fileID: 667202448}
   m_Layer: 5
-  m_Name: Dialogue - Mask reflection
+  m_Name: Dialogue - Corset reflection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7660,20 +7658,21 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give the young lady?
-  - I gave her the Mask of Enchantment
-  - Really? Why did you give her that?
-  - She was so worried about her scales, I wanted to give her an immediate solution.
-  - "Well, an immediate solution that wouldn\u2019t have super strange side effects."
-  - Kids these days. Why does everyone want an immediate solution?
-  - "Because people don\u2019t like feeling insecure, embarrassed, frustrated, anxious\u2026"
-  - "I know! Just because I'm a mushroom doesn\u2019t mean I don\u2019t feel those
-    things too. Everyone does."
-  - Do you get embarrassed?
-  - "I mean, not usually. But that\u2019s not the point!"
-  - "All I\u2019m saying is that just because a solution works in the moment, doesn't
-    mean it\u2019s the best answer in the long run."
-  playerSpeaking: 0001000101000100010000
+  - So, what did you give them?
+  - The Ever-Tight Corset.
+  - Really?
+  - "She\u2019s auditioning for the lead role in a musical and didn\u2019t want to
+    be written off for not looking like the other fairies."
+  - "It might help her look the part, but it\u2019s only going to make it harder
+    to sing and dance."
+  - "If she can\u2019t perform then what's the point?"
+  - And Isn't the lead supposed to stand out?
+  - Hmm.
+  - I guess the corset might not have been the best choice for this situation.
+  - "Singing while dancing is not easy. Doing it with a corset\u2026"
+  - You have experience singing and dancing?
+  - I have a life outside of work, thank you very much.
+  playerSpeaking: 000100010100000101000100
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
@@ -7736,13 +7735,20 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - "It\u2019s covering up all of the slime and spots?"
-  - Yes. With that mask, your face is as flawless and smooth as a precious pearl.
-  playerSpeaking: 0001
+  - <i>Bella tries to put the corset over her head. But it stops, getting caught
+    on her fragile wings</i>
+  - Oh. I probably should have anticipated your wings.
+  - Me too.
+  - "I think I\u2019m a bit stuck."
+  - Would you like some help?
+  - Yes please!
+  - <i>Bella takes a breather before stepping into the corset one dainty foot at
+    a time. With the corset now on her waist, she grasps its strings and pulls</i>
+  playerSpeaking: 01010000010001
   textSpeed: 0.025
-  deactivateSelfAfterText: 1
+  deactivateSelfAfterText: 0
   activateAfterText:
-  - {fileID: 156688513}
+  - {fileID: 1339004922}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -8214,7 +8220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Kelp Cream
+  m_text: Give Eyeshadow
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -8596,7 +8602,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Not a blemish in sight
+  m_text: Sure! Just put it on over your head
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -9027,7 +9033,7 @@ GameObject:
   - component: {fileID: 774442191}
   - component: {fileID: 774442190}
   m_Layer: 5
-  m_Name: C - GIVE Item mask - NO FADE - ACTIVE
+  m_Name: C - GIVE Item Corset - NO FADE - ACTIVE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9172,12 +9178,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionTwo
+        m_MethodName: setOptionThree
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: -1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9232,7 +9238,7 @@ GameObject:
   - component: {fileID: 782028841}
   - component: {fileID: 782028840}
   m_Layer: 5
-  m_Name: Mask Description
+  m_Name: Corset Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9278,8 +9284,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Don\u2019t like your face? Getting bullied because of it? We\u2019ve got
-    you covered!"
+  m_text: "What\u2019s better than the perfect fit? A tighter one!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -9815,7 +9820,7 @@ GameObject:
   - component: {fileID: 828363065}
   - component: {fileID: 828363064}
   m_Layer: 5
-  m_Name: C - SELECT Item Potion
+  m_Name: C - SELECT Item Rags
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10194,7 +10199,7 @@ GameObject:
   - component: {fileID: 877251625}
   - component: {fileID: 877251624}
   m_Layer: 5
-  m_Name: Mask Title
+  m_Name: Corset Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10240,7 +10245,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mask of Enchantment
+  m_text: The Ever-Tight Corset
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
   m_sharedMaterial: {fileID: -7278405599856271365, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
@@ -10267,8 +10272,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.76
-  m_fontSizeBase: 39.76
+  m_fontSize: 38.98
+  m_fontSizeBase: 38.98
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10468,7 +10473,7 @@ GameObject:
   - component: {fileID: 884916347}
   - component: {fileID: 884916348}
   m_Layer: 0
-  m_Name: FadeToPotion
+  m_Name: FadeToRags
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10503,7 +10508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeDuration: 1.35
   imageToFadeOut: {fileID: 1343468971}
-  imageToFadeIn: {fileID: 1307109992}
+  imageToFadeIn: {fileID: 2018855591}
 --- !u!1 &886570226
 GameObject:
   m_ObjectHideFlags: 0
@@ -10619,7 +10624,7 @@ GameObject:
   - component: {fileID: 897701756}
   - component: {fileID: 897701755}
   m_Layer: 5
-  m_Name: Cream Description
+  m_Name: Eyeshadow Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10665,8 +10670,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Made with all natural aquatic ingredients, like seaweed, sea cucumber and
-    jellyfish jelly (Meant for skin, not for snacking)
+  m_text: Mysterious and captivating, all eyes will be on you.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -10693,8 +10697,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.3
-  m_fontSizeBase: 30.3
+  m_fontSize: 33
+  m_fontSizeBase: 33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11586,15 +11590,15 @@ MonoBehaviour:
   - "A knight still needs armor, don\u2019t they?"
   - "I\u2019ll get muscle armor!"
   - You know that armor that defines your abs? Do you sell it here?
-  - <i>He turns to investigate your other wares, one of his massive arms slams into
-    the counter while the other demolishes a shelf of trinkets.</i>
+  - '[He turns to investigate your other wares, one of his massive arms slams into
+    the counter while the other demolishes a shelf of trinkets.]'
   - "Whoops, sorry about that. I guess I don\u2019t know my own strength."
   - "I\u2019m just gonna go."
   - 'Be gentle with the door please! '
-  - "<i>Percy carefully approaches the door, grasping the handle delicately, and
-    gently pulls it open. The door remains attached to its hinges, but the handle
-    is not so lucky. The situation can\u2019t get any more awkward so he just leaves.
-    With your doorknob.</i>"
+  - "[Percy carefully approaches the door, grasping the handle delicately, and gently
+    pulls it open. The door remains attached to its hinges, but the handle is not
+    so lucky. The situation can\u2019t get any more awkward so he just leaves. With
+    your doorknob.]"
   - Have a nice day!
   playerSpeaking: 010000010000010000010101
   textSpeed: 0.025
@@ -11639,7 +11643,7 @@ GameObject:
   - component: {fileID: 982252211}
   - component: {fileID: 982252210}
   m_Layer: 5
-  m_Name: C - Very Wet
+  m_Name: C - Choice 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11807,7 +11811,7 @@ GameObject:
   - component: {fileID: 989483379}
   - component: {fileID: 989483380}
   m_Layer: 0
-  m_Name: FadePotionToMorris
+  m_Name: FadeRagsToMorris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11841,7 +11845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeDuration: 1.35
-  imageToFadeOut: {fileID: 1307109992}
+  imageToFadeOut: {fileID: 2018855591}
   imageToFadeIn: {fileID: 321311748}
 --- !u!1 &1009948661
 GameObject:
@@ -11901,7 +11905,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You\u2019ll shine less when it\u2019s dark"
+  m_text: How does the dress feel?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -12556,22 +12560,18 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Mysterious? Is that good?
-  - Oh, absolutely!
-  - When you swim by wearing that mask, everyone will be asking, "Who is she? What's
-    her tale?"
-  - Well, that's one way to spin it.
-  - I suppose it's better than drawing attention to my blemishes.
-  - Wear it with confidence. It makes you look like the keeper of a forgotten prophecy
-    or a hidden treasure trove.
-  - I mean it.
-  - You give off an aura of ancient legends and long-lost treasures.
-  - <i>Serena stares at you without saying a word</i>
-  playerSpeaking: 000101000001010101
+  - Oh, the floor is dirty!
+  - "I thought you would\u2019ve had some magical cleaning charm or something."
+  - That would be nice, wouldn't it?
+  - I wish I did,  but here at Arcane Artifacts we save the magic for our customers.
+  - <i>Bella steps into the corset, trying her best to balance while keeping it from
+    touching the floor. With the corset now on her waist, the fairy grasps its strings
+    and pulls</i>
+  playerSpeaking: 0000010101
   textSpeed: 0.025
-  deactivateSelfAfterText: 1
+  deactivateSelfAfterText: 0
   activateAfterText:
-  - {fileID: 156688513}
+  - {fileID: 1339004922}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -12590,7 +12590,7 @@ GameObject:
   - component: {fileID: 1060053849}
   - component: {fileID: 1060053852}
   m_Layer: 5
-  m_Name: MorrisEntrance - Potion
+  m_Name: MorrisEntrance - Rags
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12964,21 +12964,16 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - But it did work!
-  - Kelp Cleansing Cream is an effective solution, but not an immediate one. It requires
-    consistent use over time for noticeable results.
-  - "Over time? But..I\u2019m so tired of looking like this."
-  - "I understand your disappointment, but trust me, this approach is better in the
-    long run. Other magical solutions don\u2019t last, and the ones that do will
-    alter your scales."
-  - I guess.
-  - "So about this cream\u2026 Is it really that easy?"
-  - Yes! Apply it gently on your scales twice a day, once in the morning and once
-    at night, and let it work its magic.
-  - Once in the morning and once at night, got it. Thank you.
-  - It's my pleasure. Just follow good hygienic practices and rest assured, those
-    scales of yours will be shimmering once again.
-  playerSpeaking: 010100010000010001
+  - "I\u2019ll admit, this isn\u2019t my usual style, but it will definitely make
+    me more noteworthy."
+  - "I\u2019ll take it!"
+  - Excellent! Just remember, the judges are there to see you and hear your beautiful
+    voice, not to judge how you look.
+  - "This is fantastic! If I get the part, I\u2019m going to dedicate my performance
+    to you!"
+  - "I won\u2019t say no to free promotion."
+  - Go on now, dazzle the judges with your voice and newfound confidence!
+  playerSpeaking: 000001000101
   textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -13042,7 +13037,7 @@ GameObject:
   - component: {fileID: 1083593883}
   - component: {fileID: 1083593884}
   m_Layer: 5
-  m_Name: Dialogue - After give mask item
+  m_Name: Dialogue - After give Corset item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13085,26 +13080,21 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Here we are! The Mask of Enchantment.
-  - You put it on and it will cover your face.
-  - "\u2026And then\u2026?"
-  - And then it stays!
-  - "That\u2019s it?"
-  - I thought it might have some magical properties.
-  - "Oh it does! This mask will only come off when you want it to, so no need to
-    worry about it falling off while you\u2019re swimming."
-  - That's... something, I guess.
-  - But what about my scales?
-  - Ah, you see, with this mask, you won't have to worry about anyone noticing those
-    pesky blemishes!
-  - "\u2026Let me give it a try."
-  - "<i>You push the mask over the desk toward Serena. She puts it on over her face
-    and it\u2019s a perfect fit.</i>"
-  playerSpeaking: 010100010000010000010001
+  - Ah, here you go, The Ever-Tight Corset.
+  - A corset?
+  - But I could have gotten a corset anywhere.
+  - True, but this one is unique.
+  - In what way?
+  - You can pull its strings one more inch.
+  - "You put it on, and pull the strings to tighten. Then, when you can\u2019t pull
+    anymore, pause and pull again."
+  - Oh, I see! Can I try it on?
+  playerSpeaking: 0100000100010100
   textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
-  - {fileID: 1339004922}
+  - {fileID: 2082384565}
+  - {fileID: 1107584119}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -13255,7 +13245,7 @@ GameObject:
   - component: {fileID: 1095163811}
   - component: {fileID: 1095163812}
   m_Layer: 0
-  m_Name: FadeMaskToMorris
+  m_Name: FadeCorsetToMorris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13289,7 +13279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeDuration: 1.35
-  imageToFadeOut: {fileID: 1180681116}
+  imageToFadeOut: {fileID: 1307109992}
   imageToFadeIn: {fileID: 321311748}
 --- !u!1 &1107584119
 GameObject:
@@ -13304,7 +13294,7 @@ GameObject:
   - component: {fileID: 1107584122}
   - component: {fileID: 1107584121}
   m_Layer: 5
-  m_Name: C - mysterious
+  m_Name: C - Choice 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13375,7 +13365,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1891416378}
+      - m_Target: {fileID: 1083593882}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -13412,18 +13402,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2082384565}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1083593882}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -13575,6 +13553,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110998321}
   m_CullTransparentMesh: 1
+--- !u!1 &1134906040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1134906041}
+  m_Layer: 5
+  m_Name: '#####################################################################################################################
+    (5)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1134906041
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134906040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 522065127}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1143662463
 GameObject:
   m_ObjectHideFlags: 0
@@ -13768,7 +13783,7 @@ GameObject:
   - component: {fileID: 1161555608}
   - component: {fileID: 1161555607}
   m_Layer: 5
-  m_Name: Potion Title
+  m_Name: Rags Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13814,7 +13829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Crystal Clear Potion
+  m_text: Magic Rags
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
   m_sharedMaterial: {fileID: -7278405599856271365, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
@@ -14195,8 +14210,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424.874, y: -66.02966}
-  m_SizeDelta: {x: 978.4521, y: 1023.9407}
+  m_AnchoredPosition: {x: -424.874, y: 65}
+  m_SizeDelta: {x: 900, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1180681116
 MonoBehaviour:
@@ -14218,7 +14233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 514fd60774b54a64fa14443bbfdae148, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a324548d5c215cf408f7a045016353b8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -14248,7 +14263,7 @@ GameObject:
   - component: {fileID: 1196267910}
   - component: {fileID: 1196267909}
   m_Layer: 5
-  m_Name: Mask Image
+  m_Name: Corset Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14560,7 +14575,7 @@ GameObject:
   - component: {fileID: 1207951679}
   - component: {fileID: 1207951682}
   m_Layer: 5
-  m_Name: C - Serena puts Cream on - fades stuff
+  m_Name: C - char puts Eyeshadow on - fades stuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15059,7 +15074,7 @@ GameObject:
   - component: {fileID: 1263343538}
   - component: {fileID: 1263343542}
   m_Layer: 5
-  m_Name: MorrisEntrance - Mask
+  m_Name: MorrisEntrance - Corset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15536,7 +15551,7 @@ GameObject:
   - component: {fileID: 1278236460}
   - component: {fileID: 1278236459}
   m_Layer: 5
-  m_Name: Potion Description
+  m_Name: Rags Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15582,7 +15597,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: It will make your skin shine, oh so bright! So VERY bright!
+  m_text: "They have much more to offer than meets the eye, and we\u2019re not talking
+    about the smell."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -15828,12 +15844,11 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Thank you, but I mean my scales. Are they better? Are the red spots all gone?
-  - "They also look very wet. Which reminds me, most creatures would have to apply
-    a moisturizer after this sort of cream, but mermaids already get plenty of water,
-    so you don\u2019t have to worry about that one bit!"
-  - "But, no. They haven\u2019t exactly healed yet."
-  playerSpeaking: 000101
+  - Different?
+  - In what way? Like a good different or a bad different?
+  - The eyeshadow has made your gaze quite bewitching.
+  - "I don\u2019t know how the judges' will be able to look the other way!"
+  playerSpeaking: 00000101
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
@@ -16073,7 +16088,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d4656328a864673499d23763ebc54d49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38678f336fd38fd4fa15226a82e8722a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16108,8 +16123,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -448.47, y: -67.97}
-  m_SizeDelta: {x: 991.47, y: 1136.3}
+  m_AnchoredPosition: {x: -424.874, y: 65}
+  m_SizeDelta: {x: 900, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1313896471
 GameObject:
@@ -16260,7 +16275,7 @@ GameObject:
   - component: {fileID: 1339004923}
   - component: {fileID: 1339004927}
   m_Layer: 5
-  m_Name: C - Serena puts mask on - fades stuff
+  m_Name: C - char puts Corset on - fades stuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16310,7 +16325,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1083593882}
+      - m_Target: {fileID: 677888612}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1050031482}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -16351,7 +16378,7 @@ MonoBehaviour:
         m_MethodName: ActivateAfterTransition
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1891416378}
+          m_ObjectArgument: {fileID: 156688513}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -16480,7 +16507,7 @@ GameObject:
   - component: {fileID: 1339923045}
   - component: {fileID: 1339923044}
   m_Layer: 5
-  m_Name: C - GIVE Item Cream v1
+  m_Name: C - GIVE Item Eyeshadow v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16855,8 +16882,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424.874, y: -163.25052}
-  m_SizeDelta: {x: 698.3846, y: 823.2554}
+  m_AnchoredPosition: {x: -424.874, y: 65}
+  m_SizeDelta: {x: 900, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1343468971
 MonoBehaviour:
@@ -16878,7 +16905,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: edf5c1b9b90a82c4bb0ca971ae9b67a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -17081,7 +17108,7 @@ GameObject:
   - component: {fileID: 1354579661}
   - component: {fileID: 1354579664}
   m_Layer: 5
-  m_Name: MorrisEntrance - cream
+  m_Name: MorrisEntrance - Eyeshadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18391,7 +18418,7 @@ GameObject:
   - component: {fileID: 1539418758}
   - component: {fileID: 1539418757}
   m_Layer: 5
-  m_Name: C - GIVE Item Potion - NO FADE
+  m_Name: C - GIVE Item Rags - NO FADE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18536,12 +18563,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionTwo
+        m_MethodName: setOptionThree
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -19696,7 +19723,7 @@ GameObject:
   - component: {fileID: 1634238165}
   - component: {fileID: 1634238164}
   m_Layer: 5
-  m_Name: C - GIVE Item mask - FADE - INACTIVE
+  m_Name: C - GIVE Item Corset - FADE - INACTIVE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19865,12 +19892,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionTwo
+        m_MethodName: setOptionThree
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: -1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -20082,14 +20109,13 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - "You must know that, in the ocean, shiny things don\u2019t always attract the
-    best attention\u2026"
-  - Ah, jealousy. Very common among mermaids your age.
-  - Well, yes, but I was actually thinking about barracudas.
-  - And possibly sharks.
-  - "Don\u2019t worry, I\u2019m sure they will be jealous too."
-  - "I don\u2019t know if jealous is the right word\u2026"
-  playerSpeaking: 000100000100
+  - "I feel\u2026"
+  - Confident?
+  - Yes! I feel confident!
+  - No, I feel radiant!
+  - And nothing about you had to change.
+  - My clothes changed.
+  playerSpeaking: 000000000100
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
@@ -20266,12 +20292,12 @@ GameObject:
   - component: {fileID: 1651728381}
   - component: {fileID: 1651728380}
   m_Layer: 5
-  m_Name: 'C - GIVE Item Cream - NO FADE - ACTIVE '
+  m_Name: 'C - GIVE Item Eyeshadow - NO FADE - INACTIVE '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1651728379
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20411,12 +20437,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2137384991}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
-        m_MethodName: setOptionTwo
+        m_MethodName: setOptionThree
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -20591,7 +20617,7 @@ GameObject:
   - component: {fileID: 1692768754}
   - component: {fileID: 1692768755}
   m_Layer: 0
-  m_Name: FadeCreamToMorris
+  m_Name: FadeEyeshadowToMorris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20625,7 +20651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeDuration: 1.35
-  imageToFadeOut: {fileID: 2018855591}
+  imageToFadeOut: {fileID: 1180681116}
   imageToFadeIn: {fileID: 321311748}
 --- !u!1 &1701241367
 GameObject:
@@ -20638,7 +20664,7 @@ GameObject:
   - component: {fileID: 1701241368}
   - component: {fileID: 1701241369}
   m_Layer: 5
-  m_Name: 'Dialogue - cream reflection '
+  m_Name: 'Dialogue - Eyeshadow reflection '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20681,15 +20707,20 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give the young lady?
-  - Kelp Cleaning Cream
-  - Not a bad choice. I hope it works.
-  - Me too. I know some scales require more than the cream.
-  - "It\u2019s a good start at least."
-  - I thought so too. I wanted to give her a solution that would help her see her
-    own beauty.
-  - Hopefully the cream helps her feel better in her own fins.
-  playerSpeaking: 00010001000101
+  - So, what did you give them?
+  - The Noir Nightshade Eyeshadow Palette.
+  - What did they ask for?
+  - To look like a fireplace coughed in their face?
+  - "She\u2019s auditioning for the lead role in an upcoming musical and wanted to
+    stand out from the other fairies."
+  - Noir Nightshade for a fairy?
+  - Is the lead role a villain?
+  - I don't think so.
+  - "You people! There\u2019s nothing wrong with wanting to stand out, but you shouldn\u2019t
+    compromise your nature for the sake of attention."
+  - "Isn\u2019t that what acting is all about?"
+  - If you think this is just about acting, you need to find a new profession.
+  playerSpeaking: 0001000001000001000100
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
@@ -21102,43 +21133,6 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 753.1423, y: 184.27}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1735867174
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1735867175}
-  m_Layer: 5
-  m_Name: '#####################################################################################################################
-    (2)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1735867175
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735867174}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 522065127}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1743031702
 GameObject:
@@ -21825,7 +21819,7 @@ GameObject:
   - component: {fileID: 1774839779}
   - component: {fileID: 1774839778}
   m_Layer: 5
-  m_Name: C - GIVE ITEM Cream Push cream Towards Boy
+  m_Name: C - GIVE ITEM Eyeshadow Push Eyeshadow Towards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21997,7 +21991,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1791004164
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22034,7 +22028,7 @@ GameObject:
   - component: {fileID: 1806625813}
   - component: {fileID: 1806625812}
   m_Layer: 5
-  m_Name: C - SELECT Item Mask
+  m_Name: C - SELECT Item Corset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22251,10 +22245,10 @@ MonoBehaviour:
   - "Whoops, sorry about that. I guess I don\u2019t know my own strength."
   - "I\u2019m just gonna go."
   - Be gentle with the door please!
-  - "<i>Percy carefully approaches the door, grasping the handle delicately, and
-    gently pulls it open. The door remains attached to its hinges, but the handle
-    is not so lucky. The situation can\u2019t get any more awkward so he just leaves.
-    With your doorknob.</i>"
+  - "[Percy carefully approaches the door, grasping the handle delicately, and gently
+    pulls it open. The door remains attached to its hinges, but the handle is not
+    so lucky. The situation can\u2019t get any more awkward so he just leaves. With
+    your doorknob.]"
   playerSpeaking: 00000100000101
   textSpeed: 0.025
   deactivateSelfAfterText: 0
@@ -22319,7 +22313,7 @@ GameObject:
   - component: {fileID: 1825825931}
   - component: {fileID: 1825825930}
   m_Layer: 5
-  m_Name: Potion Image
+  m_Name: Rags Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22518,7 +22512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Very clean
+  m_text: Very dramatic
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -22663,71 +22657,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1891416378
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1891416380}
-  - component: {fileID: 1891416379}
-  m_Layer: 5
-  m_Name: Dialogue - after serena puts mask on
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1891416379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891416378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab781ecc1750caf468e93346f0b0b919, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTextComponent: {fileID: 1545693902}
-  playerDialogueBackground: {fileID: 1831910994}
-  charTextComponent: {fileID: 357275776}
-  charDialogueBackground: {fileID: 183805134}
-  lines:
-  - How do I look?
-  playerSpeaking: 00
-  textSpeed: 0.025
-  deactivateSelfAfterText: 0
-  activateAfterText:
-  - {fileID: 2082384565}
-  - {fileID: 1107584119}
-  deactivateAfterText: []
-  character: {fileID: 0}
-  characterPoses: []
-  dialogueSound: []
---- !u!224 &1891416380
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891416378}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 522065127}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1903560001
 GameObject:
   m_ObjectHideFlags: 0
@@ -22786,7 +22715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Potion
+  m_text: Give Rags
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -23276,7 +23205,7 @@ GameObject:
   - component: {fileID: 1937658513}
   - component: {fileID: 1937658512}
   m_Layer: 5
-  m_Name: C - SELECT Item cream
+  m_Name: C - SELECT Item Eyeshadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23443,7 +23372,7 @@ GameObject:
   - component: {fileID: 1940321424}
   - component: {fileID: 1940321423}
   m_Layer: 5
-  m_Name: Dialogue - After give cream choice
+  m_Name: Dialogue - After give Eyeshadow choice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23466,33 +23395,24 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Ah, here we are! Kelp Cleansing Cream.
-  - What does it do?
-  - This cream will remove the algae, sand, and anything else that might have built
-    up on your scales throughout the day.
-  - "This sounds like something that could help! I\u2019ll take it."
-  - '[You hand over the container of Kelp Cleansing Cream to the young mermaid who
-    eagerly removes its lid. She stares down into the smooth, green cream, and then
-    looks back up at you]'
-  - "First, you\u2019ll want to wet your scales with warm water."
-  - <i>Serena plunges her head into her water tub. She resurfaces with a large grin</i>
-  - How much do I use?
-  - A scallop-sized amount will do.
-  - <i>The mermaid scoops up a scallop-sized amount of cream and begins scrubbing
-    it into her scales</i>
-  - What now?
-  - "Gently rub it into your face. Don\u2019t be too rough or you\u2019ll irritate
-    your scales."
-  - <i>As she massages the cream into her scales, her face becomes covered with kelpy
-    sea foam</i>
-  - And now you rinse it off with wa-
-  - <i>Once again, Serena plunges her head into her water tub. She resurfaces with
-    a face free of foam</i>
-  playerSpeaking: 010001000101010001010001010101
+  - Here we are, the Noir Nightshade Eyeshadow Palette!
+  - Makeup?
+  - "But I don\u2019t know how to do makeup."
+  - "You don\u2019t need to! Simply open the palette and tell it how you want to
+    look."
+  - "Interesting\u2026"
+  - Let me try it!
+  - <i>Bella opens the eyeshadow palette and thinks for a few moments before making
+    her request.</i>
+  - Make me look like someone else. Someone who will stand out. I want everyone to
+    notice me.
+  - "<i>Just then, a poof of eyeshadow explodes into the fairy\u2019s face. As the
+    colorful cloud clears, dark eyes are looking back at you.</i>"
+  playerSpeaking: 010000010000010001
   textSpeed: 0.025
-  deactivateSelfAfterText: 0
+  deactivateSelfAfterText: 1
   activateAfterText:
-  - {fileID: 1207951677}
+  - {fileID: 594666280}
   deactivateAfterText: []
   character: {fileID: 0}
   characterPoses: []
@@ -23613,7 +23533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Mask
+  m_text: Give Corset
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -24170,8 +24090,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -405, y: -26}
-  m_SizeDelta: {x: 1001.0786, y: 1047.6191}
+  m_AnchoredPosition: {x: -424.874, y: 65}
+  m_SizeDelta: {x: 900, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018855591
 MonoBehaviour:
@@ -24193,7 +24113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f81696eaa4348714a90b4d3e2121f9e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b2dcf3c2c72f874c931a09bd3bed188, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -24259,7 +24179,7 @@ GameObject:
   - component: {fileID: 2042552734}
   - component: {fileID: 2042552733}
   m_Layer: 5
-  m_Name: Dialogue - After serena drinks potion
+  m_Name: Dialogue - After Rags
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24282,14 +24202,10 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - Oh... Oh my!
-  - They've turned into crystals! It's... it's actually beautiful.
-  - See, you are a dazzling jewel of the sea. Let your scales be a symbol of your
-    inner radiance.
-  - "My inner radiance\u2026"
-  - Yes, shine bright for all to see... like a diamond.
-  - "I will\u2026. So do they always shine this bright?"
-  playerSpeaking: 000001000100
+  - "It\u2019s\u2026 a dress!"
+  - A beautiful dress!
+  - And the colors... they complement my wings perfectly!
+  playerSpeaking: 000000
   textSpeed: 0.025
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -24331,7 +24247,7 @@ GameObject:
   - component: {fileID: 2052114843}
   - component: {fileID: 2052114842}
   m_Layer: 5
-  m_Name: Cream Title
+  m_Name: Eyeshadow Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24377,7 +24293,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kelp Cleansing Cream
+  m_text: Noir Nightshade Eyeshadow Palette
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
   m_sharedMaterial: {fileID: -7278405599856271365, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
@@ -24677,7 +24593,7 @@ GameObject:
   - component: {fileID: 2082384567}
   - component: {fileID: 2082384566}
   m_Layer: 5
-  m_Name: C - no blemish
+  m_Name: C - Choice 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24727,7 +24643,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1891416378}
+      - m_Target: {fileID: 1083593882}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -24752,18 +24668,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2082384565}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1083593882}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -25020,16 +24924,13 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - "But if it isn\u2019t dark, is there a way to make myself less\u2026reflective?"
-  - Hmmm. A mist spell might help reduce glare, but Crystal Clear was made to be
-    resistant to that sort of magic.
-  - But why would you want to dim yourself?
-  - <i>Percy pops the cork off of the bottle, takes a deep breath, and downs the
-    potion. For a few moments, you look at each other in silence. Nothing happens.</i>
-  - <i>All of a sudden, a cloud of red appears in front of your eyes, completely
-    obscuring the boy from view. As the smoke begins to clear, a broad figure begins
-    to emerge.</i>
-  playerSpeaking: 0001010000
+  - This dress feels like a dream!
+  - It fits so comfortably, it's like the fabric was woven just for me!
+  - It's as if my wings are working in perfect harmony with the dress.
+  - "I can\u2019t believe you had something like this for me."
+  - Clothes should be made to fit everyone, not the other way around.
+  - Expecting everyone to be the same size is a serious oversight for a lot of seamstresses.
+  playerSpeaking: 000000000101
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
@@ -25507,7 +25408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Of course! Don\u2019t you want to?"
+  m_text: How do you feel?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}

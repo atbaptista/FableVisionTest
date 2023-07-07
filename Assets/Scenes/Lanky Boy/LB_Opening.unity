@@ -3518,6 +3518,7 @@ GameObject:
   - component: {fileID: 1696589775}
   - component: {fileID: 1696589774}
   - component: {fileID: 1696589773}
+  - component: {fileID: 1696589776}
   m_Layer: 5
   m_Name: C - Minigame
   m_TagString: Untagged
@@ -3639,6 +3640,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696589771}
   m_CullTransparentMesh: 1
+--- !u!114 &1696589776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696589771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &1772645216
 GameObject:
   m_ObjectHideFlags: 0
@@ -3695,7 +3711,7 @@ MonoBehaviour:
   lines:
   - Within these walls is a treasure trove of knowledge and artifacts. We will find
     a way to unlock your potential. Let me consult the archives.
-  - '[You duck in to the back of your shop]'
+  - <i>You duck in to the back of your shop.</i>
   playerSpeaking: 0101
   textSpeed: 0.05
   deactivateSelfAfterText: 0

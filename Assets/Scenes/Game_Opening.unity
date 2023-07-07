@@ -2810,6 +2810,7 @@ GameObject:
   - component: {fileID: 1678347533}
   - component: {fileID: 1678347532}
   - component: {fileID: 1678347531}
+  - component: {fileID: 1678347534}
   m_Layer: 5
   m_Name: Enter Shop Button
   m_TagString: Untagged
@@ -2967,6 +2968,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678347529}
   m_CullTransparentMesh: 1
+--- !u!114 &1678347534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678347529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &1692489325
 GameObject:
   m_ObjectHideFlags: 0
@@ -3040,6 +3056,7 @@ GameObject:
   - component: {fileID: 1836351290}
   - component: {fileID: 1836351289}
   - component: {fileID: 1836351288}
+  - component: {fileID: 1836351291}
   m_Layer: 5
   m_Name: Enter Percy Button (Next Scene)
   m_TagString: Untagged
@@ -3161,6 +3178,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836351286}
   m_CullTransparentMesh: 1
+--- !u!114 &1836351291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836351286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &1863021936
 GameObject:
   m_ObjectHideFlags: 0

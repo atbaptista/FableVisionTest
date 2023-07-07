@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PulsingEffect : MonoBehaviour
 {
-    public float pulseSpeed = 1.0f;  // Adjust this value to control the pulsing speed
-    public float minScale = 0.8f;    // Minimum scale of the sprite during pulsing
-    public float maxScale = 1.2f;    // Maximum scale of the sprite during pulsing
+    public float pulseSpeed = 4.0f;  // Adjust this value to control the pulsing speed
+    public float minScale = 0.97f;    // Minimum scale of the sprite during pulsing
+    public float maxScale = 1.03f;    // Maximum scale of the sprite during pulsing
 
     private Vector3 initialScale;
     private bool isPulsing = false;

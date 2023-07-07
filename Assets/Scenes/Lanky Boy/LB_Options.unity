@@ -2317,6 +2317,7 @@ GameObject:
   - component: {fileID: 198391159}
   - component: {fileID: 198391158}
   - component: {fileID: 198391157}
+  - component: {fileID: 198391160}
   m_Layer: 5
   m_Name: C - Percy drank - fades stuff
   m_TagString: Untagged
@@ -2522,6 +2523,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198391155}
   m_CullTransparentMesh: 1
+--- !u!114 &198391160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198391155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &211721750
 GameObject:
   m_ObjectHideFlags: 0
@@ -6612,7 +6628,7 @@ MonoBehaviour:
     this.
   - "I can\u2019t believe I\u2019m really wearing this. It feels like I\u2019ve got
     the weight of the world on my- Woah!"
-  - "[Percy\u2019s heavy armor tips him over and he falls to the floor]"
+  - "<i>Percy\u2019s heavy armor tips him over and he falls to the floor.</i>"
   - Are you alright?!
   - Sure am! The battle hardened steel broke my fall!
   - Well there you go!
@@ -10284,6 +10300,7 @@ GameObject:
   - component: {fileID: 948771882}
   - component: {fileID: 948771881}
   - component: {fileID: 948771880}
+  - component: {fileID: 948771884}
   m_Layer: 5
   m_Name: NEXT SCENE
   m_TagString: Untagged
@@ -10405,6 +10422,21 @@ RectTransform:
   m_AnchoredPosition: {x: 748, y: -436}
   m_SizeDelta: {x: 233, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &948771884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948771879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &953211047
 GameObject:
   m_ObjectHideFlags: 0
@@ -10686,10 +10718,10 @@ MonoBehaviour:
   - "Whoops, sorry about that. I guess I don\u2019t know my own strength."
   - "I\u2019m just gonna go."
   - 'Be gentle with the door please! '
-  - "[Percy carefully approaches the door, grasping the handle delicately, and gently
-    pulls it open. The door remains attached to its hinges, but the handle is not
-    so lucky. The situation can\u2019t get any more awkward so he just leaves. With
-    your doorknob.]"
+  - "<i>Percy carefully approaches the door, grasping the handle delicately, and
+    gently pulls it open. The door remains attached to its hinges, but the handle
+    is not so lucky. The situation can\u2019t get any more awkward so he just leaves.
+    With your doorknob.</i>"
   - Have a nice day!
   playerSpeaking: 010000010000010000010101
   textSpeed: 0.05
@@ -11664,8 +11696,8 @@ MonoBehaviour:
   - Woah!
   - Really?! A free sword?!
   - Please, no swordplay in the shop!
-  - '[In the midst of a clumsy fight with himself, Percy accidentally knocks over
-    several unfortunate shelves]'
+  - <i>In the midst of a clumsy fight with himself, Percy accidentally knocks over
+    several unfortunate shelves.</i>
   - "Oh my gosh, I\u2019m so sorry! What am I thinking? I\u2019ll never be a knight."
   - Trust in your own journey. It might take time, but you will blossom into a knight.
   - A true knight.
@@ -11692,6 +11724,7 @@ GameObject:
   - component: {fileID: 1060053851}
   - component: {fileID: 1060053850}
   - component: {fileID: 1060053849}
+  - component: {fileID: 1060053852}
   m_Layer: 5
   m_Name: MorrisEntrance - Potion
   m_TagString: Untagged
@@ -11873,6 +11906,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060053847}
   m_CullTransparentMesh: 1
+--- !u!114 &1060053852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060053847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &1069563376
 GameObject:
   m_ObjectHideFlags: 0
@@ -13856,6 +13904,7 @@ GameObject:
   - component: {fileID: 1263343540}
   - component: {fileID: 1263343539}
   - component: {fileID: 1263343538}
+  - component: {fileID: 1263343542}
   m_Layer: 5
   m_Name: MorrisEntrance - Guide
   m_TagString: Untagged
@@ -14037,6 +14086,21 @@ RectTransform:
   m_AnchoredPosition: {x: 748, y: -436}
   m_SizeDelta: {x: 233, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1263343542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263343537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &1269241712
 GameObject:
   m_ObjectHideFlags: 0
@@ -15643,6 +15707,7 @@ GameObject:
   - component: {fileID: 1354579663}
   - component: {fileID: 1354579662}
   - component: {fileID: 1354579661}
+  - component: {fileID: 1354579664}
   m_Layer: 5
   m_Name: MorrisEntrance - Armor
   m_TagString: Untagged
@@ -15836,6 +15901,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354579659}
   m_CullTransparentMesh: 1
+--- !u!114 &1354579664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354579659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &1379698996
 GameObject:
   m_ObjectHideFlags: 0
@@ -18594,10 +18674,11 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - '[Percy pops the cork off of the bottle, takes a deep breath, and downs the potion.
-    For a few moments, you look at each other in silence. Nothing happens.]'
-  - '[All of a sudden, a cloud of red appears in front of your eyes, completely obscuring
-    the boy from view. As the smoke begins to clear, a broad figure begins to emerge.]'
+  - <i>Percy pops the cork off of the bottle, takes a deep breath, and downs the
+    potion. For a few moments, you look at each other in silence. Nothing happens.</i>
+  - <i>All of a sudden, a cloud of red appears in front of your eyes, completely
+    obscuring the boy from view. As the smoke begins to clear, a broad figure begins
+    to emerge.</i>
   playerSpeaking: 0101
   textSpeed: 0.05
   deactivateSelfAfterText: 0
@@ -20557,10 +20638,10 @@ MonoBehaviour:
   - "Whoops, sorry about that. I guess I don\u2019t know my own strength."
   - "I\u2019m just gonna go."
   - Be gentle with the door please!
-  - "[Percy carefully approaches the door, grasping the handle delicately, and gently
-    pulls it open. The door remains attached to its hinges, but the handle is not
-    so lucky. The situation can\u2019t get any more awkward so he just leaves. With
-    your doorknob.]"
+  - "<i>Percy carefully approaches the door, grasping the handle delicately, and
+    gently pulls it open. The door remains attached to its hinges, but the handle
+    is not so lucky. The situation can\u2019t get any more awkward so he just leaves.
+    With your doorknob.</i>"
   playerSpeaking: 00000100000101
   textSpeed: 0.05
   deactivateSelfAfterText: 0
@@ -22962,10 +23043,11 @@ MonoBehaviour:
     defenseless."
   - "This potion might help, but it won\u2019t solve all of your problems."
   - If drinking this means that I will be able to do a pushup, I'll take it!
-  - '[Percy pops the cork off of the bottle, takes a deep breath, and downs the potion.
-    For a few moments, you look at each other in silence. Nothing happens.]'
-  - '[All of a sudden, a cloud of red appears in front of your eyes, completely obscuring
-    the boy from view. As the smoke begins to clear, a broad figure begins to emerge.]'
+  - <i>Percy pops the cork off of the bottle, takes a deep breath, and downs the
+    potion. For a few moments, you look at each other in silence. Nothing happens.</i>
+  - <i>All of a sudden, a cloud of red appears in front of your eyes, completely
+    obscuring the boy from view. As the smoke begins to clear, a broad figure begins
+    to emerge.</i>
   playerSpeaking: 0101000101
   textSpeed: 0.05
   deactivateSelfAfterText: 0

@@ -1486,8 +1486,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -362, y: -124}
-  m_SizeDelta: {x: 783, y: 923}
+  m_AnchoredPosition: {x: -446, y: 68}
+  m_SizeDelta: {x: 900, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &567101403
 MonoBehaviour:
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: edf5c1b9b90a82c4bb0ca971ae9b67a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Have you already tried to treat your scales?
+  m_text: "You shouldn\u2019t compare yourself to others"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1612,8 +1612,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1904,18 +1904,27 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - Welcome, welcome!
-  - Ah, a visitor from the depths of the sea! What brings you to Arcane Artifacts
-    today?
-  - I'm in desperate need of help!
-  - "My scales\u2026"
-  - "they're in such a dreadful state! Ugh, I can\u2019t stand it!"
-  - They have these terrible dry patches and this slimy mess that just won't go away.
-    And worst of all, these red spots...
-  - "I can just tell that the other mermaids are making fun of my scales and it hurts\u2026"
-  - Your worth isn't determined by your appearance but by your kindness and courage.
-  - I know, but my scales make me so uncomfortable!
-  playerSpeaking: 010100000000000100
+  - Welcome to Arcane Artifacts!
+  - Greetings, shopkeeper!
+  - Ah, a fairy! My fae tongue is a little rusty, but let me give it a shot.
+  - '*Ahem*'
+  - How may I be of assistance?
+  - I notice that you sell potions and magical items.
+  - I was wondering if you might be able to help me.
+  - We cater to all sorts of needs. Please, tell me more about what's troubling you.
+  - Well, I absolutely love to sing.
+  - "Ever since I was a sprite, I\u2019ve dreamed of performing on a real stage. "
+  - "I\u2019ve been practicing my audition for our fall musical and the tryouts are
+    tomorrow."
+  - "I\u2019m very excited, but I\u2019m also very nervous. You see, I know I\u2019m
+    a good singer."
+  - "I\u2019ve been practicing for years, but I\u2019m afraid the judges won\u2019t
+    take me seriously."
+  - How come?
+  - "Compared to the other fairies, I\u2019m worried I won\u2019t stand out. They
+    all wear such beautiful clothes, and dance like they\u2019re light as a feather."
+  - "What if they think I\u2019m not good enough for the lead role?"
+  playerSpeaking: 01000101010000010000000000010000
   textSpeed: 0.05
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -1923,16 +1932,7 @@ MonoBehaviour:
   - {fileID: 954369464}
   deactivateAfterText: []
   character: {fileID: 567101401}
-  characterPoses:
-  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
-  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
-  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
-  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
-  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
-  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
-  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
-  - {fileID: 21300000, guid: 8d3fb0090e9213044b92e61c56432018, type: 3}
-  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  characterPoses: []
   dialogueSound: []
 --- !u!1 &760967386
 GameObject:
@@ -2090,7 +2090,7 @@ GameObject:
   - component: {fileID: 954369467}
   - component: {fileID: 954369466}
   m_Layer: 5
-  m_Name: C - exploring uncharted waters
+  m_Name: C - choice 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2544,16 +2544,12 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - "I\u2019ve tried everything! Of course, I get plenty of water, but I also make
-    sure to eat well, and I\u2019ve been swimming more."
-  - That is quite impressive! And it must be frustrating that you are not seeing
-    the results you want.
-  - "Tell that to my scales! They don't seem to appreciate the effort. I just don\u2019t
-    know what else to do."
-  - You have been taking good first steps, er, first splashes?
-  - But as all mermaids know, scales are quite tricky to maintain. Especially for
-    ones your age.
-  playerSpeaking: 0001000101
+  - It can be hard not to think that way sometimes, but comparisons keep you from
+    being yourself.
+  - There's no need to fit into anyone else's mold.
+  - "I know. I just can\u2019t shake the feeling they\u2019ll decide I\u2019m not
+    right for the part before I even get to sing."
+  playerSpeaking: 010100
   textSpeed: 0.05
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -2561,8 +2557,7 @@ MonoBehaviour:
   deactivateAfterText:
   - {fileID: 1099771579}
   character: {fileID: 567101401}
-  characterPoses:
-  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  characterPoses: []
   dialogueSound: []
 --- !u!1 &1190498158
 GameObject:
@@ -2577,7 +2572,7 @@ GameObject:
   - component: {fileID: 1190498161}
   - component: {fileID: 1190498160}
   m_Layer: 5
-  m_Name: C - have u tried to treat
+  m_Name: C - choice 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2927,7 +2922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Have you been exploring uncharted waters?
+  m_text: I understand
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2954,8 +2949,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4145,11 +4140,11 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - "I know, but mine are so much worse and everyone can see it! It\u2019s so unfair\u2026 "
-  - I can only imagine how disheartened you must be.
-  - "Let me consult the archives, I\u2019m sure we will find something to make you
-    feel comfortable in your scales."
-  playerSpeaking: 000101
+  - This shop has provided plenty of performers like yourself with tools to aid them
+    in their craft.
+  - "Let me consult the archives. I\u2019m sure we have something to help everyone
+    see what a star you are!"
+  playerSpeaking: 0101
   textSpeed: 0.05
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -4637,14 +4632,11 @@ MonoBehaviour:
   charTextComponent: {fileID: 1214176896}
   charDialogueBackground: {fileID: 212943493}
   lines:
-  - No, not anymore.
-  - "I thought the saltiness of the ocean in one area might have triggered the dry
-    patches, so I stopped. But they\u2019re still here!"
-  - If the quality of the water is not the issue, why do you still not explore?
-  - "Mermaids don\u2019t explore uncharted waters alone, for safety, you know?"
-  - "I used to go with my friends, but I don\u2019t want anyone seeing me like this."
-  - Nobody's scales are perfect, not even those of your friends.
-  playerSpeaking: 000001000001
+  - Thank you. If you have something that would help me look as delicate and graceful
+    as the other fairies, that would be amazing!
+  - "It\u2019s their confidence that gives them grace. It's about how you feel about
+    yourself."
+  playerSpeaking: 0001
   textSpeed: 0.05
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -4652,8 +4644,7 @@ MonoBehaviour:
   deactivateAfterText:
   - {fileID: 2094975086}
   character: {fileID: 567101401}
-  characterPoses:
-  - {fileID: 21300000, guid: e28dbc55ec9a64045a0cce9d9ba2cfd8, type: 3}
+  characterPoses: []
   dialogueSound: []
 --- !u!1 &2098887393
 GameObject:
