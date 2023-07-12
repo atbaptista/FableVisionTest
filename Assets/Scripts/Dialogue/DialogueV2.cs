@@ -28,6 +28,7 @@ public class DialogueV2 : MonoBehaviour
 
     [Header("SOUNDS AND POSES")] 
     public GameObject character;
+    public AudioClip click;
     //all poses and dialogue sounds will play on the index of the dialogue line that is currently running
     //if there is no change or sound, leave it empty in the inspector
     public Sprite[] characterPoses;
@@ -55,6 +56,7 @@ public class DialogueV2 : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)){
+            SoundManager.Instance.PlayNextUI();
             if(_currentTextComponent.text == lines[_index]){
                 NextLine();
             }
@@ -78,35 +80,54 @@ public class DialogueV2 : MonoBehaviour
     IEnumerator TypeLine(){
         //change pose
         try{
-            if(characterPoses.Length < _index && characterPoses != null){
+            if(characterPoses.Length > _index && characterPoses != null){
                 if(characterPoses[_index] != null){
                     character.GetComponent<Image>().sprite = characterPoses[_index];
                     character.GetComponent<Image>().SetNativeSize();
                 }
             }
         } catch(Exception e){
-            Debug.Log(e.Data);
+            //Debug.Log(e.Data);
         }
         
-        //play audio 
+        //play audio
         try{
-            if(dialogueSound.Length < _index && dialogueSound != null){
+            if(dialogueSound.Length > _index && dialogueSound != null){
                 if(dialogueSound[_index] != null){
+                    Debug.Log("playing " + dialogueSound[_index].name);
                     SoundManager.Instance.Play(dialogueSound[_index]);
                 }
             }
         } catch(Exception e){
-            Debug.Log(e.Data);
+            //Debug.Log(e.Data);
         }
 
-        //type each char one at a time
-        foreach (char c in lines[_index].ToCharArray()){
-            _currentTextComponent.text += c; 
-            yield return new WaitForSeconds(textSpeed);
+        //ignore the <i> and </i> at the start and end so it doesnt show up in the text scrolling
+        if(lines[_index][0] == '<'){
+            char[] sentence = lines[_index].ToCharArray();
+            int startIndex = 3;
+            int endIndex = sentence.Length - 4;
+            //print the <i>
+            _currentTextComponent.text = "<i>";
+
+            for(int i = startIndex; i < endIndex; i++){
+                _currentTextComponent.text += sentence[i];
+                if(i == endIndex - 1){ //add the </i> all at once
+                    _currentTextComponent.text = lines[_index];        
+                } 
+                yield return new WaitForSeconds(textSpeed);
+            }
+        }else{ //normal text
+            //type each char one at a time
+            foreach (char c in lines[_index].ToCharArray()){
+                _currentTextComponent.text += c; 
+                yield return new WaitForSeconds(textSpeed);
+            }
         }
     }
 
     void NextLine(){
+        //SoundManager.Instance.PlayNextUI();
         if (_index < lines.Length - 1){
             _index++; 
             SetCurrentSpeaker();

@@ -766,6 +766,7 @@ GameObject:
   - component: {fileID: 71259899}
   - component: {fileID: 71259898}
   - component: {fileID: 71259897}
+  - component: {fileID: 71259900}
   m_Layer: 5
   m_Name: C - GIVE Item Armor v2
   m_TagString: Untagged
@@ -960,6 +961,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71259895}
   m_CullTransparentMesh: 1
+--- !u!114 &71259900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71259895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: adec65bffbae30942b7be23b103bac9b, type: 3}
 --- !u!1 &77351903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,6 +1732,7 @@ GameObject:
   - component: {fileID: 148814252}
   - component: {fileID: 148814251}
   - component: {fileID: 148814250}
+  - component: {fileID: 148814253}
   m_Layer: 5
   m_Name: ITEM1 - BAD
   m_TagString: Untagged
@@ -1923,6 +1939,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148814248}
   m_CullTransparentMesh: 1
+--- !u!114 &148814253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148814248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &181511174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1935,6 +1965,7 @@ GameObject:
   - component: {fileID: 181511178}
   - component: {fileID: 181511177}
   - component: {fileID: 181511176}
+  - component: {fileID: 181511179}
   m_Layer: 5
   m_Name: C - do you feel anything else
   m_TagString: Untagged
@@ -2093,6 +2124,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181511174}
   m_CullTransparentMesh: 1
+--- !u!114 &181511179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181511174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &183805134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,6 +2363,7 @@ GameObject:
   - component: {fileID: 198391158}
   - component: {fileID: 198391157}
   - component: {fileID: 198391160}
+  - component: {fileID: 198391161}
   m_Layer: 5
   m_Name: C - Percy drank - fades stuff
   m_TagString: Untagged
@@ -2538,6 +2584,20 @@ MonoBehaviour:
   pulseSpeed: 4
   minScale: 0.97
   maxScale: 1.03
+--- !u!114 &198391161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198391155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &211721750
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,6 +2610,7 @@ GameObject:
   - component: {fileID: 211721753}
   - component: {fileID: 211721752}
   - component: {fileID: 211721751}
+  - component: {fileID: 211721755}
   m_Layer: 5
   m_Name: NEXT SCENE
   m_TagString: Untagged
@@ -2672,6 +2733,20 @@ RectTransform:
   m_AnchoredPosition: {x: 249, y: -334}
   m_SizeDelta: {x: 184.2543, y: 87.8369}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &211721755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211721750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &212816254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,6 +2958,7 @@ MonoBehaviour:
   - {fileID: 711781550}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!224 &257017775
@@ -3570,6 +3646,7 @@ GameObject:
   - component: {fileID: 317168182}
   - component: {fileID: 317168181}
   - component: {fileID: 317168180}
+  - component: {fileID: 317168184}
   m_Layer: 5
   m_Name: C - also wanted
   m_TagString: Untagged
@@ -3728,6 +3805,20 @@ RectTransform:
   m_AnchoredPosition: {x: 278, y: 18}
   m_SizeDelta: {x: 361, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &317168184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317168179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &321311747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3849,6 +3940,7 @@ MonoBehaviour:
   deactivateAfterText:
   - {fileID: 325692217}
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!224 &325692219
@@ -3971,6 +4063,7 @@ GameObject:
   - component: {fileID: 346913068}
   - component: {fileID: 346913067}
   - component: {fileID: 346913066}
+  - component: {fileID: 346913069}
   m_Layer: 5
   m_Name: C - Welcome!
   m_TagString: Untagged
@@ -4105,6 +4198,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346913064}
   m_CullTransparentMesh: 1
+--- !u!114 &346913069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346913064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &350301290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4176,6 +4283,7 @@ MonoBehaviour:
   deactivateAfterText:
   - {fileID: 350301290}
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!1 &357275773
@@ -4519,6 +4627,345 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364036529}
   m_CullTransparentMesh: 1
+--- !u!1 &366491569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366491573}
+  - component: {fileID: 366491572}
+  - component: {fileID: 366491571}
+  - component: {fileID: 366491570}
+  - component: {fileID: 366491574}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &366491570
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366491569}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &366491571
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366491569}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &366491572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366491569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411adf4edb9d9854f8d8b41d4dd3c1d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EffectsSource: {fileID: 366491571}
+  MusicSource: {fileID: 366491570}
+  UISource: {fileID: 366491574}
+  nextUI: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
+--- !u!4 &366491573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366491569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1017.3386, y: 521.02515, z: -2.3057218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &366491574
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366491569}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &374703022
 GameObject:
   m_ObjectHideFlags: 0
@@ -5418,6 +5865,7 @@ GameObject:
   - component: {fileID: 482160335}
   - component: {fileID: 482160334}
   - component: {fileID: 482160333}
+  - component: {fileID: 482160336}
   m_Layer: 5
   m_Name: C - No
   m_TagString: Untagged
@@ -5588,6 +6036,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482160331}
   m_CullTransparentMesh: 1
+--- !u!114 &482160336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482160331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &483523327
 GameObject:
   m_ObjectHideFlags: 0
@@ -5735,6 +6197,7 @@ GameObject:
   - component: {fileID: 487724570}
   - component: {fileID: 487724569}
   - component: {fileID: 487724568}
+  - component: {fileID: 487724571}
   m_Layer: 5
   m_Name: ITEM2 - NEUTRAL
   m_TagString: Untagged
@@ -5941,6 +6404,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487724566}
   m_CullTransparentMesh: 1
+--- !u!114 &487724571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487724566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &506404781
 GameObject:
   m_ObjectHideFlags: 0
@@ -6643,8 +7120,20 @@ MonoBehaviour:
   - {fileID: 482160331}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 91e822f7fc51e4a43b8c7fabd5144306, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 8afffc4bc3c6107478c2ae3c83386bcd, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &597219910
 GameObject:
   m_ObjectHideFlags: 0
@@ -6748,6 +7237,7 @@ MonoBehaviour:
   - {fileID: 181511174}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!1 &614875767
@@ -6839,6 +7329,7 @@ GameObject:
   - component: {fileID: 641407236}
   - component: {fileID: 641407235}
   - component: {fileID: 641407234}
+  - component: {fileID: 641407237}
   m_Layer: 5
   m_Name: C - why here
   m_TagString: Untagged
@@ -6997,6 +7488,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641407232}
   m_CullTransparentMesh: 1
+--- !u!114 &641407237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641407232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &656055299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7246,6 +7751,7 @@ MonoBehaviour:
   deactivateAfterText:
   - {fileID: 667202446}
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!1 &677888612
@@ -7324,6 +7830,7 @@ MonoBehaviour:
   - {fileID: 1263343537}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!1 &678915235
@@ -7786,6 +8293,7 @@ GameObject:
   - component: {fileID: 711781554}
   - component: {fileID: 711781553}
   - component: {fileID: 711781552}
+  - component: {fileID: 711781555}
   m_Layer: 5
   m_Name: C - here u go
   m_TagString: Untagged
@@ -7944,6 +8452,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711781550}
   m_CullTransparentMesh: 1
+--- !u!114 &711781555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711781550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &735940803
 GameObject:
   m_ObjectHideFlags: 0
@@ -9016,6 +9538,7 @@ GameObject:
   - component: {fileID: 828363066}
   - component: {fileID: 828363065}
   - component: {fileID: 828363064}
+  - component: {fileID: 828363067}
   m_Layer: 5
   m_Name: C - SELECT Item Potion
   m_TagString: Untagged
@@ -9173,6 +9696,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828363062}
   m_CullTransparentMesh: 1
+--- !u!114 &828363067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828363062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &848774903
 GameObject:
   m_ObjectHideFlags: 0
@@ -10301,6 +10838,7 @@ GameObject:
   - component: {fileID: 948771881}
   - component: {fileID: 948771880}
   - component: {fileID: 948771884}
+  - component: {fileID: 948771885}
   m_Layer: 5
   m_Name: NEXT SCENE
   m_TagString: Untagged
@@ -10437,6 +10975,20 @@ MonoBehaviour:
   pulseSpeed: 4
   minScale: 0.97
   maxScale: 1.03
+--- !u!114 &948771885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948771879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &953211047
 GameObject:
   m_ObjectHideFlags: 0
@@ -10713,8 +11265,8 @@ MonoBehaviour:
   - "A knight still needs armor, don\u2019t they?"
   - "I\u2019ll get muscle armor!"
   - You know that armor that defines your abs? Do you sell it here?
-  - '[He turns to investigate your other wares, one of his massive arms slams into
-    the counter while the other demolishes a shelf of trinkets.]'
+  - <i>He turns to investigate your other wares, one of his massive arms slams into
+    the counter while the other demolishes a shelf of trinkets.</i>
   - "Whoops, sorry about that. I guess I don\u2019t know my own strength."
   - "I\u2019m just gonna go."
   - 'Be gentle with the door please! '
@@ -10730,8 +11282,21 @@ MonoBehaviour:
   - {fileID: 1060053847}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 872dc64304ba3374d82a313426afa8f7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!224 &981848340
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10764,6 +11329,7 @@ GameObject:
   - component: {fileID: 982252212}
   - component: {fileID: 982252211}
   - component: {fileID: 982252210}
+  - component: {fileID: 982252214}
   m_Layer: 5
   m_Name: C - Sure?
   m_TagString: Untagged
@@ -10934,6 +11500,20 @@ RectTransform:
   m_AnchoredPosition: {x: 278, y: 18}
   m_SizeDelta: {x: 361, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &982252214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982252209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &989483378
 GameObject:
   m_ObjectHideFlags: 0
@@ -11128,6 +11708,7 @@ GameObject:
   - component: {fileID: 1010566481}
   - component: {fileID: 1010566480}
   - component: {fileID: 1010566479}
+  - component: {fileID: 1010566482}
   m_Layer: 5
   m_Name: ITEM3 - GOOD
   m_TagString: Untagged
@@ -11334,6 +11915,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010566477}
   m_CullTransparentMesh: 1
+--- !u!114 &1010566482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010566477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1021525608
 GameObject:
   m_ObjectHideFlags: 0
@@ -11481,6 +12076,7 @@ GameObject:
   - component: {fileID: 1033696491}
   - component: {fileID: 1033696490}
   - component: {fileID: 1033696489}
+  - component: {fileID: 1033696493}
   m_Layer: 5
   m_Name: C - You look strong
   m_TagString: Untagged
@@ -11639,6 +12235,20 @@ RectTransform:
   m_AnchoredPosition: {x: 278, y: 18}
   m_SizeDelta: {x: 361, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1033696493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033696488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1050031482
 GameObject:
   m_ObjectHideFlags: 0
@@ -11703,15 +12313,25 @@ MonoBehaviour:
   - A true knight.
   - Thank you.
   - Let me help you clean this up.
-  playerSpeaking: 00000100000101000000
+  playerSpeaking: 000001010001010000
   textSpeed: 0.05
   deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1263343537}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 872dc64304ba3374d82a313426afa8f7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1060053847
 GameObject:
   m_ObjectHideFlags: 0
@@ -11725,6 +12345,7 @@ GameObject:
   - component: {fileID: 1060053850}
   - component: {fileID: 1060053849}
   - component: {fileID: 1060053852}
+  - component: {fileID: 1060053853}
   m_Layer: 5
   m_Name: MorrisEntrance - Potion
   m_TagString: Untagged
@@ -11921,6 +12542,20 @@ MonoBehaviour:
   pulseSpeed: 4
   minScale: 0.97
   maxScale: 1.03
+--- !u!114 &1060053853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060053847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1069563376
 GameObject:
   m_ObjectHideFlags: 0
@@ -12115,10 +12750,11 @@ MonoBehaviour:
   - {fileID: 1354579659}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound:
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 0057c8d1143e14f468910e547c66e7d2, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -12228,8 +12864,14 @@ MonoBehaviour:
   - {fileID: 1107584119}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 4303a1b878cf12c4daa54daf5a4924ae, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1088415345
 GameObject:
   m_ObjectHideFlags: 0
@@ -12424,6 +13066,7 @@ GameObject:
   - component: {fileID: 1107584123}
   - component: {fileID: 1107584122}
   - component: {fileID: 1107584121}
+  - component: {fileID: 1107584124}
   m_Layer: 5
   m_Name: C - The journal comes with a complementary training sword
   m_TagString: Untagged
@@ -12582,6 +13225,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107584119}
   m_CullTransparentMesh: 1
+--- !u!114 &1107584124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107584119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1110998321
 GameObject:
   m_ObjectHideFlags: 0
@@ -13146,6 +13803,7 @@ GameObject:
   - component: {fileID: 1176839982}
   - component: {fileID: 1176839981}
   - component: {fileID: 1176839980}
+  - component: {fileID: 1176839983}
   m_Layer: 5
   m_Name: C - Minigame
   m_TagString: Untagged
@@ -13268,6 +13926,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176839978}
   m_CullTransparentMesh: 1
+--- !u!114 &1176839983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176839978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1180681114
 GameObject:
   m_ObjectHideFlags: 0
@@ -13432,6 +14104,7 @@ GameObject:
   - component: {fileID: 1199717266}
   - component: {fileID: 1199717265}
   - component: {fileID: 1199717264}
+  - component: {fileID: 1199717267}
   m_Layer: 5
   m_Name: C - Minigame
   m_TagString: Untagged
@@ -13554,6 +14227,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199717262}
   m_CullTransparentMesh: 1
+--- !u!114 &1199717267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199717262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1206113520
 GameObject:
   m_ObjectHideFlags: 0
@@ -13905,6 +14592,7 @@ GameObject:
   - component: {fileID: 1263343539}
   - component: {fileID: 1263343538}
   - component: {fileID: 1263343542}
+  - component: {fileID: 1263343543}
   m_Layer: 5
   m_Name: MorrisEntrance - Guide
   m_TagString: Untagged
@@ -14101,6 +14789,20 @@ MonoBehaviour:
   pulseSpeed: 4
   minScale: 0.97
   maxScale: 1.03
+--- !u!114 &1263343543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263343537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1269241712
 GameObject:
   m_ObjectHideFlags: 0
@@ -14689,6 +15391,7 @@ MonoBehaviour:
   deactivateAfterText:
   - {fileID: 1296473730}
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!224 &1296473732
@@ -15107,6 +15810,7 @@ GameObject:
   - component: {fileID: 1339923046}
   - component: {fileID: 1339923045}
   - component: {fileID: 1339923044}
+  - component: {fileID: 1339923047}
   m_Layer: 5
   m_Name: C - GIVE Item Armor v1
   m_TagString: Untagged
@@ -15313,6 +16017,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339923042}
   m_CullTransparentMesh: 1
+--- !u!114 &1339923047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339923042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: adec65bffbae30942b7be23b103bac9b, type: 3}
 --- !u!1 &1340269395
 GameObject:
   m_ObjectHideFlags: 0
@@ -15708,6 +16426,7 @@ GameObject:
   - component: {fileID: 1354579662}
   - component: {fileID: 1354579661}
   - component: {fileID: 1354579664}
+  - component: {fileID: 1354579665}
   m_Layer: 5
   m_Name: MorrisEntrance - Armor
   m_TagString: Untagged
@@ -15916,6 +16635,20 @@ MonoBehaviour:
   pulseSpeed: 4
   minScale: 0.97
   maxScale: 1.03
+--- !u!114 &1354579665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354579659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1379698996
 GameObject:
   m_ObjectHideFlags: 0
@@ -16482,6 +17215,7 @@ GameObject:
   - component: {fileID: 1495209290}
   - component: {fileID: 1495209289}
   - component: {fileID: 1495209288}
+  - component: {fileID: 1495209291}
   m_Layer: 5
   m_Name: C - why here
   m_TagString: Untagged
@@ -16640,6 +17374,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495209286}
   m_CullTransparentMesh: 1
+--- !u!114 &1495209291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495209286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1499643949
 GameObject:
   m_ObjectHideFlags: 0
@@ -16652,6 +17400,7 @@ GameObject:
   - component: {fileID: 1499643952}
   - component: {fileID: 1499643951}
   - component: {fileID: 1499643950}
+  - component: {fileID: 1499643954}
   m_Layer: 5
   m_Name: N Reflection
   m_TagString: Untagged
@@ -16798,6 +17547,20 @@ RectTransform:
   m_AnchoredPosition: {x: 47, y: -105}
   m_SizeDelta: {x: 184.2543, y: 87.8369}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1499643954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499643949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1537507637
 GameObject:
   m_ObjectHideFlags: 0
@@ -16945,6 +17708,7 @@ GameObject:
   - component: {fileID: 1539418759}
   - component: {fileID: 1539418758}
   - component: {fileID: 1539418757}
+  - component: {fileID: 1539418760}
   m_Layer: 5
   m_Name: C - GIVE Item Potion - NO FADE
   m_TagString: Untagged
@@ -17139,6 +17903,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539418755}
   m_CullTransparentMesh: 1
+--- !u!114 &1539418760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539418755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: adec65bffbae30942b7be23b103bac9b, type: 3}
 --- !u!1 &1540498499
 GameObject:
   m_ObjectHideFlags: 0
@@ -18287,6 +19065,7 @@ GameObject:
   - component: {fileID: 1634238166}
   - component: {fileID: 1634238165}
   - component: {fileID: 1634238164}
+  - component: {fileID: 1634238167}
   m_Layer: 5
   m_Name: C - GIVE Item Guide
   m_TagString: Untagged
@@ -18505,6 +19284,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634238162}
   m_CullTransparentMesh: 1
+--- !u!114 &1634238167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634238162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: adec65bffbae30942b7be23b103bac9b, type: 3}
 --- !u!1 &1635983379
 GameObject:
   m_ObjectHideFlags: 0
@@ -18686,8 +19479,11 @@ MonoBehaviour:
   - {fileID: 198391155}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 8300000, guid: e3ccd7c1d58c3654297b1b2a3ad11359, type: 3}
+  - {fileID: 8300000, guid: bd07e7fee970bce419c6f3f9733a482b, type: 3}
 --- !u!224 &1647837102
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19084,6 +19880,7 @@ MonoBehaviour:
   deactivateAfterText:
   - {fileID: 1701241367}
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
   dialogueSound: []
 --- !u!1 &1704500126
@@ -19577,6 +20374,7 @@ GameObject:
   - component: {fileID: 1753184317}
   - component: {fileID: 1753184316}
   - component: {fileID: 1753184315}
+  - component: {fileID: 1753184318}
   m_Layer: 5
   m_Name: B Reflection
   m_TagString: Untagged
@@ -19723,6 +20521,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753184313}
   m_CullTransparentMesh: 1
+--- !u!114 &1753184318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753184313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1753689325
 GameObject:
   m_ObjectHideFlags: 0
@@ -20212,6 +21024,7 @@ GameObject:
   - component: {fileID: 1774839780}
   - component: {fileID: 1774839779}
   - component: {fileID: 1774839778}
+  - component: {fileID: 1774839781}
   m_Layer: 5
   m_Name: C - GIVE ITEM ARMOR Push Armor Towards Boy
   m_TagString: Untagged
@@ -20370,6 +21183,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774839776}
   m_CullTransparentMesh: 1
+--- !u!114 &1774839781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774839776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1791004163
 GameObject:
   m_ObjectHideFlags: 0
@@ -20420,6 +21247,7 @@ GameObject:
   - component: {fileID: 1806625814}
   - component: {fileID: 1806625813}
   - component: {fileID: 1806625812}
+  - component: {fileID: 1806625815}
   m_Layer: 5
   m_Name: C - SELECT Item Guide
   m_TagString: Untagged
@@ -20577,6 +21405,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806625810}
   m_CullTransparentMesh: 1
+--- !u!114 &1806625815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806625810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1807586421
 GameObject:
   m_ObjectHideFlags: 0
@@ -20633,24 +21475,33 @@ MonoBehaviour:
   lines:
   - I feel like I could wrestle a dragon with my bare hands!
   - I want to try punching something! Do you have any sacks of flour or-
-  - '[He turns to investigate your other wears, one of his massive arms slams into
-    the counter while the other demolishes a shelf of trinkets.]'
+  - <i>He turns to investigate your other wears, one of his massive arms slams into
+    the counter while the other demolishes a shelf of trinkets.</i>
   - "Whoops, sorry about that. I guess I don\u2019t know my own strength."
   - "I\u2019m just gonna go."
   - Be gentle with the door please!
-  - "<i>Percy carefully approaches the door, grasping the handle delicately, and
-    gently pulls it open. The door remains attached to its hinges, but the handle
-    is not so lucky. The situation can\u2019t get any more awkward so he just leaves.
-    With your doorknob.</i>"
-  playerSpeaking: 00000100000101
+  - <i>Percy carefully approaches the door, grasping the handle delicately, and gently
+    pulls it open. </i>
+  - "<i>The door remains attached to its hinges, but the handle is not so lucky.
+    The situation can\u2019t get any more awkward so he just leaves. With your doorknob.</i>"
+  playerSpeaking: 0000010000010101
   textSpeed: 0.05
   deactivateSelfAfterText: 0
   activateAfterText:
   - {fileID: 1060053847}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 872dc64304ba3374d82a313426afa8f7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 0057c8d1143e14f468910e547c66e7d2, type: 3}
 --- !u!1 &1817627427
 GameObject:
   m_ObjectHideFlags: 0
@@ -21597,6 +22448,7 @@ GameObject:
   - component: {fileID: 1937658514}
   - component: {fileID: 1937658513}
   - component: {fileID: 1937658512}
+  - component: {fileID: 1937658515}
   m_Layer: 5
   m_Name: C - SELECT Item Armor
   m_TagString: Untagged
@@ -21754,6 +22606,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937658510}
   m_CullTransparentMesh: 1
+--- !u!114 &1937658515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937658510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &1942342494
 GameObject:
   m_ObjectHideFlags: 0
@@ -21944,6 +22810,7 @@ GameObject:
   - component: {fileID: 2004597971}
   - component: {fileID: 2004597970}
   - component: {fileID: 2004597969}
+  - component: {fileID: 2004597973}
   m_Layer: 5
   m_Name: C - r u sure about this
   m_TagString: Untagged
@@ -22102,6 +22969,20 @@ RectTransform:
   m_AnchoredPosition: {x: 278, y: 18}
   m_SizeDelta: {x: 361, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2004597973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004597968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &2012498636
 GameObject:
   m_ObjectHideFlags: 0
@@ -22537,6 +23418,7 @@ GameObject:
   - component: {fileID: 2079963557}
   - component: {fileID: 2079963556}
   - component: {fileID: 2079963555}
+  - component: {fileID: 2079963559}
   m_Layer: 5
   m_Name: C - also wanted
   m_TagString: Untagged
@@ -22695,6 +23577,20 @@ RectTransform:
   m_AnchoredPosition: {x: 278, y: 18}
   m_SizeDelta: {x: 361, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2079963559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079963554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &2082384565
 GameObject:
   m_ObjectHideFlags: 0
@@ -22707,6 +23603,7 @@ GameObject:
   - component: {fileID: 2082384568}
   - component: {fileID: 2082384567}
   - component: {fileID: 2082384566}
+  - component: {fileID: 2082384570}
   m_Layer: 5
   m_Name: "C - Knights don\u2019t become knights overnight"
   m_TagString: Untagged
@@ -22865,6 +23762,20 @@ RectTransform:
   m_AnchoredPosition: {x: 278, y: 18}
   m_SizeDelta: {x: 361, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2082384570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082384565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
 --- !u!1 &2113702131
 GameObject:
   m_ObjectHideFlags: 0
@@ -23055,8 +23966,14 @@ MonoBehaviour:
   - {fileID: 198391155}
   deactivateAfterText: []
   character: {fileID: 0}
+  click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: e3ccd7c1d58c3654297b1b2a3ad11359, type: 3}
+  - {fileID: 8300000, guid: bd07e7fee970bce419c6f3f9733a482b, type: 3}
 --- !u!224 &2130012854
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23615,6 +24532,7 @@ GameObject:
   - component: {fileID: 2144598831}
   - component: {fileID: 2144598830}
   - component: {fileID: 2144598829}
+  - component: {fileID: 2144598833}
   m_Layer: 5
   m_Name: G Reflection
   m_TagString: Untagged
@@ -23761,3 +24679,17 @@ RectTransform:
   m_AnchoredPosition: {x: 47, y: -105}
   m_SizeDelta: {x: 184.2543, y: 87.8369}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2144598833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144598828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e67e0ddcef9314c9102e7694f1084d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseEnter: {fileID: 0}
+  mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}

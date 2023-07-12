@@ -40,6 +40,7 @@ public class Dialogue : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)){
+            SoundManager.Instance.PlayNextUI();
             if(textComponent.text == lines[_index]){
                 NextLine();
             }
