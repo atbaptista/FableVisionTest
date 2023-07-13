@@ -13,6 +13,7 @@ public class ButtonSound : MonoBehaviour, IPointerEnterHandler, IPointerDownHand
         SoundManager.Instance.Play(mouseClick);
     }
 
+    //pause and unpause on enter and exit so the dialogue wont skip forward when clicking buttons
     public void OnPointerEnter(PointerEventData eventData)
     {
         SoundManager.Instance.Play(mouseEnter);

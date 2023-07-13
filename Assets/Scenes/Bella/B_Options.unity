@@ -2069,7 +2069,22 @@ MonoBehaviour:
   character: {fileID: 0}
   click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 8300000, guid: 7e9626ca0e6dec34b918ab61b0b411c5, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &181511174
 GameObject:
   m_ObjectHideFlags: 0
@@ -6208,7 +6223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &519778766
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7094,7 +7109,8 @@ MonoBehaviour:
   character: {fileID: 0}
   click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 8300000, guid: f5714d15256830541a96891631849c06, type: 3}
 --- !u!1 &597219910
 GameObject:
   m_ObjectHideFlags: 0
@@ -21116,7 +21132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1651728379
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24307,7 +24323,7 @@ MonoBehaviour:
   textSpeed: 0.025
   deactivateSelfAfterText: 1
   activateAfterText:
-  - {fileID: 594666280}
+  - {fileID: 1207951677}
   deactivateAfterText: []
   character: {fileID: 0}
   click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
@@ -25126,7 +25142,10 @@ MonoBehaviour:
   character: {fileID: 0}
   click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   characterPoses: []
-  dialogueSound: []
+  dialogueSound:
+  - {fileID: 8300000, guid: ec3ef4c81ba737a48b80e48ba802e637, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!224 &2042552734
 RectTransform:
   m_ObjectHideFlags: 0

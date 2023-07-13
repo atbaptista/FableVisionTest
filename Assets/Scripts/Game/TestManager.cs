@@ -29,4 +29,14 @@ public class TestManager : MonoBehaviour
     public void SetTime(float num){
         Time.timeScale = num;
     }
+
+    // public void Pause(){
+    //     SetTime(0);
+    //     PlayerManager.Instance.Pause();
+    // }
+
+    // public void UnPause(){
+    //     SetTime(1);
+    //     PlayerManager.Instance.UnPause();
+    // }
 }

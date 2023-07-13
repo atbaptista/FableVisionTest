@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public int optionOne {get; private set;}
     public int optionTwo {get; private set;}
     public int optionThree {get; private set;}
+    public bool isPaused {get; private set;}
 
     public static PlayerManager Instance {get; private set;}
     
@@ -20,6 +21,8 @@ public class PlayerManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        isPaused = false;
     }
 
     public void SetOptionOne(int num){
@@ -32,5 +35,13 @@ public class PlayerManager : MonoBehaviour
 
     public void SetOptionThree(int num){
         optionThree = num;
+    }
+
+    public void Pause(){
+        isPaused = true;
+    }
+
+    public void UnPause(){
+        isPaused = false;
     }
 }

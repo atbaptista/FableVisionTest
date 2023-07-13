@@ -55,7 +55,9 @@ public class DialogueV2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)){
+        Debug.Log(PlayerManager.Instance.isPaused);
+        if(!PlayerManager.Instance.isPaused && (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))){
+            Debug.Log("click");
             SoundManager.Instance.PlayNextUI();
             if(_currentTextComponent.text == lines[_index]){
                 NextLine();

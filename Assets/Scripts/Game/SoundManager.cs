@@ -33,6 +33,9 @@ public class SoundManager : MonoBehaviour
 
 		//Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading our scene.
 		DontDestroyOnLoad (gameObject);
+
+		EffectsSource.volume = 0.8f;
+		UISource.volume = 0.8f;
 	}
 
 	// Play a single clip through the sound effects source.
@@ -58,6 +61,20 @@ public class SoundManager : MonoBehaviour
 	public void PlayNextUI(){
 		UISource.clip = nextUI;
 		UISource.Play();
+	}
+
+	public void SetMusicVolume(float vol){
+		MusicSource.volume = vol;
+
+	}
+
+	public void SetSFXVolume(float vol){
+		UISource.volume = vol;
+        EffectsSource.volume = vol;
+	}
+
+	public AudioSource GetMusicSource(){
+		return MusicSource;
 	}
 
 	// // Play a random clip from an array, and randomize the pitch slightly.
