@@ -6,10 +6,15 @@ public class MusicTransition : MonoBehaviour
 {
     public AudioClip nextSong;
     public float fadeDuration = 1.35f;
+    public bool isPlayedOnStart = false;
     [HideInInspector] public AudioSource musicSource;
+
 
     void Start() {
         musicSource = SoundManager.Instance.GetMusicSource();
+        if(isPlayedOnStart){
+            StartMusicTransition();
+        }
     }
 
     public void StartMusicTransition()

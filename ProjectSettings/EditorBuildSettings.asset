@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: b7a3e9f54d3e0b1439e506e614a564d4
   - enabled: 1
-    path: Assets/Scenes/Game_Opening.unity
+    path: Assets/Scenes/Opening.unity
     guid: 94374d62dcabadc41a618a33c1e5d816
   - enabled: 1
     path: Assets/Scenes/Lanky Boy/LB_Opening.unity
@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YelpReviews.unity
     guid: 5104b3a07a80cf041ab220963f119eca
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 88fac36fc3728ae4598ebd5393ad3e67
   m_configObjects: {}
