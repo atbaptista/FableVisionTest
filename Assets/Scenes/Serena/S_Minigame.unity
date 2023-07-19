@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meterManager: {fileID: 123125870}
-  increaseMeterVal: 5
+  increaseMeterVal: 6
 --- !u!114 &123125873
 MonoBehaviour:
   m_ObjectHideFlags: 0

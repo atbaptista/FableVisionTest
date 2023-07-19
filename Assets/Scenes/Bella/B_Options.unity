@@ -17351,8 +17351,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "They have much more to offer than meets the eye, and we\u2019re not talking
-    about the smell."
+  m_text: Just spin around and watch this humble fabric morph into a gown designed
+    uniquely for you!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}

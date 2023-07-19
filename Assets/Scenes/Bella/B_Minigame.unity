@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meterManager: {fileID: 123125870}
-  increaseMeterVal: 5
+  increaseMeterVal: 6
 --- !u!114 &123125873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -841,8 +841,8 @@ MonoBehaviour:
   itemText:
   - "What\u2019s better than the perfect fit? A tighter one!"
   - Mysterious and captivating, all eyes will be on you.
-  - "They have much more to offer than meets the eye, and we\u2019re not talking
-    about the smell."
+  - Just spin around and watch this humble fabric morph into a gown designed uniquely
+    for you!
   itemSprites:
   - {fileID: 21300000, guid: b5ed52c990c40464f8ad9da26413b991, type: 3}
   - {fileID: 21300000, guid: 83513bbdf3977b74f8f268316181b0cd, type: 3}

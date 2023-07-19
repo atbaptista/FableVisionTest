@@ -123,141 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &70777591
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 70777592}
-  - component: {fileID: 70777594}
-  - component: {fileID: 70777593}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &70777592
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70777591}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 465505596}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &70777593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70777591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Go Fish
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
-  m_sharedMaterial: {fileID: -7278405599856271365, guid: 3bf8873aa998ceb47a8eedd617ab99ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &70777594
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70777591}
-  m_CullTransparentMesh: 1
 --- !u!1 &85325335
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meterManager: {fileID: 123125870}
-  increaseMeterVal: 5
+  increaseMeterVal: 6
 --- !u!114 &123125873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1197,6 +1062,7 @@ GameObject:
   - component: {fileID: 465505598}
   - component: {fileID: 465505597}
   - component: {fileID: 465505600}
+  - component: {fileID: 465505601}
   m_Layer: 5
   m_Name: C - Begin Fishing Game
   m_TagString: Untagged
@@ -1215,15 +1081,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 70777592}
+  m_Children: []
   m_Father: {fileID: 1423717104}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163, y: 27}
-  m_SizeDelta: {x: 361, y: 105}
+  m_AnchoredPosition: {x: 710, y: -437}
+  m_SizeDelta: {x: 233, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465505597
 MonoBehaviour:
@@ -1349,7 +1214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ed340eeb484408741a2a19597b838d44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff018b195cac58940ab0f504fc95c02a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1381,6 +1246,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseEnter: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
   mouseClick: {fileID: 8300000, guid: 8bd395451d17e7b44834c4a65fb06a3a, type: 3}
+--- !u!114 &465505601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465505595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747de6b6ed500cc4c85620fde33599b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseSpeed: 4
+  minScale: 0.97
+  maxScale: 1.03
 --- !u!1 &485526152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,6 +1633,116 @@ Transform:
   m_Father: {fileID: 1640783043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &611431128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1140393665}
+    m_Modifications:
+    - target: {fileID: 1468757033877233635, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_Name
+      value: UI_Settings
+      objectReference: {fileID: 0}
+    - target: {fileID: 1468757033877233635, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+--- !u!224 &611431129 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5188417639097545406, guid: bce67ed98e6633446bf96d62c39ed904, type: 3}
+  m_PrefabInstance: {fileID: 611431128}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &616934371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,7 +2949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1072673056
 Transform:
   m_ObjectHideFlags: 0
@@ -3218,6 +3208,7 @@ RectTransform:
   - {fileID: 765719171}
   - {fileID: 432429354}
   - {fileID: 1700354441}
+  - {fileID: 611431129}
   m_Father: {fileID: 1721594561}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5245,12 +5236,25 @@ MonoBehaviour:
   charTextComponent: {fileID: 1786278522}
   charDialogueBackground: {fileID: 1819675524}
   lines:
-  - hello, this is the dialogue
-  - intro tutorial text
-  - intro tutorial textintro tutorial textintro tutorial text
-  - intro tutorial textintro tutorial text
-  - intro tutorial textintro tutorial textintro tutorial textintro tutorial text
-  playerSpeaking: 0001000100
+  - "Ah, the wishing well\u2026"
+  - It's not a wishing well, dulcop.
+  - Oh, hello. Uh, what did you call me?
+  - This is a fishing well. Fishing. If you're seeking magical items, you'll have
+    to fish for them.
+  - 'Wishing wells are for Gnash Gabs. Do you really expect to wish for something
+    and just get it? '
+  - You have to actually put in some effort.
+  - I guess that makes sense. How does this fishing well work?
+  - First, grab the enchanted fishing rod beside the well. Then, cast your line into
+    the well by pressing "Spacebar" or "Left Mouse Button".
+  - Once the line is in the water, watch carefully for any movement.
+  - When you spot a magical item swimming by, quickly press "Spacebar" or "Left Mouse
+    Button" to hook it.
+  - After you hook the fish, spin the cursor around the center of the screen in a
+    clockwise motion to reel the fish in.
+  - "I hope you got that because I\u2019m not saying it again."
+  - Here goes...
+  playerSpeaking: 01000100000001000000000001
   textSpeed: 0.05
   deactivateSelfAfterText: 0
   activateAfterText:
@@ -5258,7 +5262,20 @@ MonoBehaviour:
   deactivateAfterText: []
   character: {fileID: 1797863024}
   click: {fileID: 8300000, guid: aa5b84613b092d34ead8c8ce3c02903f, type: 3}
-  characterPoses: []
+  characterPoses:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 779a4dff917f78b42b58c7d909dc95a5, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 401bdfd568fb91e46a3f34f5012fadf7, type: 3}
+  - {fileID: 21300000, guid: 917a8f9589475b6458e9948fa22be58e, type: 3}
+  - {fileID: 21300000, guid: 401bdfd568fb91e46a3f34f5012fadf7, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 401bdfd568fb91e46a3f34f5012fadf7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 779a4dff917f78b42b58c7d909dc95a5, type: 3}
+  - {fileID: 21300000, guid: 401bdfd568fb91e46a3f34f5012fadf7, type: 3}
   dialogueSound: []
 --- !u!1 &1717604673
 GameObject:
