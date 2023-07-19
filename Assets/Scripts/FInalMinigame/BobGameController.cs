@@ -22,6 +22,7 @@ public class BobGameController : MonoBehaviour
     public float trembleSpeed = 1.0f;     // Adjust this value to control the trembling speed
     public float trembleAmount = 0.2f;    // Adjust this value to control the amount of trembling
     public float catchWindow;
+    public GameObject sparkleEffect;
 
     [Header("Fish Waiting Range")]
     public int minWait = 4;
@@ -130,6 +131,7 @@ public class BobGameController : MonoBehaviour
         Invoke("StartCatching", _waitTime);
         _isBobbing = true;
         _currentState = HookState.BOBBING;
+        DisableSparkle();
     }
 
     public void StopBobbing()
@@ -147,6 +149,7 @@ public class BobGameController : MonoBehaviour
         _stopCatchTime = Time.time + catchWindow;
 
         SoundManager.Instance.Play(bobTremble);
+        sparkleEffect.SetActive(true);
 
         foreach (GameObject i in activateOnFish){
             i.SetActive(true);
@@ -172,6 +175,11 @@ public class BobGameController : MonoBehaviour
     //player doing minigame so extend the trembling duration
     public void PlayerCatchingFish(){
         _stopCatchTime += 60f;
+        DisableSparkle();
+    }
+
+    public void DisableSparkle(){
+        sparkleEffect.SetActive(false);
     }
 }
 
