@@ -86,8 +86,12 @@ public class DialogueV2 : MonoBehaviour
         try{
             if(characterPoses.Length > _index && characterPoses != null){
                 if(characterPoses[_index] != null){
-                    character.GetComponent<Image>().sprite = characterPoses[_index];
-                    character.GetComponent<Image>().SetNativeSize();
+                    if(character.GetComponent<Image>() == null){
+                        character.GetComponent<SpriteRenderer>().sprite = characterPoses[_index];
+                    }else{
+                        character.GetComponent<Image>().sprite = characterPoses[_index];
+                        character.GetComponent<Image>().SetNativeSize();
+                    }
                 }
             }
         } catch(Exception e){
