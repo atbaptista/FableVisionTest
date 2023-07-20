@@ -24,6 +24,10 @@ public class PlayerInput : MonoBehaviour
     public GameObject[] activateOnMiniGameWon;
     public GameObject[] deactivateOnMiniGameWon;
 
+    [Header("Fishing Rope")]
+    public float ropeCastLength = 0.25f;
+    public float ropePullLength = 0f;
+
     private float nextBobTime;
     private GameObject prevBob;
     private BobGameController.HookState bobStatus;
@@ -72,6 +76,7 @@ public class PlayerInput : MonoBehaviour
 //all of these functions are called in the fishing rod animations by the RodMethods script
     public void CastLine(){
         rope.gameObject.SetActive(true);
+        rope.ropeSegLen = ropeCastLength;
         prevBob = Instantiate(bob, bobSpawn.transform.position, bobSpawn.transform.rotation);
         rope.EndPoint = prevBob.transform;
 
@@ -94,6 +99,7 @@ public class PlayerInput : MonoBehaviour
         prevBob.GetComponent<BobGameController>().PlayerCatchingFish();
         isCatching = true;
         SoundManager.Instance.Play(bobExitWater);
+        rope.ropeSegLen = ropePullLength;
     }
 
 #endregion

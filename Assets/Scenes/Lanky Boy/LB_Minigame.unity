@@ -304,7 +304,6 @@ GameObject:
   - component: {fileID: 123125870}
   - component: {fileID: 123125871}
   - component: {fileID: 123125872}
-  - component: {fileID: 123125873}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -340,6 +339,8 @@ MonoBehaviour:
   deactivateOnMiniGameWon:
   - {fileID: 446854893}
   - {fileID: 1851917244}
+  ropeCastLength: 0.25
+  ropePullLength: 0
 --- !u!4 &123125869
 Transform:
   m_ObjectHideFlags: 0
@@ -405,25 +406,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meterManager: {fileID: 123125870}
   increaseMeterVal: 6
---- !u!114 &123125873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123125867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f82b377fdf602e4d99592f6ed0e7b32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImage: {fileID: 0}
-  itemDescription: {fileID: 0}
-  miniIcons: []
-  itemText: []
-  itemSprites: []
-  continueButton: {fileID: 0}
-  nextSceneButton: {fileID: 0}
 --- !u!1 &160503461
 GameObject:
   m_ObjectHideFlags: 0
