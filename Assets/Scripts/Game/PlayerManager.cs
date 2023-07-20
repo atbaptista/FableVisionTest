@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
     public int optionTwo {get; private set;}
     public int optionThree {get; private set;}
     public bool isPaused {get; private set;}
+    public int minigameDifficulty {get; private set;}
 
     public static PlayerManager Instance {get; private set;}
     
@@ -24,6 +25,7 @@ public class PlayerManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         isPaused = false;
+        minigameDifficulty = 6;
     }
 
     private void Update() {
@@ -55,5 +57,9 @@ public class PlayerManager : MonoBehaviour
 
     public void UnPause(){
         isPaused = false;
+    }
+
+    public void SetDifficulty(int diff){
+        minigameDifficulty = diff;
     }
 }

@@ -102,7 +102,7 @@ public class PlayerInput : MonoBehaviour
 
 #region SpaceBar
 
-        if(Time.timeScale == 0){
+        if(Time.timeScale == 0 || PlayerManager.Instance.isPaused){
             return;
         }
 

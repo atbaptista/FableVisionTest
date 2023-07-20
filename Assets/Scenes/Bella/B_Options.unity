@@ -5029,7 +5029,7 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give them?
+  - So, what did you give the young lady?
   - Rags.
   - A customer favorite.
   - For good reason. Even non-magical clothing empowers.
@@ -8905,7 +8905,7 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give them?
+  - So, what did you give the young lady?
   - The Ever-Tight Corset.
   - Really?
   - "She\u2019s auditioning for the lead role in a musical and didn\u2019t want to
@@ -12128,7 +12128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mysterious and captivating, all eyes will be on you.
+  m_text: Dark, mysterious, and captivating, all eyes will be on you.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -23575,7 +23575,7 @@ MonoBehaviour:
   charTextComponent: {fileID: 357275776}
   charDialogueBackground: {fileID: 183805134}
   lines:
-  - So, what did you give them?
+  - So, what did you give the young lady?
   - The Noir Nightshade Eyeshadow Palette.
   - What did they ask for?
   - To look like a fireplace coughed in their face?
@@ -25770,7 +25770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Rags
+  m_text: Give Magic Rags
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}

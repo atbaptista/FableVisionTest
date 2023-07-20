@@ -429,7 +429,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Abi Laure \n\nJenny Schuermann\r\n\r\n\nAlex Baptista\r\n\n\r\nRenee Cullman\n\nStephanie
-    Hare\n\nChloe Peters\r\n\r\nLulu Arundale\r"
+    Hare\n\nChloe Peters\r\n\r\n\nLulu Arundale\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
@@ -1072,7 +1072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1163}
+  m_AnchoredPosition: {x: 0, y: -1233}
   m_SizeDelta: {x: 1366.7177, y: 597.5483}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1903176248
@@ -1337,6 +1337,12 @@ MonoBehaviour:
     Producers
 
 
+
+
+
+
+
+    Marketing Strategy
 
 '
   m_isRightToLeft: 0

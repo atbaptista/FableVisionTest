@@ -10279,8 +10279,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Don\u2019t like your face? Getting bullied because of it? We\u2019ve got
-    you covered!"
+  m_text: "Don\u2019t like your face? We\u2019ve got you covered!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}
   m_sharedMaterial: {fileID: 2025308730476851597, guid: 07426c9f21b732a41808fc4f21959af4, type: 2}

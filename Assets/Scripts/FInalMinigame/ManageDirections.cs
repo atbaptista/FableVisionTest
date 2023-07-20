@@ -5,10 +5,14 @@ using UnityEngine;
 public class ManageDirections : MonoBehaviour
 {
     public MeterManager meterManager;
-    public int increaseMeterVal = 10;
+    public int increaseMeterVal = 6;
 
     private int lastZone;
     private int numZones = 4;
+
+    private void Update() {
+        increaseMeterVal = PlayerManager.Instance.minigameDifficulty;
+    }
 
     public void SetMouseCurrentZone(int currentZone){
         switch (lastZone){
@@ -34,5 +38,10 @@ public class ManageDirections : MonoBehaviour
                 break;
         }
         lastZone = currentZone;
+    }
+
+    public void SetRate(int val){
+        increaseMeterVal = val;
+        PlayerManager.Instance.SetDifficulty(val);
     }
 }
