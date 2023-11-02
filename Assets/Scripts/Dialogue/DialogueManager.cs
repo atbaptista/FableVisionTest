@@ -12,9 +12,4 @@ public class DialogueManager : MonoBehaviour
         panel.textComponent.text = string.Empty;
         panel.StartDialogue();
     }
-
-    //code that runs when dialogue is finished
-    public void FinishDialogue(){
-        
-    }
 }
