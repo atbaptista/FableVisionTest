@@ -16,7 +16,7 @@ public class SoundManager : MonoBehaviour
 
 	// Singleton instance.
 	public static SoundManager Instance = null;
-	
+
 	// Initialize the singleton instance.
 	private void Awake()
 	{
@@ -25,14 +25,14 @@ public class SoundManager : MonoBehaviour
 		{
 			Instance = this;
 		}
-		//If an instance already exists, destroy whatever this object is to enforce the singleton.
+		// If an instance already exists, destroy whatever this object is to enforce the singleton.
 		else if (Instance != this)
 		{
 			Destroy(gameObject);
 		}
 
-		//Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading our scene.
-		DontDestroyOnLoad (gameObject);
+		// Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading our scene.
+		DontDestroyOnLoad(gameObject);
 
 		EffectsSource.volume = 0.8f;
 		UISource.volume = 0.8f;
@@ -58,22 +58,26 @@ public class SoundManager : MonoBehaviour
 		UISource.Play();
 	}
 
-	public void PlayNextUI(){
+	public void PlayNextUI()
+	{
 		UISource.clip = nextUI;
 		UISource.Play();
 	}
 
-	public void SetMusicVolume(float vol){
+	public void SetMusicVolume(float vol)
+	{
 		MusicSource.volume = vol;
 
 	}
 
-	public void SetSFXVolume(float vol){
+	public void SetSFXVolume(float vol)
+	{
 		UISource.volume = vol;
-        EffectsSource.volume = vol;
+		EffectsSource.volume = vol;
 	}
 
-	public AudioSource GetMusicSource(){
+	public AudioSource GetMusicSource()
+	{
 		return MusicSource;
 	}
 
@@ -87,5 +91,5 @@ public class SoundManager : MonoBehaviour
 	// 	EffectsSource.clip = clips[randomIndex];
 	// 	EffectsSource.Play();
 	// }
-	
+
 }

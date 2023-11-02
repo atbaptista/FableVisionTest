@@ -10,29 +10,36 @@ public class ManageDirections : MonoBehaviour
     private int lastZone;
     private int numZones = 4;
 
-    private void Update() {
+    private void Update()
+    {
         increaseMeterVal = PlayerManager.Instance.minigameDifficulty;
     }
 
-    public void SetMouseCurrentZone(int currentZone){
-        switch (lastZone){
+    public void SetMouseCurrentZone(int currentZone)
+    {
+        switch (lastZone)
+        {
             case 1:
-                if(currentZone == 2){
+                if (currentZone == 2)
+                {
                     meterManager.IncreaseMeter(increaseMeterVal);
                 }
                 break;
             case 2:
-                if(currentZone == 3){
+                if (currentZone == 3)
+                {
                     meterManager.IncreaseMeter(increaseMeterVal);
                 }
                 break;
             case 3:
-                if(currentZone == 4){
+                if (currentZone == 4)
+                {
                     meterManager.IncreaseMeter(increaseMeterVal);
                 }
                 break;
             case 4:
-                if(currentZone == 1){
+                if (currentZone == 1)
+                {
                     meterManager.IncreaseMeter(increaseMeterVal);
                 }
                 break;
@@ -40,7 +47,8 @@ public class ManageDirections : MonoBehaviour
         lastZone = currentZone;
     }
 
-    public void SetRate(int val){
+    public void SetRate(int val)
+    {
         increaseMeterVal = val;
         PlayerManager.Instance.SetDifficulty(val);
     }

@@ -18,12 +18,13 @@ public class TrackNumberCatches : MonoBehaviour
     [Header("Buttons")]
     public GameObject continueButton;
     public GameObject nextSceneButton;
-    
+
 
     private int numCatches = 0;
 
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
         itemImage.sprite = itemSprites[numCatches];
         itemImage.SetNativeSize();
 
@@ -32,26 +33,11 @@ public class TrackNumberCatches : MonoBehaviour
         miniIcons[numCatches].SetActive(true);
         miniIcons[numCatches].GetComponent<Image>().SetNativeSize();
 
-        if(numCatches >= 2){
+        if (numCatches >= 2)
+        {
             continueButton.SetActive(false);
             nextSceneButton.SetActive(true);
         }
         numCatches++;
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    // public void Catch(){
-    //     numCatches++;
-    // }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//sets UI slider value, should move this code to another script to make it less complicated
+// sets UI slider value, should move this code to another script to make it less complicated
 public class FishingManager : MonoBehaviour
 {
     public Slider fishSlider;
@@ -22,9 +22,10 @@ public class FishingManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        fishSlider.value = fish.meterVal/fish.maxMeterVal;
+        fishSlider.value = fish.meterVal / fish.maxMeterVal;
 
-        if(fishSlider.value == fishSlider.maxValue){
+        if (fishSlider.value == fishSlider.maxValue)
+        {
             isCaught = true;
             NextSceneButton.SetActive(true);
         }

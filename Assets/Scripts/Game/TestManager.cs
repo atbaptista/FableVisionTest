@@ -3,30 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-//script for button functionality
+// script for button functionality
 public class TestManager : MonoBehaviour
 {
-    public void NextScene(){
+    public void NextScene()
+    {
         int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
-        if(nextScene == SceneManager.sceneCountInBuildSettings){
+        if (nextScene == SceneManager.sceneCountInBuildSettings)
+        {
             nextScene = 0;
         }
         SceneManager.LoadScene(nextScene);
     }
 
-    public void setOptionOne(int num){
+    public void setOptionOne(int num)
+    {
         PlayerManager.Instance.SetOptionOne(num);
     }
 
-    public void setOptionTwo(int num){
+    public void setOptionTwo(int num)
+    {
         PlayerManager.Instance.SetOptionTwo(num);
     }
 
-    public void setOptionThree(int num){
+    public void setOptionThree(int num)
+    {
         PlayerManager.Instance.SetOptionThree(num);
     }
 
-    public void SetTime(float num){
+    public void SetTime(float num)
+    {
         Time.timeScale = num;
     }
 

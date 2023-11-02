@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//code that goes on the fishing bob, currently keeps track of the current state of the 3D version of the fishing minigame
-//script is on a prefab
-//bob currently starts the minigame when it hits any collider, change it to check if it's a water object
-//PlayerCatchingFish method currently gives 1 minute to beat the minigame then it starts bobbing again 
+// code that goes on the fishing bob, currently keeps track of the current state of the 3D version of the fishing minigame
+// script is on a prefab
+// bob currently starts the minigame when it hits any collider, change it to check if it's a water object
+// PlayerCatchingFish method currently gives 1 minute to beat the minigame then it starts bobbing again 
 public class BobGameController : MonoBehaviour
 {
     [Header("Bobbing")]
@@ -37,7 +37,8 @@ public class BobGameController : MonoBehaviour
     private HookState _currentState = HookState.BOBBING;
     private float _stopCatchTime;
 
-    public enum HookState {
+    public enum HookState
+    {
         THROWN,
         DEAD,
         BOBBING,
@@ -48,19 +49,21 @@ public class BobGameController : MonoBehaviour
     private void Start()
     {
         _initialPosition = transform.position;
-        //_currentState = HookState.THROWN;
-        //comment out start bobbing to make it thrown when starting
+        // _currentState = HookState.THROWN;
+        // comment out start bobbing to make it thrown when starting
         StartBobbing();
     }
 
     private void Update()
     {
         StateUpdate();
-        //Checks();
+        // Checks();
     }
 
-    public void StateUpdate(){
-        switch (_currentState){
+    public void StateUpdate()
+    {
+        switch (_currentState)
+        {
             case HookState.BOBBING:
                 // Debug.Log("bobbing");
                 Bobbing();
@@ -84,7 +87,8 @@ public class BobGameController : MonoBehaviour
         }
     }
 
-    public void Bobbing(){
+    public void Bobbing()
+    {
         // Calculate the new position based on a sine wave
         float yOffset = Mathf.Sin(Time.time * bobSpeed) * bobHeight;
         Vector3 newPosition = _initialPosition + new Vector3(0f, yOffset, 0f);
@@ -93,7 +97,8 @@ public class BobGameController : MonoBehaviour
         transform.position = newPosition;
     }
 
-    public void FishCatching(){
+    public void FishCatching()
+    {
         // Calculate the trembling offset based on Perlin noise
         float xOffset = Mathf.PerlinNoise(0f, Time.time * trembleSpeed) * trembleAmount;
         float yOffset = Mathf.PerlinNoise(Time.time * trembleSpeed, 0f) * trembleAmount;
@@ -102,24 +107,29 @@ public class BobGameController : MonoBehaviour
         Vector3 newPosition = _initialPosition + new Vector3(xOffset, yOffset, 0f);
         transform.position = newPosition;
 
-        if(Time.time > _stopCatchTime){
+        if (Time.time > _stopCatchTime)
+        {
             StartBobbing();
         }
     }
 
-    public void FishCatched(){
+    public void FishCatched()
+    {
 
     }
 
-    public void Thrown(){
+    public void Thrown()
+    {
         return;
     }
 
-    public void Dead(){
+    public void Dead()
+    {
         return;
     }
 
-    public void StartDead(){
+    public void StartDead()
+    {
         _currentState = HookState.DEAD;
         GetComponent<Collider>().enabled = false;
         GetComponent<MeshRenderer>().enabled = false;
@@ -127,7 +137,7 @@ public class BobGameController : MonoBehaviour
 
     public void StartBobbing()
     {
-        _waitTime = Random.Range(minWait,maxWait);
+        _waitTime = Random.Range(minWait, maxWait);
         Invoke("StartCatching", _waitTime);
         _isBobbing = true;
         _currentState = HookState.BOBBING;
@@ -141,7 +151,8 @@ public class BobGameController : MonoBehaviour
         _currentState = HookState.DEAD;
     }
 
-    public void StartCatching(){
+    public void StartCatching()
+    {
         _isBobbing = false;
         _fishCaught = true;
         _isTrembling = true;
@@ -151,15 +162,18 @@ public class BobGameController : MonoBehaviour
         SoundManager.Instance.Play(bobTremble);
         sparkleEffect.SetActive(true);
 
-        foreach (GameObject i in activateOnFish){
+        foreach (GameObject i in activateOnFish)
+        {
             i.SetActive(true);
         }
     }
 
-    private void OnCollisionEnter(Collision other) {
-        if (other.gameObject.layer != LayerMask.NameToLayer("Water")){
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.layer != LayerMask.NameToLayer("Water"))
+        {
             StartDead();
-            //Destroy(this);
+            // Destroy(this);
             return;
         }
         _initialPosition = transform.position;
@@ -168,17 +182,20 @@ public class BobGameController : MonoBehaviour
         StartBobbing();
     }
 
-    public HookState GetState(){
+    public HookState GetState()
+    {
         return _currentState;
     }
 
-    //player doing minigame so extend the trembling duration
-    public void PlayerCatchingFish(){
+    // player doing minigame so extend the trembling duration
+    public void PlayerCatchingFish()
+    {
         _stopCatchTime += 60f;
         DisableSparkle();
     }
 
-    public void DisableSparkle(){
+    public void DisableSparkle()
+    {
         sparkleEffect.SetActive(false);
     }
 }

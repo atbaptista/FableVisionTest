@@ -12,7 +12,8 @@ public class VolumeOptions : MonoBehaviour
     // public AudioClip SFXTest;
 
     // Update is called once per frame
-    void Start(){
+    void Start()
+    {
         musicSlider.value = SoundManager.Instance.MusicSource.volume;
         SFXSlider.value = SoundManager.Instance.EffectsSource.volume;
     }

@@ -10,9 +10,9 @@ public class YakReviews : MonoBehaviour
     public Image icon;
     public Image stars;
     public TextMeshProUGUI reviewTextComponent;
-    
+
     [Header("Character")]
-    public int character; //percy -> 1, serena -> 2, bella -> 3
+    public int character; // percy -> 1, serena -> 2, bella -> 3
 
     [Header("Icons")]
     public Sprite goodIcon;
@@ -32,13 +32,15 @@ public class YakReviews : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        //Debug.Log(PlayerManager.Instance.optionOne + " " + PlayerManager.Instance.optionTwo + " " + PlayerManager.Instance.optionThree);
-        if(character > 3 || character < 1){
+        // Debug.Log(PlayerManager.Instance.optionOne + " " + PlayerManager.Instance.optionTwo + " " + PlayerManager.Instance.optionThree);
+        if (character > 3 || character < 1)
+        {
             Debug.LogError("wrong character number input");
             return;
         }
 
-        switch (character){
+        switch (character)
+        {
             case 1:
                 ChangeUI(PlayerManager.Instance.optionOne);
                 break;
@@ -47,15 +49,17 @@ public class YakReviews : MonoBehaviour
                 break;
             case 3:
                 ChangeUI(PlayerManager.Instance.optionThree);
-                break;      
+                break;
             default:
-                Debug.LogError("wrong character number input");  
+                Debug.LogError("wrong character number input");
                 break;
         }
     }
 
-    public void ChangeUI(int score){
-        switch (score){
+    public void ChangeUI(int score)
+    {
+        switch (score)
+        {
             case -1:
                 reviewTextComponent.text = badText;
                 icon.sprite = badIcon;
@@ -70,10 +74,10 @@ public class YakReviews : MonoBehaviour
                 reviewTextComponent.text = goodText;
                 icon.sprite = goodIcon;
                 stars.sprite = goodStars;
-                break; 
+                break;
             default:
-                Debug.LogError("score is wrong value: " + score);  
-                break;       
-        }       
+                Debug.LogError("score is wrong value: " + score);
+                break;
+        }
     }
 }

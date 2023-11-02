@@ -7,7 +7,8 @@ public class DirectionCode : MonoBehaviour
     public ManageDirections directionManager;
     public int thisValue = 0;
 
-    private void OnMouseEnter() {
+    private void OnMouseEnter()
+    {
         //Debug.Log(this.name);
         directionManager.SetMouseCurrentZone(thisValue);
     }

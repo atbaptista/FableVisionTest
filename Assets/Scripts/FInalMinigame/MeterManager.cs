@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//this script calculates the fish meter value
+// this script calculates the fish meter value
 public class MeterManager : MonoBehaviour
 {
     [Header("Meter Values")]
     public float increaseRate = 50;
-    public float maxMeterVal = 100; 
+    public float maxMeterVal = 100;
     [HideInInspector] public float meterVal;
 
     [Header("Decrease Rates")]
@@ -21,7 +21,7 @@ public class MeterManager : MonoBehaviour
 
     private bool _isCaught = false;
     private bool _isCatching = false;
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,21 +34,25 @@ public class MeterManager : MonoBehaviour
     {
         CalculateDecreaseRate();
         CalculateMeter();
-        
+
     }
 
-    //decreases faster the closer you are to catching the fish
-    public void CalculateDecreaseRate(){
-        if(_isCaught){
+    // decreases faster the closer you are to catching the fish
+    public void CalculateDecreaseRate()
+    {
+        if (_isCaught)
+        {
             return;
         }
 
-        if(meterVal < (maxMeterVal * 0.25)){
+        if (meterVal < (maxMeterVal * 0.25))
+        {
             decreaseRate = minDecreaseRate;
             return;
         }
 
-        if(meterVal < (maxMeterVal * 0.75)){
+        if (meterVal < (maxMeterVal * 0.75))
+        {
             decreaseRate = midDecreaseRate;
             return;
         }
@@ -56,15 +60,19 @@ public class MeterManager : MonoBehaviour
         decreaseRate = maxDecreaseRate;
     }
 
-    public void CalculateMeter(){
-        if(_isCaught){
+    public void CalculateMeter()
+    {
+        if (_isCaught)
+        {
             return;
         }
-        if(!_isCatching){
+        if (!_isCatching)
+        {
             meterVal = Mathf.Clamp(meterVal -= (decreaseRate * Time.deltaTime), 0, 101);
         }
 
-        if(meterVal >= maxMeterVal){
+        if (meterVal >= maxMeterVal)
+        {
             _isCaught = true;
             SoundManager.Instance.UISource.Stop();
             SoundManager.Instance.Play(meterMaxSFX);
@@ -72,14 +80,17 @@ public class MeterManager : MonoBehaviour
         }
     }
 
-    public void Reset(){
+    public void Reset()
+    {
         meterVal = 0;
-        _isCaught = false; 
+        _isCaught = false;
         _isCatching = false;
     }
 
-    public void IncreaseMeter(int val){
-        if(!_isCaught){
+    public void IncreaseMeter(int val)
+    {
+        if (!_isCaught)
+        {
             meterVal += val;
         }
     }

@@ -49,12 +49,14 @@ public class UIFadeController : MonoBehaviour
         imageToFadeIn.color = targetColor;
     }
 
-    public void ActivateAfterTransition(GameObject obj){
+    public void ActivateAfterTransition(GameObject obj)
+    {
         activatable = obj;
         Invoke("Activate", fadeDuration + 1f);
     }
 
-    private void Activate(){
+    private void Activate()
+    {
         activatable.SetActive(true);
     }
 }

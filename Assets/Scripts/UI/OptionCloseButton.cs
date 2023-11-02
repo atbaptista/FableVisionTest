@@ -10,7 +10,8 @@ public class OptionCloseButton : MonoBehaviour, IPointerDownHandler
         Invoke("UnPause", 0.3f);
     }
 
-    private void UnPause(){
+    private void UnPause()
+    {
         PlayerManager.Instance.UnPause();
     }
 }

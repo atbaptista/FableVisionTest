@@ -10,9 +10,11 @@ public class MusicTransition : MonoBehaviour
     [HideInInspector] public AudioSource musicSource;
 
 
-    void Start() {
+    void Start()
+    {
         musicSource = SoundManager.Instance.GetMusicSource();
-        if(isPlayedOnStart){
+        if (isPlayedOnStart)
+        {
             StartMusicTransition();
         }
     }
@@ -29,7 +31,7 @@ public class MusicTransition : MonoBehaviour
         float targetVolume = 0;
         float elapsedTime = 0f;
 
-        //fade song out
+        // fade song out
         while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;
@@ -38,7 +40,7 @@ public class MusicTransition : MonoBehaviour
             yield return null;
         }
 
-        //swap songs
+        // swap songs
         musicSource.clip = nextSong;
         musicSource.Play();
 
@@ -47,7 +49,7 @@ public class MusicTransition : MonoBehaviour
         startVolume = 0f;
         targetVolume = originalVolume;
 
-        //fade in new song
+        // fade in new song
         while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;

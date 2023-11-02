@@ -6,7 +6,8 @@ public class DialogueManager : MonoBehaviour
 {
     public GameObject DialoguePanel;
 
-    public void BeginDialogue(){
+    public void BeginDialogue()
+    {
         DialoguePanel.SetActive(true);
         Dialogue panel = DialoguePanel.GetComponent<Dialogue>();
         panel.textComponent.text = string.Empty;
